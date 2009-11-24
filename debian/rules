@@ -1,18 +1,17 @@
 #!/usr/bin/make -f
 
+SHELL := sh -e
+
 %:
 	dh ${@} --with quilt
 
 override_dh_auto_clean:
 	dh_auto_clean
-	
 	rm -rf build
 
 override_dh_auto_build:
 	cp -a themes build
-	
 	$(MAKE) -C build/openSUSE/help-install
-	
 	for THEME in `cd build && ls`; do \
 		if [ "$${THEME}" != "openSUSE" ]; then \
 			inkscape -z \
@@ -22,7 +21,6 @@ override_dh_auto_build:
 				--export-png=build/$${THEME}/data-install/welcome.png \
 					build/$${THEME}/data-install/welcome.svg; \
 			convert -compress JPEG build/$${THEME}/data-install/welcome.png build/$${THEME}/data-install/welcome.jpg; \
-			rm -f build/$${THEME}/data-install/welcome.png build/$${THEME}/data-install/welcome.svg; \
 			inkscape -z \
 				--export-width=800 \
 				--export-height=600 \
@@ -30,7 +28,6 @@ override_dh_auto_build:
 				--export-png=build/$${THEME}/data-install/back.png \
 					build/$${THEME}/data-install/back.svg; \
 			convert -compress JPEG build/$${THEME}/data-install/back.png build/$${THEME}/data-install/back.jpg; \
-			rm -f $${THEME}/data-install/back.png build/$${THEME}/data-install/back.svg; \
 			inkscape -z \
 				--export-width=800 \
 				--export-height=600 \
@@ -38,14 +35,18 @@ override_dh_auto_build:
 				--export-png=build/$${THEME}/data-boot/back.png \
 					build/$${THEME}/data-boot/back.svg; \
 			convert -compress JPEG build/$${THEME}/data-boot/back.png build/$${THEME}/data-boot/back.jpg; \
-			rm -f build/$${THEME}/data-boot/back.png build/$${THEME}/data-boot/back.svg; \
+			rm -f	build/$${THEME}/data-install/welcome.svg \
+				build/$${THEME}/data-install/welcome.png \
+				build/$${THEME}/data-install/back.svg \
+				build/$${THEME}/data-install/back.png \
+				build/$${THEME}/data-boot/back.svg \
+				build/$${THEME}/data-boot/back.png; \
 			$(MAKE) -C build/$${THEME}; \
 		fi; \
 	done
 
 override_dh_install:
 	dh_install
-	
 	for THEME in `cd themes && ls`; do \
 		if [ "$${THEME}" != "openSUSE" ]; then \
 			PACKAGE="gfxboot-themes-sidux-`echo $${THEME} | tr [A-Z] [a-z]`"; \
@@ -67,5 +68,4 @@ override_dh_install:
 
 override_dh_fixperms:
 	dh_fixperms
-	
 	find . debian -name "*.xcf" | xargs chmod 0644
