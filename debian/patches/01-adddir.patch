@@ -1,0 +1,17 @@
+Author: Daniel Baumann <daniel@debian.org>
+Description:
+ Replacing adddir location with absolute name in order to allow to compile the
+ themes from any location, not just /usr/share/gfxboot/themes/foo.
+
+diff -Naurp gfxboot-themes.orig/themes/openSUSE/Makefile gfxboot-themes/themes/openSUSE/Makefile
+--- gfxboot-themes.orig/themes/openSUSE/Makefile	2009-09-02 14:53:09.000000000 +0000
++++ gfxboot-themes/themes/openSUSE/Makefile	2009-09-03 07:51:19.000000000 +0000
+@@ -8,7 +8,7 @@ else
+ PREPARED     = $(shell [ -f .prepared ] && echo 1)
+ endif
+ 
+-ADDDIR       = ../../bin/adddir
++ADDDIR       = /usr/share/gfxboot/bin/adddir
+ BFLAGS       = -O -v -L ../..
+ 
+ SUBDIRS      = fonts help-boot help-install po src

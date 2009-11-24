@@ -1,0 +1,39 @@
+Source: gfxboot-themes-sidux
+Section: misc
+Priority: extra
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Build-Depends: debhelper (>= 7.0.50~),
+ cpio,
+ gfxboot-dev (>= 4.1.39),
+ imagemagick,
+ inkscape,
+ quilt (>= 0.46-7),
+ ttf-dustin
+Standards-Version: 3.8.3
+Homepage: http://gfxboot.sourceforge.net/
+Vcs-Svn: svn://svn.berlios.de/fullstory/gfxboot-themes-sidux/trunk
+Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/gfxboot-themes-sidux/trunk/
+
+Package: gfxboot-themes-sidux-2009-04-moros
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: gfxboot-themes-sidux-2009-04-moros-dev
+Provides: gfxboot-theme-sidux-bootlogo
+Description: graphical boot logos for sidux Μόρος
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the sidux 2009-04 "Μώμος" theme.
+
+Package: gfxboot-themes-sidux-2009-04-moros-dev
+Architecture: all
+Depends: ${misc:Depends},
+ gfxboot (>= 4.1.39),
+ gfxboot-themes-sidux-2009-04-moros
+Recommends: gfxboot-dev
+Provides: gfxboot-theme
+Description: tool to test and create graphical boot logos (sidux Μόρος)
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the sidux 2009-04 "Μώμος" theme.
