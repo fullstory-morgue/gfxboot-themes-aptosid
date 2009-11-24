@@ -1,8 +1,9 @@
-gfxboot-themes-sidux (0.1.3) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.2.0) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * simplify packaging and avoid conflicts.
+  * let the help tools conflict with gfxboot-theme-sidux-message.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 24 Nov 2009 17:28:01 +0000
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 24 Nov 2009 19:16:03 +0100
 
 gfxboot-themes-sidux (0.1.2) unstable; urgency=low
 
