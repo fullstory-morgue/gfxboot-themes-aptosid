@@ -1,3 +1,9 @@
+gfxboot-themes-sidux (0.1.1) unstable; urgency=low
+
+  * copy theme structure.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 24 Nov 2009 16:50:40 +0100
+
 gfxboot-themes-sidux (0.1) unstable; urgency=low
 
   * fork package for sidux.
