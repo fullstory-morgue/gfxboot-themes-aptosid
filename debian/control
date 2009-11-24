@@ -18,8 +18,10 @@ Package: gfxboot-themes-sidux-2007-04-eros
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: gfxboot-themes-sidux-2007-04-eros-dev
-Provides: gfxboot-theme-sidux-bootlogo
-Conflicts: gfxboot-theme-sidux-bootlogo
+Provides: gfxboot-theme-sidux-bootlogo,
+ gfxboot-theme-sidux-2007-04-eros
+Conflicts: gfxboot-theme-sidux-bootlogo,
+ gfxboot-theme-sidux-2007-04-eros
 Description: graphical boot logos for sidux Έρως
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
@@ -43,8 +45,10 @@ Package: gfxboot-themes-sidux-2008-01-nyx
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: gfxboot-themes-sidux-2008-01-nyx-dev
-Provides: gfxboot-theme-sidux-bootlogo
-Conflicts: gfxboot-theme-sidux-bootlogo
+Provides: gfxboot-theme-sidux-bootlogo,
+ gfxboot-theme-sidux-2008-01-nyx
+Conflicts: gfxboot-theme-sidux-bootlogo,
+ gfxboot-theme-sidux-2008-01-nyx
 Description: graphical boot logos for sidux Νυξ
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
@@ -68,8 +72,10 @@ Package: gfxboot-themes-sidux-2008-02-erebos
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: gfxboot-themes-sidux-2008-02-erebos-dev
-Provides: gfxboot-theme-sidux-bootlogo
-Conflicts: gfxboot-theme-sidux-bootlogo
+Provides: gfxboot-theme-sidux-bootlogo,
+ gfxboot-theme-sidux-2008-02-erebos
+Conflicts: gfxboot-theme-sidux-bootlogo,
+ gfxboot-theme-sidux-2008-02-erebos
 Description: graphical boot logos for sidux Έρεβος
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
@@ -93,8 +99,10 @@ Package: gfxboot-themes-sidux-2008-03-ourea
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: gfxboot-themes-sidux-2008-03-ourea-dev
-Provides: gfxboot-theme-sidux-bootlogo
-Conflicts: gfxboot-theme-sidux-bootlogo
+Provides: gfxboot-theme-sidux-bootlogo,
+ gfxboot-theme-sidux-2008-03-ourea
+Conflicts: gfxboot-theme-sidux-bootlogo,
+ gfxboot-theme-sidux-2008-03-ourea
 Description: graphical boot logos for sidux Ουρέα
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
@@ -118,8 +126,10 @@ Package: gfxboot-themes-sidux-2008-04-pontos
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: gfxboot-themes-sidux-2008-04-pontos-dev
-Provides: gfxboot-theme-sidux-bootlogo
-Conflicts: gfxboot-theme-sidux-bootlogo
+Provides: gfxboot-theme-sidux-bootlogo,
+ gfxboot-theme-sidux-2008-04-pontos
+Conflicts: gfxboot-theme-sidux-bootlogo,
+ gfxboot-theme-sidux-2008-04-pontos
 Description: graphical boot logos for sidux Πόντος
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
@@ -143,8 +153,10 @@ Package: gfxboot-themes-sidux-2009-01-ouranos
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: gfxboot-themes-sidux-2009-01-ouranos-dev
-Provides: gfxboot-theme-sidux-bootlogo
-Conflicts: gfxboot-theme-sidux-bootlogo
+Provides: gfxboot-theme-sidux-bootlogo,
+ gfxboot-theme-sidux-2009-01-ouranos
+Conflicts: gfxboot-theme-sidux-bootlogo,
+ gfxboot-theme-sidux-2009-01-ouranos
 Description: graphical boot logos for sidux Οὐρανος
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
@@ -169,10 +181,14 @@ Architecture: all
 Depends: ${misc:Depends}
 Suggests: gfxboot-themes-sidux-2009-02-aether-dev
 Provides: gfxboot-theme-sidux-bootlogo,
- gfxboot-themes-sidux-2007-01-chaos,
- gfxboot-themes-sidux-2007-02-tartaros,
- gfxboot-themes-sidux-2007-03-gaia
-Conflicts: gfxboot-theme-sidux-bootlogo
+ gfxboot-theme-sidux-2007-01-chaos,
+ gfxboot-theme-sidux-2007-02-tartaros,
+ gfxboot-theme-sidux-2007-03-gaia
+Conflicts: gfxboot-theme-sidux-bootlogo,
+ gfxboot-theme-sidux-2009-02-aether,
+ gfxboot-theme-sidux-2007-01-chaos,
+ gfxboot-theme-sidux-2007-02-tartaros,
+ gfxboot-theme-sidux-2007-03-gaia
 Description: graphical boot logos for sidux Άιθηρ
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
@@ -196,8 +212,10 @@ Package: gfxboot-themes-sidux-2009-03-momos
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: gfxboot-themes-sidux-2009-03-momos-dev
-Provides: gfxboot-theme-sidux-bootlogo
-Conflicts: gfxboot-theme-sidux-bootlogo
+Provides: gfxboot-theme-sidux-bootlogo,
+ gfxboot-theme-sidux-2009-03-momos
+Conflicts: gfxboot-theme-sidux-bootlogo,
+ gfxboot-theme-sidux-2009-03-momos
 Description: graphical boot logos for sidux Μώμος
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).

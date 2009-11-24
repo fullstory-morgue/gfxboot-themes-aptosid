@@ -1,8 +1,8 @@
-gfxboot-themes-sidux (0.1.2) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.1.2) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * enhance provides and conflicts even more.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 24 Nov 2009 16:56:29 +0000
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 24 Nov 2009 18:25:55 +0100
 
 gfxboot-themes-sidux (0.1.1) unstable; urgency=low
 
