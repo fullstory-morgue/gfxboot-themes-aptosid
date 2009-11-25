@@ -1,8 +1,9 @@
 gfxboot-themes-sidux (0.2.5) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
+  * try to disable penguins animation.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 25 Nov 2009 13:22:26 +0000
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 25 Nov 2009 14:29:40 +0100
 
 gfxboot-themes-sidux (0.2.4) unstable; urgency=low
 
