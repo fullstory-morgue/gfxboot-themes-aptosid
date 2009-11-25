@@ -1,8 +1,12 @@
 gfxboot-themes-sidux (0.2.6) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 25 Nov 2009 16:17:17 +0000
+  [ Niall Walsh ]
+  * switch install to fromhd image_dir for hd
+
+ -- Niall Walsh <niallwalsh@users.berlios.de>  Wed, 25 Nov 2009 16:46:20 +0000
 
 gfxboot-themes-sidux (0.2.5) unstable; urgency=low
 

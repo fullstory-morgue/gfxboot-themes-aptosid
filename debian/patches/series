@@ -5,3 +5,4 @@
 05_install-disable-welcome.patch
 06_install-disable-autodown.patch
 07_install-hd-path.patch
+08_install-hd-fromhd.patch
