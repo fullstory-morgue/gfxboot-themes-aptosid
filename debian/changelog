@@ -1,8 +1,8 @@
-gfxboot-themes-sidux (0.2.1) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.2.1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * use a slightly better image for welcome.back of moros.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 24 Nov 2009 20:16:00 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 25 Nov 2009 01:19:57 +0100
 
 gfxboot-themes-sidux (0.2.0) unstable; urgency=low
 
