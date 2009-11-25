@@ -1,9 +1,16 @@
 gfxboot-themes-sidux (0.2.5) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
   * try to disable penguin animation.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 25 Nov 2009 14:29:40 +0100
+  [ Niall Walsh ]
+  * limit remote booting options
+  * disable welcome
+  * disable autodown
+  * set default hd path
+
+ -- Niall Walsh <niallwalsh@users.berlios.de>  Wed, 25 Nov 2009 15:49:45 +0000
 
 gfxboot-themes-sidux (0.2.4) unstable; urgency=low
 

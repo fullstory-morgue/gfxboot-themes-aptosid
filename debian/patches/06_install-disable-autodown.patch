@@ -1,0 +1,13 @@
+Index: gfxboot-themes-sidux/themes/openSUSE/src/gfxboot.cfg
+===================================================================
+--- gfxboot-themes-sidux.orig/themes/openSUSE/src/gfxboot.cfg	2009-11-25 14:58:46.000000000 +0000
++++ gfxboot-themes-sidux/themes/openSUSE/src/gfxboot.cfg	2009-11-25 14:59:22.000000000 +0000
+@@ -155,7 +155,7 @@
+ ; apppend *.spl to initrd
+ spl=1
+ ; move down one menu entry the first time an F-key is used
+-autodown=1
++autodown=0
+ ; F-key assignments
+ ; value can be one of: lang, video, install, kernelopts, dud, bits, keymap,
+ ; profile, restore
