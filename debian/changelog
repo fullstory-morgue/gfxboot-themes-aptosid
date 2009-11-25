@@ -1,8 +1,11 @@
 gfxboot-themes-sidux (0.2.3) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
+  * cosmetics tweaks for:
+    - Μόρος (welcome.svg, horizontal artefacts)
+    - Μώμος (welcome.svg, horizontal artefacts)
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 25 Nov 2009 01:06:43 +0000
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 25 Nov 2009 02:57:21 +0100
 
 gfxboot-themes-sidux (0.2.2) unstable; urgency=low
 
