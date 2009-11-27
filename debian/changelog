@@ -1,12 +1,14 @@
-gfxboot-themes-sidux (0.2.6) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.3.0) unstable; urgency=low
 
   [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
+  * adapt package names.
+  * promote Suggests on gfxboot-themes-${theme} to Recommends, in order to
+    allow gfxboot(1) to work.
 
   [ Niall Walsh ]
   * switch install to fromhd image_dir for hd
 
- -- Niall Walsh <niallwalsh@users.berlios.de>  Wed, 25 Nov 2009 16:46:20 +0000
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 26 Nov 2009 19:49:25 +0100
 
 gfxboot-themes-sidux (0.2.5) unstable; urgency=low
 

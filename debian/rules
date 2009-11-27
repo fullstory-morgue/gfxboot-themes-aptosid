@@ -50,19 +50,19 @@ override_dh_install:
 	for THEME in `cd themes && ls`; do \
 		if [ "$${THEME}" != "openSUSE" ]; then \
 			PACKAGE="gfxboot-themes-sidux-`echo $${THEME} | tr [A-Z] [a-z]`"; \
-			mkdir -p debian/$${PACKAGE}-helper/usr/share/gfxboot/themes; \
-			cp -a themes/openSUSE debian/$${PACKAGE}-helper/usr/share/gfxboot/themes/$${THEME}; \
+			mkdir -p debian/$${PACKAGE}/usr/share/gfxboot/themes; \
+			cp -a themes/openSUSE debian/$${PACKAGE}/usr/share/gfxboot/themes/$${THEME}; \
 			cd themes/$${THEME}; \
-			find . | cpio -dmpu --no-preserve-owner ../../debian/$${PACKAGE}-helper/usr/share/gfxboot/themes/$${THEME}; \
+			find . | cpio -dmpu --no-preserve-owner ../../debian/$${PACKAGE}/usr/share/gfxboot/themes/$${THEME}; \
 			cd -; \
-			rm -f debian/$${PACKAGE}-helper/usr/share/gfxboot/themes/$${THEME}/Makefile; \
-			cp -a themes/openSUSE/Makefile debian/$${PACKAGE}-helper/usr/share/gfxboot/themes/$${THEME}/Makefile; \
-			install -D -m 0644 build/$${THEME}/bootlogo debian/$${PACKAGE}/etc/bootsplash/$${THEME}/cdrom/bootlogo; \
-			/usr/share/gfxboot/bin/unpack_bootlogo debian/$${PACKAGE}/etc/bootsplash/$${THEME}/cdrom; \
-			mkdir -p debian/$${PACKAGE}-helper/etc/bootsplash/$${THEME}/bootloader; \
-			cp -a build/$${THEME}/help-boot/*.hlp build/$${THEME}/po/*.tr debian/$${PACKAGE}-helper/etc/bootsplash/$${THEME}/bootloader; \
-			mkdir -p debian/$${PACKAGE}/etc/bootsplash/$${THEME}/bootloader; \
-			cp -a build/$${THEME}/message debian/$${PACKAGE}/etc/bootsplash/$${THEME}/bootloader/; \
+			rm -f debian/$${PACKAGE}/usr/share/gfxboot/themes/$${THEME}/Makefile; \
+			cp -a themes/openSUSE/Makefile debian/$${PACKAGE}/usr/share/gfxboot/themes/$${THEME}/Makefile; \
+			install -D -m 0644 build/$${THEME}/bootlogo debian/$${PACKAGE}-core/etc/bootsplash/themes/$${THEME}/cdrom/bootlogo; \
+			/usr/share/gfxboot/bin/unpack_bootlogo debian/$${PACKAGE}-core/etc/bootsplash/themes/$${THEME}/cdrom; \
+			mkdir -p debian/$${PACKAGE}/etc/bootsplash/themes/$${THEME}/bootloader; \
+			cp -a build/$${THEME}/help-boot/*.hlp build/$${THEME}/po/*.tr debian/$${PACKAGE}/etc/bootsplash/themes/$${THEME}/bootloader; \
+			mkdir -p debian/$${PACKAGE}-core/etc/bootsplash/themes/$${THEME}/bootloader; \
+			cp -a build/$${THEME}/message debian/$${PACKAGE}-core/etc/bootsplash/themes/$${THEME}/bootloader/; \
 		fi; \
 	done
 

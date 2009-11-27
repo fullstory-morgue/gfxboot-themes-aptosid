@@ -14,225 +14,224 @@ Homepage: http://gfxboot.sourceforge.net/
 Vcs-Svn: svn://svn.berlios.de/fullstory/gfxboot-themes-sidux/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/gfxboot-themes-sidux/trunk/
 
-Package: gfxboot-themes-sidux-2007-04-eros
+Package: gfxboot-themes-sidux-2007-04-eros-core
 Architecture: all
 Depends: ${misc:Depends}
-Suggests: gfxboot-themes-sidux-2007-04-eros-helper
-Provides: gfxboot-theme-sidux-bootlogo
+Recommends: gfxboot-themes-sidux-2007-04-eros
+Provides: gfxboot-themes-sidux-core
 Description: graphical boot logos for sidux Έρως
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
  .
  This package contains the sidux 2007-04 "Έρως" theme.
 
-Package: gfxboot-themes-sidux-2007-04-eros-helper
+Package: gfxboot-themes-sidux-2007-04-eros
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.1.39),
- gfxboot-themes-sidux-2007-04-eros (= ${source:Version})
+ gfxboot-themes-sidux-2007-04-eros-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
-Conflicts: gfxboot-theme-sidux-message
 Description: tool to test and create graphical boot logos (sidux Έρως)
  gfxboot is tool to test and create graphical boot logos for gfxboot compliant
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the sidux 2007-04 "Έρως" theme.
 
-Package: gfxboot-themes-sidux-2008-01-nyx
+Package: gfxboot-themes-sidux-2008-01-nyx-core
 Architecture: all
 Depends: ${misc:Depends}
-Suggests: gfxboot-themes-sidux-2008-01-nyx-helper
-Provides: gfxboot-theme-sidux-bootlogo
+Recommends: gfxboot-themes-sidux-2008-01-nyx
+Provides: gfxboot-themes-sidux-core
 Description: graphical boot logos for sidux Νυξ
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
  .
  This package contains the sidux 2008-01 "Νυξ" theme.
 
-Package: gfxboot-themes-sidux-2008-01-nyx-helper
+Package: gfxboot-themes-sidux-2008-01-nyx
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.1.39),
- gfxboot-themes-sidux-2008-01-nyx (= ${source:Version})
+ gfxboot-themes-sidux-2008-01-nyx-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
-Conflicts: gfxboot-theme-sidux-message
 Description: tool to test and create graphical boot logos (sidux Νυξ)
  gfxboot is tool to test and create graphical boot logos for gfxboot compliant
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the sidux 2008-01 "Νυξ" theme.
 
-Package: gfxboot-themes-sidux-2008-02-erebos
+Package: gfxboot-themes-sidux-2008-02-erebos-core
 Architecture: all
 Depends: ${misc:Depends}
-Suggests: gfxboot-themes-sidux-2008-02-erebos-helper
-Provides: gfxboot-theme-sidux-bootlogo
+Recommends: gfxboot-themes-sidux-2008-02-erebos
+Provides: gfxboot-themes-sidux-core
 Description: graphical boot logos for sidux Έρεβος
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
  .
  This package contains the sidux 2008-02 "Έρεβος" theme.
 
-Package: gfxboot-themes-sidux-2008-02-erebos-helper
+Package: gfxboot-themes-sidux-2008-02-erebos
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.1.39),
- gfxboot-themes-sidux-2008-02-erebos  (= ${source:Version})
+ gfxboot-themes-sidux-2008-02-erebos-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
-Conflicts: gfxboot-theme-sidux-message
 Description: tool to test and create graphical boot logos (sidux Έρεβος)
  gfxboot is tool to test and create graphical boot logos for gfxboot compliant
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the sidux 2008-02 "Έρεβος" theme.
 
-Package: gfxboot-themes-sidux-2008-03-ourea
+Package: gfxboot-themes-sidux-2008-03-ourea-core
 Architecture: all
 Depends: ${misc:Depends}
-Suggests: gfxboot-themes-sidux-2008-03-ourea-helper
-Provides: gfxboot-theme-sidux-bootlogo
+Recommends: gfxboot-themes-sidux-2008-03-ourea
+Provides: gfxboot-themes-sidux-core
 Description: graphical boot logos for sidux Ουρέα
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
  .
  This package contains the sidux 2008-03 "Ουρέα" theme.
 
-Package: gfxboot-themes-sidux-2008-03-ourea-helper
+Package: gfxboot-themes-sidux-2008-03-ourea
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.1.39),
- gfxboot-themes-sidux-2008-03-ourea (= ${source:Version})
+ gfxboot-themes-sidux-2008-03-ourea-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
-Conflicts: gfxboot-theme-sidux-message
 Description: tool to test and create graphical boot logos (sidux Ουρέα)
  gfxboot is tool to test and create graphical boot logos for gfxboot compliant
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the sidux 2008-03 "Ουρέα" theme.
 
-Package: gfxboot-themes-sidux-2008-04-pontos
+Package: gfxboot-themes-sidux-2008-04-pontos-core
 Architecture: all
 Depends: ${misc:Depends}
-Suggests: gfxboot-themes-sidux-2008-04-pontos-helper
-Provides: gfxboot-theme-sidux-bootlogo
+Recommends: gfxboot-themes-sidux-2008-04-pontos
+Provides: gfxboot-themes-sidux-core
 Description: graphical boot logos for sidux Πόντος
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
  .
  This package contains the sidux 2008-04 "Πόντος" theme.
 
-Package: gfxboot-themes-sidux-2008-04-pontos-helper
+Package: gfxboot-themes-sidux-2008-04-pontos
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.1.39),
- gfxboot-themes-sidux-2008-04-pontos (= ${source:Version})
+ gfxboot-themes-sidux-2008-04-pontos-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
-Conflicts: gfxboot-theme-sidux-message
 Description: tool to test and create graphical boot logos (sidux Πόντος)
  gfxboot is tool to test and create graphical boot logos for gfxboot compliant
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the sidux 2008-04 "Πόντος" theme.
 
-Package: gfxboot-themes-sidux-2009-01-ouranos
+Package: gfxboot-themes-sidux-2009-01-ouranos-core
 Architecture: all
 Depends: ${misc:Depends}
-Suggests: gfxboot-themes-sidux-2009-01-ouranos-helper
-Provides: gfxboot-theme-sidux-bootlogo
+Recommends: gfxboot-themes-sidux-2009-01-ouranos
+Provides: gfxboot-themes-sidux-core
 Description: graphical boot logos for sidux Οὐρανος
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
  .
  This package contains the sidux 2009-01 "Οὐρανος" theme.
 
-Package: gfxboot-themes-sidux-2009-01-ouranos-helper
+Package: gfxboot-themes-sidux-2009-01-ouranos
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.1.39),
- gfxboot-themes-sidux-2009-01-ouranos (= ${source:Version})
+ gfxboot-themes-sidux-2009-01-ouranos-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
-Conflicts: gfxboot-theme-sidux-message
 Description: tool to test and create graphical boot logos (sidux Οὐρανος)
  gfxboot is tool to test and create graphical boot logos for gfxboot compliant
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the sidux 2009-01 "Οὐρανος" theme.
 
-Package: gfxboot-themes-sidux-2009-02-aether
+Package: gfxboot-themes-sidux-2009-02-aether-core
 Architecture: all
 Depends: ${misc:Depends}
-Suggests: gfxboot-themes-sidux-2009-02-aether-helper
-Provides: gfxboot-theme-sidux-bootlogo
+Recommends: gfxboot-themes-sidux-2009-02-aether
+Provides: gfxboot-themes-sidux-core
 Description: graphical boot logos for sidux Άιθηρ
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
  .
  This package contains the sidux 2009-02 "Άιθηρ" theme.
 
-Package: gfxboot-themes-sidux-2009-02-aethers-helper
+Package: gfxboot-themes-sidux-2009-02-aethers
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.1.39),
- gfxboot-themes-sidux-2009-02-aether (= ${source:Version})
+ gfxboot-themes-sidux-2009-02-aether-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
-Conflicts: gfxboot-theme-sidux-message
 Description: tool to test and create graphical boot logos (sidux Άιθηρ)
  gfxboot is tool to test and create graphical boot logos for gfxboot compliant
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the sidux 2009-02 "Άιθηρ" theme.
 
-Package: gfxboot-themes-sidux-2009-03-momos
+Package: gfxboot-themes-sidux-2009-03-momos-core
 Architecture: all
 Depends: ${misc:Depends}
-Suggests: gfxboot-themes-sidux-2009-03-momos-helper
-Provides: gfxboot-theme-sidux-bootlogo
+Recommends: gfxboot-themes-sidux-2009-03-momos
+Provides: gfxboot-themes-sidux-core
+Replaces: gfxboot-themes-sidux-2009-03-momos (<< 0.3)
+Conflicts: gfxboot-themes-sidux-2009-03-momos (<< 0.3)
 Description: graphical boot logos for sidux Μώμος
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
  .
  This package contains the sidux 2009-03 "Μώμος" theme.
 
-Package: gfxboot-themes-sidux-2009-03-momos-helper
+Package: gfxboot-themes-sidux-2009-03-momos
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.1.39),
- gfxboot-themes-sidux-2009-03-momos  (= ${source:Version})
+ gfxboot-themes-sidux-2009-03-momos-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
-Conflicts: gfxboot-theme-sidux-message
+Replaces: gfxboot-themes-sidux-2009-03-momos-helper (<< 0.3)
+Conflicts: gfxboot-themes-sidux-2009-03-momos-helper (<< 0.3)
 Description: tool to test and create graphical boot logos (sidux Μώμος)
  gfxboot is tool to test and create graphical boot logos for gfxboot compliant
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the sidux 2009-03 "Μώμος" theme.
 
-Package: gfxboot-themes-sidux-2009-04-moros
+Package: gfxboot-themes-sidux-2009-04-moros-core
 Architecture: all
 Depends: ${misc:Depends}
-Suggests: gfxboot-themes-sidux-2009-04-moros-helper
-Provides: gfxboot-theme-sidux-bootlogo
+Recommends: gfxboot-themes-sidux-2009-04-moros
+Provides: gfxboot-themes-sidux-core
+Replaces: gfxboot-themes-sidux-2009-04-moros (<< 0.3)
+Conflicts: gfxboot-themes-sidux-2009-04-moros (<< 0.3)
 Description: graphical boot logos for sidux Μόρος
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
  .
  This package contains the sidux 2009-04 "Μόρος" theme.
 
-Package: gfxboot-themes-sidux-2009-04-moros-helper
+Package: gfxboot-themes-sidux-2009-04-moros
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.1.39),
- gfxboot-themes-sidux-2009-04-moros  (= ${source:Version})
+ gfxboot-themes-sidux-2009-04-moros-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
-Conflicts: gfxboot-theme-sidux-message
+Replaces: gfxboot-themes-sidux-2009-04-moros-helper (<< 0.3)
+Conflicts: gfxboot-themes-sidux-2009-04-moros-helper (<< 0.3)
 Description: tool to test and create graphical boot logos (sidux Μόρος)
  gfxboot is tool to test and create graphical boot logos for gfxboot compliant
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
