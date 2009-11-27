@@ -1,3 +1,13 @@
+gfxboot-themes-sidux (0.3.1) unstable; urgency=low
+
+  * sync with Debian's gfxboot-themes 4.1.40-1.2-1:
+    [ Daniel Baumann ]
+    - Updating versioned gfxboot depends to 4.1.40.
+    - Correcting install location of themes, thanks to Stefan Lippers-Hollmann
+      <s.L-H@gmx.de> (Closes: #558138).
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 27 Nov 2009 17:24:45 +0100
+
 gfxboot-themes-sidux (0.3.0) unstable; urgency=low
 
   [ Stefan Lippers-Hollmann ]

@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Build-Depends: debhelper (>= 7.0.50~),
  cpio,
- gfxboot-dev (>= 4.1.39),
+ gfxboot-dev (>= 4.1.40),
  imagemagick,
  inkscape,
  quilt (>= 0.46-7),
@@ -28,7 +28,7 @@ Description: graphical boot logos for sidux Έρως
 Package: gfxboot-themes-sidux-2007-04-eros
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.1.39),
+ gfxboot (>= 4.1.40),
  gfxboot-themes-sidux-2007-04-eros-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -52,7 +52,7 @@ Description: graphical boot logos for sidux Νυξ
 Package: gfxboot-themes-sidux-2008-01-nyx
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.1.39),
+ gfxboot (>= 4.1.40),
  gfxboot-themes-sidux-2008-01-nyx-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -76,7 +76,7 @@ Description: graphical boot logos for sidux Έρεβος
 Package: gfxboot-themes-sidux-2008-02-erebos
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.1.39),
+ gfxboot (>= 4.1.40),
  gfxboot-themes-sidux-2008-02-erebos-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -100,7 +100,7 @@ Description: graphical boot logos for sidux Ουρέα
 Package: gfxboot-themes-sidux-2008-03-ourea
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.1.39),
+ gfxboot (>= 4.1.40),
  gfxboot-themes-sidux-2008-03-ourea-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -124,7 +124,7 @@ Description: graphical boot logos for sidux Πόντος
 Package: gfxboot-themes-sidux-2008-04-pontos
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.1.39),
+ gfxboot (>= 4.1.40),
  gfxboot-themes-sidux-2008-04-pontos-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -148,7 +148,7 @@ Description: graphical boot logos for sidux Οὐρανος
 Package: gfxboot-themes-sidux-2009-01-ouranos
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.1.39),
+ gfxboot (>= 4.1.40),
  gfxboot-themes-sidux-2009-01-ouranos-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -172,7 +172,7 @@ Description: graphical boot logos for sidux Άιθηρ
 Package: gfxboot-themes-sidux-2009-02-aethers
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.1.39),
+ gfxboot (>= 4.1.40),
  gfxboot-themes-sidux-2009-02-aether-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -198,7 +198,7 @@ Description: graphical boot logos for sidux Μώμος
 Package: gfxboot-themes-sidux-2009-03-momos
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.1.39),
+ gfxboot (>= 4.1.40),
  gfxboot-themes-sidux-2009-03-momos-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -226,7 +226,7 @@ Description: graphical boot logos for sidux Μόρος
 Package: gfxboot-themes-sidux-2009-04-moros
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.1.39),
+ gfxboot (>= 4.1.40),
  gfxboot-themes-sidux-2009-04-moros-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
