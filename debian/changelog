@@ -1,3 +1,9 @@
+gfxboot-themes-sidux (0.3.2) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 27 Nov 2009 17:26:44 +0100
+
 gfxboot-themes-sidux (0.3.1) unstable; urgency=low
 
   * sync with Debian's gfxboot-themes 4.1.40-1.2-1:
