@@ -1,8 +1,12 @@
 gfxboot-themes-sidux (0.3.3) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 28 Nov 2009 01:26:20 +0000
+  [ Niall Walsh ]
+  * make "quiet" default kernel and add "" as "no quiet"
+
+ -- Niall Walsh <niallwalsh@users.berlios.de>  Sat, 28 Nov 2009 05:08:23 +0000
 
 gfxboot-themes-sidux (0.3.2) unstable; urgency=low
 

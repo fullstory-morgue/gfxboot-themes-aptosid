@@ -7,3 +7,4 @@
 07_install-hd-path.patch
 08_install-hd-fromhd.patch
 09_video-screen.patch
+10_kernel-default-quiet.patch
