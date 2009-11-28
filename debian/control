@@ -169,7 +169,7 @@ Description: graphical boot logos for sidux Άιθηρ
  .
  This package contains the sidux 2009-02 "Άιθηρ" theme.
 
-Package: gfxboot-themes-sidux-2009-02-aethers
+Package: gfxboot-themes-sidux-2009-02-aether
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.1.40),
