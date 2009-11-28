@@ -1,0 +1,18 @@
+Index: gfxboot-themes-sidux/themes/openSUSE/src/dia_install.inc
+===================================================================
+--- gfxboot-themes-sidux.orig/themes/openSUSE/src/dia_install.inc	2009-11-27 17:34:49.000000000 +0000
++++ gfxboot-themes-sidux/themes/openSUSE/src/dia_install.inc	2009-11-27 17:37:05.000000000 +0000
+@@ -49,13 +49,6 @@
+   xmenu .xm_list [
+     is_dvd { "DVD" } { "CD-ROM" } ifelse
+     /txt_harddisk
+-    "\x09SLP"
+-    "FTP"
+-    "HTTP"
+-    "NFS"
+-    "SMB / CIFS"
+-    /install.submenu.net
+-    /txt_http_proxy
+   ] put
+ 
+   xmenu .xm_title /txt_install_source put

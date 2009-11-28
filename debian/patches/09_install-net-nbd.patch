@@ -1,0 +1,104 @@
+Index: gfxboot-themes-sidux/themes/openSUSE/src/dia_install.inc
+===================================================================
+--- gfxboot-themes-sidux.orig/themes/openSUSE/src/dia_install.inc	2009-11-26 21:00:02.000000000 +0000
++++ gfxboot-themes-sidux/themes/openSUSE/src/dia_install.inc	2009-11-26 21:00:35.000000000 +0000
+@@ -14,13 +14,14 @@
+ % install types
+ /.inst_cdrom	0 def
+ /.inst_hd	1 def
+-/.inst_slp	2 def
+-/.inst_ftp	3 def
++/.inst_slp	7 def
++/.inst_ftp	8 def
+ /.inst_http	4 def
+ /.inst_nfs	5 def
+ /.inst_smb	6 def
+-/.inst_net_setup 7 def
+-/.inst_net_proxy 8 def
++/.inst_nbd      2 def
++/.inst_net_setup 3 def
++/.inst_net_proxy 9 def
+ 
+ /install.default .inst_cdrom def
+ 
+@@ -37,6 +38,7 @@
+   /input.edit.ftp [ 63 string 127 string 31 string 31 string ] def
+   /input.edit.http [ 63 string 127 string ] def
+   /input.edit.nfs [ 63 string 127 string ] def
++  /input.edit.nbd [ 63 string 127 string ] def
+   /input.edit.smb [ 63 string 31 string 127 string 31 string 31 string 31 string ] def
+   /input.edit.hd [ 63 string 127 string ] def
+   /input.edit.proxy [ 63 string 127 string 63 string 63 string ] def
+@@ -49,6 +51,8 @@
+   xmenu .xm_list [
+     is_dvd { "DVD" } { "CD-ROM" } ifelse
+     /txt_harddisk
++    "NBD"
++    /install.submenu.net
+   ] put
+ 
+   xmenu .xm_title /txt_install_source put
+@@ -177,6 +181,17 @@
+ 
+   } if
+ 
++  dup .inst_nbd eq {
++    % TODO setup txt_nbd_title
++    dia .title txt_nfs_title put
++
++    % Must all be of same size!
++    dia .ed.list 2 array put
++    dia .ed.buffer.list input.edit.nbd put
++    dia .ed.text.list [ txt_server "Port\n" ] put
++
++  } if
++
+   dup .inst_smb eq {
+     dia .title txt_smb_title put
+ 
+@@ -303,6 +318,13 @@
+     "install=nfs://%s/%s" install.option sprintf
+   } if
+ 
++  dup .inst_nbd eq {
++    input.edit.nbd
++    dup 1 get dup 0 get '/' eq { 1 add } if
++    exch 0 get
++    "fromhd=/dev/nbdroot nbdroot=%s,%s,/dev/nbdroot" install.option sprintf
++  } if
++
+   dup .inst_smb eq {
+     input.edit.smb
+ 
+@@ -370,6 +392,7 @@
+   dup "ftp"   eq { /install.default .inst_ftp   def } if
+   dup "http"  eq { /install.default .inst_http  def } if
+   dup "nfs"   eq { /install.default .inst_nfs   def } if
++  dup "nbd"   eq { /install.default .inst_nbd   def } if
+   dup "smb"   eq { /install.default .inst_smb   def } if
+   dup "hd"    eq { /install.default .inst_hd    def } if
+   pop
+@@ -380,6 +403,9 @@
+   input.edit.nfs  0 get install.nfs.server strcpy pop
+   input.edit.nfs  1 get install.nfs.path strcpy pop
+ 
++  input.edit.nbd  0 get install.nbd.server strcpy pop
++  input.edit.nbd  1 get install.nbd.port strcpy pop
++
+   input.edit.ftp  0 get install.ftp.server strcpy pop
+   input.edit.ftp  1 get install.ftp.path strcpy pop
+   input.edit.ftp  2 get install.ftp.user strcpy pop
+Index: gfxboot-themes-sidux/themes/openSUSE/src/common.inc
+===================================================================
+--- gfxboot-themes-sidux.orig/themes/openSUSE/src/common.inc	2009-11-26 20:18:55.000000000 +0000
++++ gfxboot-themes-sidux/themes/openSUSE/src/common.inc	2009-11-26 21:00:08.000000000 +0000
+@@ -1667,6 +1667,9 @@
+ /install.nfs.server    "install.nfs.server"          "" gfxconfig.set.str
+ /install.nfs.path      "install.nfs.path"            "" gfxconfig.set.str
+ 
++/install.nbd.server    "install.nbd.server"          "" gfxconfig.set.str
++/install.nbd.port      "install.nbd.port"            "" gfxconfig.set.str
++
+ /install.ftp.server    "install.ftp.server"          "" gfxconfig.set.str
+ /install.ftp.path      "install.ftp.path"            "" gfxconfig.set.str
+ /install.ftp.user      "install.ftp.user"            "" gfxconfig.set.str

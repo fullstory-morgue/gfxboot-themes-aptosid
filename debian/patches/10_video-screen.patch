@@ -1,0 +1,25 @@
+Index: gfxboot-themes-sidux/themes/openSUSE/src/common.inc
+===================================================================
+--- gfxboot-themes-sidux.orig/themes/openSUSE/src/common.inc	2009-11-27 18:21:19.000000000 +0000
++++ gfxboot-themes-sidux/themes/openSUSE/src/common.inc	2009-11-27 18:24:41.000000000 +0000
+@@ -418,10 +418,18 @@
+     video.modes.list xmenu.video .xm_current get get .vm_mode get
+ 
+     dup 0 ge {
+-      0x200 add "vga=0x%x " bc.cmd dup length add sprintf
++      pop
++      video.modes.list xmenu.video .xm_current get get .vm_width get
++      dup 640 ge {
++        "screen=%i" bc.cmd dup length add sprintf
++        video.modes.list xmenu.video .xm_current get get .vm_height get
++        "x%i " bc.cmd dup length add sprintf
++      } {
++        pop
++      } ifelse
+     } {
+       -1 eq {
+-        "textmode=1 " bc.cmd dup length add sprintf
++        "vga=0 " bc.cmd dup length add sprintf
+       } if
+     } ifelse
+ 
