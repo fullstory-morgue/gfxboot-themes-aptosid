@@ -1,8 +1,6 @@
-Index: gfxboot-themes-sidux/themes/openSUSE/src/dia_install.inc
-===================================================================
---- gfxboot-themes-sidux.orig/themes/openSUSE/src/dia_install.inc	2009-11-25 16:01:44.000000000 +0000
-+++ gfxboot-themes-sidux/themes/openSUSE/src/dia_install.inc	2009-11-25 16:02:43.000000000 +0000
-@@ -333,7 +333,7 @@
+--- a/themes/openSUSE/src/dia_install.inc
++++ b/themes/openSUSE/src/dia_install.inc
+@@ -353,7 +353,7 @@
      input.edit.hd
      dup 1 get dup 0 get '/' eq { 1 add } if
      exch 0 get dup 0 get '/' eq { 1 add } if

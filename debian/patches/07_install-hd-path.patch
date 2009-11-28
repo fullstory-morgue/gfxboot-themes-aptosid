@@ -1,8 +1,6 @@
-Index: gfxboot-themes-sidux/themes/openSUSE/src/gfxboot.cfg
-===================================================================
---- gfxboot-themes-sidux.orig/themes/openSUSE/src/gfxboot.cfg	2009-11-25 15:00:16.000000000 +0000
-+++ gfxboot-themes-sidux/themes/openSUSE/src/gfxboot.cfg	2009-11-25 15:00:57.000000000 +0000
-@@ -127,7 +127,7 @@
+--- a/themes/openSUSE/src/gfxboot.cfg
++++ b/themes/openSUSE/src/gfxboot.cfg
+@@ -127,7 +127,7 @@ install.smb.domain=
  install.smb.user=
  install.smb.password=
  install.hd.device=

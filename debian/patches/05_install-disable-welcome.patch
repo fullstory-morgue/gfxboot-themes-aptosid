@@ -1,8 +1,6 @@
-Index: gfxboot-themes-sidux/themes/openSUSE/src/gfxboot.cfg
-===================================================================
---- gfxboot-themes-sidux.orig/themes/openSUSE/src/gfxboot.cfg	2009-11-25 14:53:38.000000000 +0000
-+++ gfxboot-themes-sidux/themes/openSUSE/src/gfxboot.cfg	2009-11-25 14:55:39.000000000 +0000
-@@ -100,7 +100,7 @@
+--- a/themes/openSUSE/src/gfxboot.cfg
++++ b/themes/openSUSE/src/gfxboot.cfg
+@@ -100,7 +100,7 @@ background=pback.jpg 
  
  [install]
  ; show welcome animation

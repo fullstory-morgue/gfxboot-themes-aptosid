@@ -1,7 +1,5 @@
-Index: gfxboot-themes-sidux/themes/openSUSE/src/common.inc
-===================================================================
---- gfxboot-themes-sidux.orig/themes/openSUSE/src/common.inc	2009-11-27 18:21:19.000000000 +0000
-+++ gfxboot-themes-sidux/themes/openSUSE/src/common.inc	2009-11-27 18:24:41.000000000 +0000
+--- a/themes/openSUSE/src/common.inc
++++ b/themes/openSUSE/src/common.inc
 @@ -418,10 +418,18 @@
      video.modes.list xmenu.video .xm_current get get .vm_mode get
  

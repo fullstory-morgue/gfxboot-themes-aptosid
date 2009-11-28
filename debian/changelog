@@ -1,14 +1,16 @@
-gfxboot-themes-sidux (0.3.2) UNRELEASED; urgency=low
-
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
+gfxboot-themes-sidux (0.3.2) unstable; urgency=low
 
   [ Niall Walsh ]
   * Rework install network changes
   * Add nbd to install menu
   * Remove vga= setting and add screen=
 
- -- Niall Walsh <niallwalsh@users.berlios.de>  Fri, 27 Nov 2009 21:08:17 +0000
+  [ Stefan Lippers-Hollmann ]
+  * fold 09_install-net-nbd.patch into 04_limit_remote_booting_to_nbd.patch,
+    reorder series accordingly.
+  * refresh patches.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 28 Nov 2009 02:23:36 +0100
 
 gfxboot-themes-sidux (0.3.1) unstable; urgency=low
 
