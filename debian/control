@@ -8,6 +8,7 @@ Build-Depends: debhelper (>= 7.0.50~),
  imagemagick,
  inkscape,
  quilt (>= 0.46-7),
+ ttf-dejavu-core,
  ttf-dustin
 Standards-Version: 3.8.3
 Homepage: http://gfxboot.sourceforge.net/
