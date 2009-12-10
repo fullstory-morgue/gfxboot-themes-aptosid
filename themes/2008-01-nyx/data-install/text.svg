@@ -16,23 +16,23 @@
 			<text x="0" y="21" font-family="Dustismo" font-size="28" text-anchor="left">
 				Welcome
 			</text>
-			<text x="0" y="57.3" font-family="Dustismo" font-size="28" text-anchor="left">
-				Willkommen
-			</text>
-			<text x="0" y="93.7" font-family="Dustismo" font-size="28" transform="scale(0.65,1.0)" text-anchor="left">
+			<text x="0" y="57.3" font-family="Dustismo" font-size="28" transform="scale(0.65,1.0)" text-anchor="left">
 				Καλώς ορίσατε
 			</text>
-			<text x="0" y="130" font-family="Dustismo" font-size="28" text-anchor="left">
+			<text x="0" y="93.7" font-family="Dustismo" font-size="28" text-anchor="left">
 				Bienvenido
 			</text>
-			<text x="0" y="166.3" font-family="Dustismo" font-size="28" text-anchor="left">
-				Bienvenue
+			<text x="0" y="130" font-family="Dustismo" font-size="28" text-anchor="left">
+				Willkommen
 			</text>
-			<text x="0" y="202.7" font-family="Dustismo" font-size="28" text-anchor="left">
+			<text x="0" y="166.3" font-family="Dustismo" font-size="28" text-anchor="left">
 				Benvenuto
 			</text>
-			<text x="0" y="239" font-family="DejaVuSans" font-size="28" text-anchor="left">
+			<text x="0" y="202.7" font-family="DejaVuSans" font-size="28" text-anchor="left">
 				ようこそ
+			</text>
+			<text x="0" y="239" font-family="Dustismo" font-size="28" text-anchor="left">
+				Bienvenue
 			</text>
 		</g>
 	</defs>
