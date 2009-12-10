@@ -31,7 +31,7 @@
 			<text x="0" y="202.7" font-family="Dustismo" font-size="28" text-anchor="left">
 				Benvenuto
 			</text>
-			<text x="0" y="239" font-family="DejaVuSerif" font-size="28" text-anchor="left">
+			<text x="0" y="239" font-family="DejaVuSans" font-size="28" text-anchor="left">
 				ようこそ
 			</text>
 		</g>

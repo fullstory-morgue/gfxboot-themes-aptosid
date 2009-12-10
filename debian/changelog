@@ -3,8 +3,9 @@ gfxboot-themes-sidux (0.3.5) UNRELEASED; urgency=low
   * NOT RELEASED YET
   * replace text.jpg by a svg image, thanks to bfree.
   * scale greek appropriately.
+  * use DejaVuSans for Japanese.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 10 Dec 2009 03:14:59 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 10 Dec 2009 03:21:14 +0100
 
 gfxboot-themes-sidux (0.3.4) unstable; urgency=low
 
