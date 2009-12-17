@@ -2,7 +2,7 @@
 02_adapt-language-support.patch
 03_disable-penguins.patch
 04_limit_remote_booting_to_nbd.patch
-#05_install-disable-welcome.patch
+05_install-disable-welcome.patch
 06_install-disable-autodown.patch
 07_install-hd-path.patch
 08_install-hd-fromhd.patch

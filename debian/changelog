@@ -1,8 +1,8 @@
-gfxboot-themes-sidux (0.3.6) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.3.6) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * disable the welcome screen for the time being.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 15 Dec 2009 17:05:51 +0000
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 17 Dec 2009 09:17:33 +0000
 
 gfxboot-themes-sidux (0.3.5) unstable; urgency=low
 
