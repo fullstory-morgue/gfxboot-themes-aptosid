@@ -1,3 +1,9 @@
+gfxboot-themes-sidux (0.3.7) unstable; urgency=low
+
+  * use bzip2 for compressing the binaries.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 17 Dec 2009 10:22:41 +0100
+
 gfxboot-themes-sidux (0.3.6) unstable; urgency=low
 
   * disable the welcome screen for the time being.
