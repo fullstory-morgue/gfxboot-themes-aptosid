@@ -1,8 +1,15 @@
 gfxboot-themes-sidux (0.3.10) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 18 Dec 2009 16:45:21 +0000
+  [ Niall Walsh ]
+  * Alter kernel menu
+  * strip show help from xmenu
+  * make F1 behave like other functions keys vis-a-vis config
+  * disable help
+
+ -- Niall Walsh <niallwalsh@users.berlios.de>  Fri, 18 Dec 2009 19:56:40 +0000
 
 gfxboot-themes-sidux (0.3.9) unstable; urgency=low
 

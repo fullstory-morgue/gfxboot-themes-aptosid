@@ -1,0 +1,48 @@
+--- a/themes/openSUSE/src/xmenu.inc
++++ b/themes/openSUSE/src/xmenu.inc
+@@ -130,11 +130,6 @@
+     pop 0
+   } if 
+ 
+-  dup keyF1 eq {
+-    show_help
+-    pop 0
+-  } if 
+-
+ } def
+ 
+ 
+--- a/themes/openSUSE/src/gfxboot.cfg
++++ b/themes/openSUSE/src/gfxboot.cfg
+@@ -161,7 +161,9 @@ autodown=0
+ ; profile, restore
+ ; note1: 'bits' is only shown on x86_64, 'profile' only when a file 'profile'
+ ; exists, 'restore' only when there is a boot entry 'restore'
+-; note2: F1 is always help, F9 enables speech output, F10 exits gfxboot
++; note2: F9 enables speech output, F10 exits gfxboot
++; note3: F1 must be set if desired (help|about)
++;key.F1=help
+ key.F2=lang
+ key.F3=video
+ key.F4=install
+--- a/themes/openSUSE/src/panel.inc
++++ b/themes/openSUSE/src/panel.inc
+@@ -25,7 +25,7 @@
+ 
+   /panel.back 0 panel.y moveto panel.size savescreen def
+ 
+-  /config.key.F1 about.msg { "about" } { "help" } ifelse def
++  %/config.key.F1 about.msg { "about" } { "help" } ifelse def
+ 
+   % define panel layout
+   /panel [
+--- a/themes/openSUSE/src/common.inc
++++ b/themes/openSUSE/src/common.inc
+@@ -1698,6 +1698,7 @@ config.livecd {
+ /dud.url               "dud.url"                     "" gfxconfig.set.str
+ /dud.url.name          "dud.url.name"                "" gfxconfig.set.str
+ 
++/config.key.F1         "key.F1"                      "" gfxconfig.set.str
+ /config.key.F2         "key.F2"                      "" gfxconfig.set.str
+ /config.key.F3         "key.F3"                      "" gfxconfig.set.str
+ /config.key.F4         "key.F4"                      "" gfxconfig.set.str

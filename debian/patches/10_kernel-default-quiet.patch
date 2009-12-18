@@ -1,18 +1,30 @@
 --- a/themes/openSUSE/src/dia_kernelopts.inc
 +++ b/themes/openSUSE/src/dia_kernelopts.inc
-@@ -11,6 +11,7 @@
+@@ -11,9 +11,12 @@
  /kernelopts.default 0 def
  
  /kernelopts.options [
 +  "quiet"
    ""
-   "apm=off acpi=off mce=off barrier=off ide=nodma idewait=50 i8042.nomux psmouse.proto=bare irqpoll pci=nommconf"
-   "acpi=off"
-@@ -31,6 +32,7 @@
+-  "apm=off acpi=off mce=off barrier=off ide=nodma idewait=50 i8042.nomux psmouse.proto=bare irqpoll pci=nommconf"
+-  "acpi=off"
++  "quiet toram"
++  "quiet fromiso"
++  "quiet persist"
++  "apm=off mce=off barrier=off ide=nodma idewait=50 i8042.nomux psmouse.proto=bare irqpoll pci=nommconf"
+   "nolapic"
+ ] def
+ 
+@@ -31,8 +34,11 @@
    xmenu .xm_current kernelopts.default put
    xmenu .xm_list [
      /txt_kernel_default
 +    "No Quiet\n"
++    "To Ram\n"
++    "From ISO\n"
++    "Persist\n"
      /txt_kernel_safe
-     /txt_kernel_noacpi
+-    /txt_kernel_noacpi
      /txt_kernel_nolapic
+   ] put
+   xmenu .xm_title /txt_kernel put

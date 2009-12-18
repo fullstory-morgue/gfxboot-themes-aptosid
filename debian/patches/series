@@ -10,3 +10,4 @@
 10_kernel-default-quiet.patch
 11_driver_firmware.patch
 12_keytable-adapt.patch
+13_help-strip.patch
