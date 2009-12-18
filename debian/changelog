@@ -1,9 +1,5 @@
-gfxboot-themes-sidux (0.3.8) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.3.8) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Niall Walsh ]
   * Change drivers to fll's firmware
   * Overhaul keyboard layouts to work with XKBLAYOUT
   * fix my embedded perl in the svg source for the welcome jpg
