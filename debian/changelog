@@ -1,8 +1,12 @@
 gfxboot-themes-sidux (0.3.9) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 18 Dec 2009 13:30:45 +0100
+  [ Niall Walsh ]
+  * Update dia_lang.inc to use new names of keyboards
+
+ -- Niall Walsh <niallwalsh@users.berlios.de>  Fri, 18 Dec 2009 14:57:45 +0000
 
 gfxboot-themes-sidux (0.3.8) unstable; urgency=low
 
