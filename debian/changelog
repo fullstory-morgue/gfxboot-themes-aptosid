@@ -1,8 +1,14 @@
 gfxboot-themes-sidux (0.3.8) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 17 Dec 2009 09:29:38 +0000
+  [ Niall Walsh ]
+  * Change drivers to fll's firmware
+  * Overhaul keyboard layouts to work with XKBLAYOUT
+  * fix my embedded perl in the svg source for the welcome jpg
+
+ -- Niall Walsh <niallwalsh@users.berlios.de>  Fri, 18 Dec 2009 04:28:04 +0000
 
 gfxboot-themes-sidux (0.3.7) unstable; urgency=low
 

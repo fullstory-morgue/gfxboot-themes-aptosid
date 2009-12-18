@@ -12,7 +12,7 @@
 		</mask>
 
 		<g id="Text">
-			<!-- perl -e '$y1=21;$y2=239; for ($i=1;$i<6;$i++){print (21+(((239-21)/6)*$i));print "\n";}' -->
+			<!-- perl -e '$y1=21; $y2=239; for ($i=1;$i<6;$i++) { printf "%0.1f\n",($y1+((($y2-$y1)/6)*$i)); }' -->
 			<text x="0" y="21" font-family="Dustismo" font-size="28" text-anchor="left">
 				Welcome
 			</text>

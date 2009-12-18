@@ -8,3 +8,5 @@
 08_install-hd-fromhd.patch
 09_video-screen.patch
 10_kernel-default-quiet.patch
+11_driver_firmware.patch
+12_keytable-adapt.patch

@@ -1,0 +1,31 @@
+--- a/themes/openSUSE/src/common.inc
++++ b/themes/openSUSE/src/common.inc
+@@ -466,7 +466,7 @@
+     } {
+       xmenu.dud .xm_current get .dud_file eq {
+         input.edit.dud_file 0 get dup "" ne {
+-          "driverupdate=%s " bc.cmd dup length add sprintf
++          "firmware=%s " bc.cmd dup length add sprintf
+         } { pop } ifelse
+       } {
+         dud.options xmenu.dud .xm_current get get dup "" ne {
+--- a/themes/openSUSE/src/dia_dud.inc
++++ b/themes/openSUSE/src/dia_dud.inc
+@@ -16,7 +16,7 @@
+ /dud.last .dud_no def
+ 
+ /dud.options [
+-  "dud=1"
++  "firmware"
+   ""
+   .undef
+   .undef
+@@ -39,7 +39,7 @@
+   dud.read.config
+ 
+   xmenu .xm_current dud.last put
+-  xmenu .xm_list [ /txt_yes /txt_no /txt_file dud.url.name ] put
++  xmenu .xm_list [ /txt_yes /txt_no /txt_file ] put
+ 
+   xmenu .xm_title /txt_driver_update put
+ } def
