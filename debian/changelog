@@ -1,9 +1,5 @@
-gfxboot-themes-sidux (0.3.10) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.3.10) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Niall Walsh ]
   * Alter kernel menu
   * strip show help from xmenu
   * make F1 behave like other functions keys vis-a-vis config
