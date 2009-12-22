@@ -2,7 +2,8 @@ Source: gfxboot-themes-sidux
 Section: misc
 Priority: extra
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Uploaders: David Creedy <klaymen@sidux.com>
+Uploaders: David Creedy <klaymen@sidux.com>,
+ Niall Walsh <niallwalsh@users.berlios.de>
 Build-Depends: debhelper (>= 7.0.50~),
  cpio,
  gfxboot-dev (>= 4.1.40),

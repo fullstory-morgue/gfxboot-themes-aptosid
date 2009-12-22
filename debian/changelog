@@ -1,10 +1,11 @@
-gfxboot-themes-sidux (0.3.11~nw0) UNRELEASED; urgency=low
-
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
+gfxboot-themes-sidux (0.3.11~nw0) unstable; urgency=low
 
   [ David Creedy ]
   * Update splash back.svg to fit with moros theme 
+
+  [ Stefan Lippers-Hollmann ]
+  * add bfree to Uploaders.
+  * strip down back.svg as welcome.svg.
 
   [ Niall Walsh ]
   * disable F3 video completely
