@@ -1,4 +1,4 @@
-gfxboot-themes-sidux (0.3.11) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.3.11~nw0) UNRELEASED; urgency=low
 
   [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
@@ -6,7 +6,14 @@ gfxboot-themes-sidux (0.3.11) UNRELEASED; urgency=low
   [ David Creedy ]
   * Update splash back.svg to fit with moros theme 
 
- -- David Creedy <klaymen@sidux.com>  Wed, 23 Dec 2009 08:41:15 +1100
+  [ Niall Walsh ]
+  * disable F3 video completely
+  * add md5sum to kernel menu
+  * tidy up strings on nbd and firmware
+  * add tz menu on F3
+  * disable F7 bits
+
+ -- Niall Walsh <niallwalsh@users.berlios.de>  Tue, 22 Dec 2009 22:08:43 +0000
 
 gfxboot-themes-sidux (0.3.10) unstable; urgency=low
 

@@ -1,23 +1,30 @@
 --- a/themes/openSUSE/src/common.inc
 +++ b/themes/openSUSE/src/common.inc
-@@ -418,10 +418,18 @@
-     video.modes.list xmenu.video .xm_current get get .vm_mode get
+@@ -415,16 +415,6 @@
+   /splash_file xfree
  
-     dup 0 ge {
+   syslinux {
+-    video.modes.list xmenu.video .xm_current get get .vm_mode get
+-
+-    dup 0 ge {
 -      0x200 add "vga=0x%x " bc.cmd dup length add sprintf
-+      pop
-+      video.modes.list xmenu.video .xm_current get get .vm_width get
-+      dup 640 ge {
-+        "screen=%i" bc.cmd dup length add sprintf
-+        video.modes.list xmenu.video .xm_current get get .vm_height get
-+        "x%i " bc.cmd dup length add sprintf
-+      } {
-+        pop
-+      } ifelse
-     } {
-       -1 eq {
+-    } {
+-      -1 eq {
 -        "textmode=1 " bc.cmd dup length add sprintf
-+        "vga=0 " bc.cmd dup length add sprintf
-       } if
-     } ifelse
- 
+-      } if
+-    } ifelse
+-
+     v_impaired 1 ge {
+       "braille=1 " bc.cmd dup length add sprintf
+     } if
+--- a/themes/openSUSE/src/gfxboot.cfg
++++ b/themes/openSUSE/src/gfxboot.cfg
+@@ -163,7 +163,7 @@ autodown=0
+ ; exists, 'restore' only when there is a boot entry 'restore'
+ ; note2: F1 is always help, F9 enables speech output, F10 exits gfxboot
+ key.F2=lang
+-key.F3=video
++;key.F3=video
+ key.F4=install
+ key.F5=kernelopts
+ key.F6=dud

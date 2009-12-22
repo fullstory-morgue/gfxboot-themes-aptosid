@@ -1,10 +1,11 @@
 --- a/themes/openSUSE/src/dia_kernelopts.inc
 +++ b/themes/openSUSE/src/dia_kernelopts.inc
-@@ -11,9 +11,12 @@
+@@ -11,9 +11,13 @@
  /kernelopts.default 0 def
  
  /kernelopts.options [
 +  "quiet"
++  "md5sum"
    ""
 -  "apm=off acpi=off mce=off barrier=off ide=nodma idewait=50 i8042.nomux psmouse.proto=bare irqpoll pci=nommconf"
 -  "acpi=off"
@@ -15,10 +16,11 @@
    "nolapic"
  ] def
  
-@@ -31,8 +34,11 @@
+@@ -31,8 +35,12 @@
    xmenu .xm_current kernelopts.default put
    xmenu .xm_list [
      /txt_kernel_default
++    "MD5SUM\n"
 +    "No Quiet\n"
 +    "To Ram\n"
 +    "From ISO\n"

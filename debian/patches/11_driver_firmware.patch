@@ -1,6 +1,6 @@
 --- a/themes/openSUSE/src/common.inc
 +++ b/themes/openSUSE/src/common.inc
-@@ -466,7 +466,7 @@
+@@ -448,7 +448,7 @@
      } {
        xmenu.dud .xm_current get .dud_file eq {
          input.edit.dud_file 0 get dup "" ne {
@@ -29,3 +29,19 @@
  
    xmenu .xm_title /txt_driver_update put
  } def
+@@ -110,12 +110,13 @@
+   xmenu .xm_current get
+ 
+   dup .dud_file eq {
+-    dia .title txt_driver_update2 put
++    dia .title "Firmware Location" put
+ 
+     % Must all be of same size!
+     dia .ed.list 1 array put
+     dia .ed.buffer.list input.edit.dud_file put
+-    dia .ed.text.list [ txt_dud_file_msg ] put
++    % TODO: new content translated or at least translatable!
++    dia .ed.text.list [ "Provide the path use to search for and load firmware early (default is \"/sidux/firmware/\"):\n" ] put
+   } if
+ 
+   dup .dud_url eq {

@@ -1,0 +1,11 @@
+--- a/themes/openSUSE/src/gfxboot.cfg
++++ b/themes/openSUSE/src/gfxboot.cfg
+@@ -169,7 +169,7 @@ key.F2=lang
+ key.F4=install
+ key.F5=kernelopts
+ key.F6=dud
+-key.F7=bits
++;key.F7=bits
+ ; add 'lang' option with current locale
+ addopt.lang=1
+ ; add 'keytable' option with current keymap

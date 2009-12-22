@@ -1,0 +1,257 @@
+--- /dev/null
++++ b/themes/openSUSE/src/dia_timezone.inc
+@@ -0,0 +1,105 @@
++% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++%
++% timezone selection dialog.
++%
++% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++
++
++% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++% Some global vars.
++%
++
++/timezone.setdefault {
++  xmenu.timezone .xm_current
++
++    0
++    timezones {
++      .tz.id get config.timezone.id eq { exit } if
++      1 add
++    } forall
++
++    dup timezones length ge { pop 0 } if
++
++  put
++
++} def
++
++% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++% Build menu list.
++%
++% ( ) ==> ( )
++%
++/timezone.init {
++  /xmenu.timezone .xm_size array def
++
++  /xmenu xmenu.timezone def
++
++  xmenu .xm_list [
++    timezones { .tz.name get } forall
++  ] put
++
++  xmenu .xm_title "Timezone" put
++
++  timezone.setdefault
++
++  % just once (see lang.init)
++  /timezone.init { } def
++} def
++
++
++% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++% Update timezone selection menu.
++%
++% ( ) ==> ( )
++%
++/timezone.update {
++  /xmenu xmenu.timezone def
++
++  timezones xmenu .xm_current get get .tz.id get settimezone
++
++  /window.action actRedrawPanel def
++} def
++
++
++% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++% Show timezone selection menu.
++%
++% ( ) => ( )
++%
++/panel.timezone {
++  % "keymap" help.setcontext
++
++  timezone.setdefault
++
++  window.xmenu
++  dup .xmenu xmenu.timezone put
++  dup .xmenu.update /timezone.update put
++  dup window.init
++      window.show
++} def
++
++
++% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++% Return width of panel entry.
++%
++% ( ) => ( width )
++%
++/panel.timezone.width {
++  /xmenu xmenu.timezone def
++
++  pmenu.width
++} def
++
++
++% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++% Redraw panel entry.
++%
++% ( panel ) => ( )
++%
++/panel.timezone.update {
++  /xmenu xmenu.timezone def
++
++  pmenu.panel.update
++} def
++
++
+--- a/themes/openSUSE/src/gfxboot.cfg
++++ b/themes/openSUSE/src/gfxboot.cfg
+@@ -69,6 +69,8 @@ panel.title.fg=0xffffff
+ panel.f-key.fg=0xffe050
+ ; default keymap (e.g. de-latin1-nodeadkeys or cz-lat2-us)
+ keymap=
++; default timezone (e.g. 'Etc/UTC')
++timezone=
+ ; replace underscores ('_') with space in menu entries
+ _2space=1
+ 
+@@ -158,14 +160,14 @@ spl=1
+ autodown=0
+ ; F-key assignments
+ ; value can be one of: lang, video, install, kernelopts, dud, bits, keymap,
+-; profile, restore
++; profile, restore, timezone
+ ; note1: 'bits' is only shown on x86_64, 'profile' only when a file 'profile'
+ ; exists, 'restore' only when there is a boot entry 'restore'
+ ; note2: F9 enables speech output, F10 exits gfxboot
+ ; note3: F1 must be set if desired (help|about)
+ ;key.F1=help
+ key.F2=lang
+-;key.F3=video
++key.F3=timezone
+ key.F4=install
+ key.F5=kernelopts
+ key.F6=dud
+@@ -174,6 +176,7 @@ key.F6=dud
+ addopt.lang=1
+ ; add 'keytable' option with current keymap
+ addopt.keytable=1
++addopt.timezone=1
+ 
+ 
+ [boot]
+--- a/themes/openSUSE/src/main.bc
++++ b/themes/openSUSE/src/main.bc
+@@ -23,8 +23,10 @@
+ %% include dia_keymap.inc
+ %% include dia_restore.inc
+ %% include dia_net.inc
++%% include dia_timezone.inc
+ %% include panel.inc
+ %% include keytables.inc
++%% include timezones.inc
+ %% include locale.inc
+ %% include speech.inc
+ 
+--- /dev/null
++++ b/themes/openSUSE/src/timezones.inc
+@@ -0,0 +1,21 @@
++% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++%
++% Timezones
++%
++% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++
++
++/.tz.name   0 def
++/.tz.id     1 def
++
++/timezones [
++    [ "Auto" "" ]
++    [ "UTC" "Etc/UTC" ]
++    [ "Berlin" "Europe/Berlin" ]
++    [ "Brisbane" "Australia/Brisbane" ]
++    [ "Dublin" "Europe/Dublin" ]
++    [ "London" "Europe/London" ]
++    [ "Melbourne" "Australia/Melbourne" ]
++    [ "New York" "US/NewYork" ]
++    [ "Sydney" "Australia/Sydney" ]
++] def
+--- a/themes/openSUSE/src/common.inc
++++ b/themes/openSUSE/src/common.inc
+@@ -440,6 +440,12 @@
+     } if
+   } if
+ 
++  config.addopt.timezone {
++    config.timezone.id {
++      config.timezone.id "tz=%s " bc.cmd dup length add sprintf
++    } if
++  } if
++
+   xmenu.dud {
+     xmenu.dud .xm_current get .dud_url eq {
+       input.edit.dud_url 0 get dup "" ne {
+@@ -1647,8 +1653,11 @@ config.livecd {
+ /panel.f-key.fg        "panel.f-key.fg"           black gfxconfig.set.int
+ /keymap.submenu        "keymap.submenu"           false gfxconfig.set.bool
+ /keymap.default        "keymap"                      "" gfxconfig.set.str
++/timezone.submenu      "timezone.submenu"         false gfxconfig.set.bool
++/timezone.default      "timezone"                    "" gfxconfig.set.str
+ /config.addopt.lang    "addopt.lang"              false gfxconfig.set.bool
+ /config.addopt.keytable "addopt.keytable"         false gfxconfig.set.bool
++/config.addopt.timezone "addopt.timezone"         false gfxconfig.set.bool
+ 
+ /install.install       "install"                     "" gfxconfig.set.str
+ /install.http.server   "install.http.server"         "" gfxconfig.set.str
+--- a/themes/openSUSE/src/panel.inc
++++ b/themes/openSUSE/src/panel.inc
+@@ -169,6 +169,7 @@
+   dup "kernelopts" eq { pop [ /panel.kernelopts /panel.kernelopts.width /panel.kernelopts.update /kernelopts.init ] return } if
+   dup "dud"        eq { pop [ /panel.dud /panel.dud.width /panel.dud.update /dud.init ] return } if
+   dup "keymap"     eq { pop [ /panel.keymap /panel.keymap.width /panel.keymap.update /keymap.init ] return } if
++  dup "timezone"   eq { pop [ /panel.timezone /panel.timezone.width /panel.timezone.update /timezone.init ] return } if
+ 
+   dup "bits"       eq { pop
+     .undef
+--- a/themes/openSUSE/src/locale.inc
++++ b/themes/openSUSE/src/locale.inc
+@@ -70,6 +70,36 @@
+   config.keymap.id .undef eq { /config.keymap.id "us" def } if
+ } def
+ 
++% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++% Set timezone.
++%
++% ( timezone ) ==> ( )
++%
++% timezone may be .undef.
++%
++/settimezone {
++  /timezone.tmp exch def
++
++  config.timezone.id timezone.tmp eq { return } if
++
++  /config.timezone .undef def
++  /config.timezone.id .undef def
++
++  2 {
++    timezone.tmp .undef eq { exit } if
++
++    timezones {
++      dup .tz.id get timezone.tmp eq {
++        .tz.id get /config.timezone.id exch def
++      } { pop } ifelse
++    } forall
++
++    config.keymap.id .undef ne { exit } if
++
++  } repeat
++
++  config.timezone.id .undef eq { /config.timezone.id "Etc/UTC" def } if
++} def
+ 
+ % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ % Look up keymap in languale locale list.

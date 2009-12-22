@@ -23,7 +23,7 @@
 +; note3: F1 must be set if desired (help|about)
 +;key.F1=help
  key.F2=lang
- key.F3=video
+ ;key.F3=video
  key.F4=install
 --- a/themes/openSUSE/src/panel.inc
 +++ b/themes/openSUSE/src/panel.inc
@@ -38,7 +38,7 @@
    /panel [
 --- a/themes/openSUSE/src/common.inc
 +++ b/themes/openSUSE/src/common.inc
-@@ -1698,6 +1698,7 @@ config.livecd {
+@@ -1680,6 +1680,7 @@ config.livecd {
  /dud.url               "dud.url"                     "" gfxconfig.set.str
  /dud.url.name          "dud.url.name"                "" gfxconfig.set.str
  

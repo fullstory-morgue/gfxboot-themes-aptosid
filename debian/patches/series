@@ -11,3 +11,5 @@
 11_driver_firmware.patch
 12_keytable-adapt.patch
 13_help-strip.patch
+14_disable_bits.patch
+15_timezone.patch
