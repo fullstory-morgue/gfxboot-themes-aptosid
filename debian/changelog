@@ -1,8 +1,12 @@
 gfxboot-themes-sidux (0.3.11) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 18 Dec 2009 20:03:57 +0000
+  [ David Creedy ]
+  * Update splash back.svg to fit with moros theme 
+
+ -- David Creedy <klaymen@sidux.com>  Wed, 23 Dec 2009 08:41:15 +1100
 
 gfxboot-themes-sidux (0.3.10) unstable; urgency=low
 
