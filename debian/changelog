@@ -1,8 +1,12 @@
 gfxboot-themes-sidux (0.3.12) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
+  * sync with gfxboot-themes 4.1.41-1.1-1:
+    [ Daniel Baumann ]
+    - Merging upstream version 4.1.41-1.1.
+    - Updating versioned gfxboot depends to 4.1.41.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 22 Dec 2009 22:37:46 +0000
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 23 Dec 2009 13:55:48 +0100
 
 gfxboot-themes-sidux (0.3.11) unstable; urgency=low
 
