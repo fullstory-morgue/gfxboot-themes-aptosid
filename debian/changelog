@@ -1,8 +1,12 @@
 gfxboot-themes-sidux (0.3.14) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 24 Dec 2009 00:13:58 +0000
+  [ Niall Walsh ]
+  * Replace the timezones.inc with something possibly usable
+
+ -- Niall Walsh <niallwalsh@users.berlios.de>  Thu, 24 Dec 2009 04:10:44 +0000
 
 gfxboot-themes-sidux (0.3.13) unstable; urgency=low
 
