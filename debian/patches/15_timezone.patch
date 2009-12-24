@@ -157,7 +157,7 @@
  
 --- /dev/null
 +++ b/themes/openSUSE/src/timezones.inc
-@@ -0,0 +1,34 @@
+@@ -0,0 +1,79 @@
 +% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 +%
 +% Timezones
@@ -170,28 +170,73 @@
 +
 +/timezones [
 +    [ "Auto" "" ]
-+    [ "US Alaskan" "America/Anchorage" ]
-+    [ "US Pacific" "America/Los_Angeles" ]
-+    [ "US Mountain" "America/Denver" ]
-+    [ "US Central" "America/Chicago" ]
-+    [ "US Eastern" "America/New_York" ]
-+    [ "CA Atlantic" "America/Blanc-Sablon" ]
-+    [ "Buenos Aires" "America/Argentina/Buenos_Aires" ]
-+    [ "EU Western" "Europe/London" ]
-+    [ "EU Central" "Europe/Berlin" ]
-+    [ "EU Eastern" "Europe/Athens" ]
-+    [ "Moscow" "Europe/Moscow" ]
-+    [ "Dubai" "Asia/Dubai" ]
-+    [ "Karachi" "Asia/Karachi" ]
-+    [ "Kolkata" "Asia/Kolkata" ]
-+    [ "Dhaka" "Asia/Dhaka" ]
-+    [ "Bangkok" "Asia/Bangkok" ]
-+    [ "Beijing" "Asia/Shanghai" ]
-+    [ "Tokyo" "Asia/Tokyo" ]
-+    [ "Adelaide" "Australia/Adelaide" ]
-+    [ "Sydney" "Australia/Sydney" ]
-+    [ "Auckland" "Pacific/Auckland" ]
++    [ "UTC" "Etc/UTC utc" ]
++    %[ "GMT-12" "Etc/GMT-12" ] % Uninhabited
++    %[ "Pago Pago" "Pacific/Pago_Pago" ] % GMT-11 % _AS
++    [ "Honolulu" "Pacific/Honolulu" ] % GMT-10
++    %[ "Adak" "America/Adak" ] % GMT-10 DST
++    %[ "Gambier" "Pacific/Gambier" ] % GMT-10
++    %[ "Marquesas" "Pacific/Marquesas" ] % GMT-930
++    [ "Anchorage" "America/Anchorage" ] % GMT-9 DST
++    %[ "Pitcairn" "Pacific/Pitcairn" ] % GMT-8
++    [ "Los Angeles" "America/Los_Angeles" ] % GMT-8 DST
++    [ "Phoenix" "America/Phoenix" ] % GMT-7
++    [ "Denver" "America/Denver" ] % GMT-7 DST
++    [ "Managua" "America/Managua" ] % GMT-6
++    [ "Chicago" "America/Chicago" ] % GMT-6 DST
++    [ "Bogota" "America/Bogota" ] % GMT-5
++    [ "New York" "America/New_York" ] % GMT-5 DST % _CA, _CU, _BS also
++    %[ "Caracas" "America/Caracas" ] % GMT-430 % es_VE in locales
++    [ "La Paz" "America/La_Paz" ] % GMT-4
++    [ "Santiago" "America/Santiago" ] % GMT-4 DST
++    %[ "St Johns" "America/St_Johns" ] % GMT-3.5 DST
++    [ "Buenos Aires" "America/Argentina/Buenos_Aires" ] % GMT-3
++    [ "Sao Paulo" "America/Sao_Paulo" ] % GMT-3 DST
++    %[ "Noronha" "America/Noronha" ] % GMT-2
++    %[ "Cape Verde" "Atlantic/Cape_Verde" ] % GMT-1
++    %[ "Azores" "Atlantic/Azores" ] % GMT-1 DST
++    [ "Casablanca" "Africa/Casablanca" ] % GMT
++    [ "London" "Europe/London" ] % GMT DST
++    [ "Algiers" "Africa/Algiers" ] % GMT+1
++    [ "Berlin" "Europe/Berlin" ] % GMT+1 DST
++    [ "Johannesburg" "Africa/Johannesburg" ] % GMT+2
++    [ "Athens" "Europe/Athens" ] % GMT+2 DST
++    [ "Baghdad" "Asia/Baghdad" ] % GMT+3
++    [ "Moscow" "Europe/Moscow" ] % GMT+3 DST
++    [ "Tehran" "Asia/Tehran" ] % GMT+330 DST
++    [ "Dubai" "Asia/Dubai" ] % GMT+4
++    [ "Baku" "Asia/Baku" ] % GMT+4 DST
++    %[ "Kabul" "Asia/Kabul" ] % GMT+430
++    [ "Karachi" "Asia/Karachi" ] % GMT+5
++    [ "Yekaterinburg" "Asia/Yekaterinburg" ] % GMT+5 DST
++    % [ "Kolkata" "Asia/Kolkata" ] % GMT+530 % _IN in locales
++    % [ "Kathmandu" "Asia/Kathmandu" ] % GMT+545
++    [ "Almaty" "Asia/Almaty" ] % GMT+6 % _BT, _KZ, _KG
++    [ "Dhaka" "Asia/Dhaka" ] % GMT+6 DST % _BD, _RU
++    % [ "Rangoon" "Asia/Rangoon" ] % GMT+630 % Burma
++    [ "Bangkok" "Asia/Bangkok" ] % GMT+7
++    [ "Krasnoyarsk" "Asia/Krasnoyarsk" ] % GMT+7 DST % _RU
++    [ "Beijing" "Asia/Shanghai" ] % GMT+8
++    [ "Irkutsk" "Asia/Irkutsk" ] % GMT+8 DST % _RU
++    %[ "Eucla" "Australia/Eucla" ] % GMT+845
++    [ "Tokyo" "Asia/Tokyo" ] % GMT+9
++    [ "Yakutsk" "Asia/Yakutsk" ] % GMT+9 DST % _RU
++    [ "Darwin" "Australia/Darwin" ] % GMT+930
++    [ "Adelaide" "Australia/Adelaide" ] % GMT+930 DST
++    [ "Brisbane" "Australia/Brisbane" ] % GMT+10
++    %[ "Vladivostok" "Asia/Vladivostok" ] % GMT+10 DST % _RU DST variant
++    [ "Sydney" "Australia/Sydney" ] % GMT+10 DST
++    %[ "Lord_Howe" "Australia/Lord_Howe" ] % GMT+1030 DST30
++    %[ "Ponape" "Pacific/Ponape" ] % GMT+11
++    %[ "Magadan" "Asia/Magadan" ] % GMT+11 DST % _RU
++    %[ "Norfolk" "Pacific/Norfolk" ] % GMT+1130
++    [ "Fiji" "Pacific/Fiji" ] % GMT+12
++    [ "Auckland" "Pacific/Auckland" ] % GMT+12 DST
++    %[ "Chatham" "Pacific/Chatham" ] % GMT+1245 DST
++    [ "Tongatapu" "Pacific/Tongatapu" ] % GMT+13
++    %[ "Kiritimati" "Pacific/Kiritimati" ] % GMT+14
 +] def
++
 --- a/themes/openSUSE/src/common.inc
 +++ b/themes/openSUSE/src/common.inc
 @@ -440,6 +440,12 @@

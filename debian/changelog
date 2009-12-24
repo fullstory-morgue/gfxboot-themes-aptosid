@@ -4,9 +4,9 @@ gfxboot-themes-sidux (0.3.14) UNRELEASED; urgency=low
   * NOT RELEASED YET
 
   [ Niall Walsh ]
-  * Replace the timezones.inc with something possibly usable
+  * Replace the timezones.inc with something fairy usable
 
- -- Niall Walsh <niallwalsh@users.berlios.de>  Thu, 24 Dec 2009 04:10:44 +0000
+ -- Niall Walsh <niallwalsh@users.berlios.de>  Thu, 24 Dec 2009 13:49:28 +0000
 
 gfxboot-themes-sidux (0.3.13) unstable; urgency=low
 
