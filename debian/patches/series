@@ -13,3 +13,4 @@
 13_help-strip.patch
 14_disable_bits.patch
 15_timezone.patch
+16_revert-to-absolute-placement.patch

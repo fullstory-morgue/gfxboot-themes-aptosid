@@ -1,8 +1,8 @@
-gfxboot-themes-sidux (0.3.13) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.3.13) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * revert to absolute elemt alignment for the time being, thanks to bfree.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 23 Dec 2009 14:16:10 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 24 Dec 2009 00:12:56 +0000
 
 gfxboot-themes-sidux (0.3.12) unstable; urgency=low
 
