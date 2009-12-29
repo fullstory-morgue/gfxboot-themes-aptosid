@@ -5,7 +5,7 @@
  
  /kernelopts.options [
 +  "quiet"
-+  "md5sum"
++  "quiet md5sum"
    ""
 -  "apm=off acpi=off mce=off barrier=off ide=nodma idewait=50 i8042.nomux psmouse.proto=bare irqpoll pci=nommconf"
 -  "acpi=off"

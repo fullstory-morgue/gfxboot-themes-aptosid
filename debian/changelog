@@ -1,8 +1,12 @@
 gfxboot-themes-sidux (0.3.15) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 24 Dec 2009 14:02:03 +0000
+  [ Niall Walsh ]
+  * Make md5sum kernel option line also include quiet
+
+ -- Niall Walsh <niallwalsh@users.berlios.de>  Tue, 29 Dec 2009 08:38:42 +0000
 
 gfxboot-themes-sidux (0.3.14) unstable; urgency=low
 
