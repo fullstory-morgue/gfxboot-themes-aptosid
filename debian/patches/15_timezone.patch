@@ -117,7 +117,7 @@
  ; replace underscores ('_') with space in menu entries
  _2space=1
  
-@@ -148,14 +150,14 @@ spl=1
+@@ -158,14 +160,14 @@ spl=1
  autodown=0
  ; F-key assignments
  ; value can be one of: lang, video, install, kernelopts, dud, bits, keymap,
@@ -134,7 +134,7 @@
  key.F4=install
  key.F5=kernelopts
  key.F6=dud
-@@ -164,6 +166,7 @@ key.F6=dud
+@@ -174,6 +176,7 @@ key.F6=dud
  addopt.lang=1
  ; add 'keytable' option with current keymap
  addopt.keytable=1

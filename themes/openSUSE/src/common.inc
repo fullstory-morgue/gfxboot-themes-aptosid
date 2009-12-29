@@ -1667,9 +1667,6 @@ config.livecd {
 /install.nfs.server    "install.nfs.server"          "" gfxconfig.set.str
 /install.nfs.path      "install.nfs.path"            "" gfxconfig.set.str
 
-/install.nbd.server    "install.nbd.server"          "" gfxconfig.set.str
-/install.nbd.port      "install.nbd.port"            "" gfxconfig.set.str
-
 /install.ftp.server    "install.ftp.server"          "" gfxconfig.set.str
 /install.ftp.path      "install.ftp.path"            "" gfxconfig.set.str
 /install.ftp.user      "install.ftp.user"            "" gfxconfig.set.str

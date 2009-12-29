@@ -1,6 +1,6 @@
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
-@@ -169,7 +169,7 @@ key.F2=lang
+@@ -159,7 +159,7 @@ key.F2=lang
  key.F4=install
  key.F5=kernelopts
  key.F6=dud

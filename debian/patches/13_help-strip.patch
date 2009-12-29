@@ -14,7 +14,7 @@
  
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
-@@ -161,7 +161,9 @@ autodown=0
+@@ -151,7 +151,9 @@ autodown=0
  ; profile, restore
  ; note1: 'bits' is only shown on x86_64, 'profile' only when a file 'profile'
  ; exists, 'restore' only when there is a boot entry 'restore'
