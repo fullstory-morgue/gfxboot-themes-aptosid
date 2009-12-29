@@ -14,13 +14,14 @@
 % install types
 /.inst_cdrom	0 def
 /.inst_hd	1 def
-/.inst_slp	2 def
-/.inst_ftp	3 def
+/.inst_slp	7 def
+/.inst_ftp	8 def
 /.inst_http	4 def
 /.inst_nfs	5 def
 /.inst_smb	6 def
-/.inst_net_setup 7 def
-/.inst_net_proxy 8 def
+/.inst_nbd      2 def
+/.inst_net_setup 3 def
+/.inst_net_proxy 9 def
 
 /install.default .inst_cdrom def
 
@@ -37,6 +38,7 @@
   /input.edit.ftp [ 63 string 127 string 31 string 31 string ] def
   /input.edit.http [ 63 string 127 string ] def
   /input.edit.nfs [ 63 string 127 string ] def
+  /input.edit.nbd [ 63 string 127 string ] def
   /input.edit.smb [ 63 string 31 string 127 string 31 string 31 string 31 string ] def
   /input.edit.hd [ 63 string 127 string ] def
   /input.edit.proxy [ 63 string 127 string 63 string 63 string ] def
@@ -49,13 +51,8 @@
   xmenu .xm_list [
     is_dvd { "DVD" } { "CD-ROM" } ifelse
     /txt_harddisk
-    "\x09SLP"
-    "FTP"
-    "HTTP"
-    "NFS"
-    "SMB / CIFS"
+    "NBD"
     /install.submenu.net
-    /txt_http_proxy
   ] put
 
   xmenu .xm_title /txt_install_source put
@@ -181,6 +178,17 @@
     dia .ed.list 2 array put
     dia .ed.buffer.list input.edit.nfs put
     dia .ed.text.list [ txt_server txt_directory ] put
+
+  } if
+
+  dup .inst_nbd eq {
+    % TODO setup txt_nbd_title
+    dia .title "NBD root\n" put
+
+    % Must all be of same size!
+    dia .ed.list 2 array put
+    dia .ed.buffer.list input.edit.nbd put
+    dia .ed.text.list [ txt_server "Port\n" ] put
 
   } if
 
@@ -310,6 +318,13 @@
     "install=nfs://%s/%s" install.option sprintf
   } if
 
+  dup .inst_nbd eq {
+    input.edit.nbd
+    dup 1 get dup 0 get '/' eq { 1 add } if
+    exch 0 get
+    "fromhd=/dev/nbdroot root=/dev/nbdroot nbdroot=%s,%s" install.option sprintf
+  } if
+
   dup .inst_smb eq {
     input.edit.smb
 
@@ -377,6 +392,7 @@
   dup "ftp"   eq { /install.default .inst_ftp   def } if
   dup "http"  eq { /install.default .inst_http  def } if
   dup "nfs"   eq { /install.default .inst_nfs   def } if
+  dup "nbd"   eq { /install.default .inst_nbd   def } if
   dup "smb"   eq { /install.default .inst_smb   def } if
   dup "hd"    eq { /install.default .inst_hd    def } if
   pop
@@ -386,6 +402,9 @@
 
   input.edit.nfs  0 get install.nfs.server strcpy pop
   input.edit.nfs  1 get install.nfs.path strcpy pop
+
+  input.edit.nbd  0 get install.nbd.server strcpy pop
+  input.edit.nbd  1 get install.nbd.port strcpy pop
 
   input.edit.ftp  0 get install.ftp.server strcpy pop
   input.edit.ftp  1 get install.ftp.path strcpy pop
