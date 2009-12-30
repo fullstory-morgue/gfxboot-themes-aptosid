@@ -1,3 +1,9 @@
+gfxboot-themes-sidux (0.3.17) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 30 Dec 2009 01:27:19 +0100
+
 gfxboot-themes-sidux (0.3.16) unstable; urgency=low
 
   * Add install.nbd.server and install.nbd.port to gfxboot.cfg
