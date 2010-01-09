@@ -190,8 +190,6 @@ Architecture: all
 Depends: ${misc:Depends}
 Recommends: gfxboot-themes-sidux-2009-03-momos (= ${source:Version})
 Provides: gfxboot-themes-sidux-core
-Replaces: gfxboot-themes-sidux-2009-03-momos (<< 0.3)
-Conflicts: gfxboot-themes-sidux-2009-03-momos (<< 0.3)
 Description: graphical boot logos for sidux Μώμος
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
@@ -216,8 +214,6 @@ Architecture: all
 Depends: ${misc:Depends}
 Recommends: gfxboot-themes-sidux-2009-04-moros (= ${source:Version})
 Provides: gfxboot-themes-sidux-core
-Replaces: gfxboot-themes-sidux-2009-04-moros (<< 0.3)
-Conflicts: gfxboot-themes-sidux-2009-04-moros (<< 0.3)
 Description: graphical boot logos for sidux Μόρος
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
@@ -242,8 +238,6 @@ Architecture: all
 Depends: ${misc:Depends}
 Recommends: gfxboot-themes-sidux-2010-01-hypnos (= ${source:Version})
 Provides: gfxboot-themes-sidux-core
-Replaces: gfxboot-themes-sidux-2010-01-hypnos (<< 0.3)
-Conflicts: gfxboot-themes-sidux-2010-01-hypnos (<< 0.3)
 Description: graphical boot logos for sidux Ύπνος
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
