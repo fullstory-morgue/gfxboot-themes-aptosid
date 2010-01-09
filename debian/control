@@ -205,8 +205,6 @@ Depends: ${misc:Depends},
  gfxboot-themes-sidux-2009-03-momos-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
-Replaces: gfxboot-themes-sidux-2009-03-momos-helper (<< 0.3)
-Conflicts: gfxboot-themes-sidux-2009-03-momos-helper (<< 0.3)
 Description: tool to test and create graphical boot logos (sidux Μώμος)
  gfxboot is tool to test and create graphical boot logos for gfxboot compliant
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
@@ -233,10 +231,34 @@ Depends: ${misc:Depends},
  gfxboot-themes-sidux-2009-04-moros-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
-Replaces: gfxboot-themes-sidux-2009-04-moros-helper (<< 0.3)
-Conflicts: gfxboot-themes-sidux-2009-04-moros-helper (<< 0.3)
 Description: tool to test and create graphical boot logos (sidux Μόρος)
  gfxboot is tool to test and create graphical boot logos for gfxboot compliant
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the sidux 2009-04 "Μόρος" theme.
+
+Package: gfxboot-themes-sidux-2010-01-hypnos-core
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: gfxboot-themes-sidux-2010-01-hypnos (= ${source:Version})
+Provides: gfxboot-themes-sidux-core
+Replaces: gfxboot-themes-sidux-2010-01-hypnos (<< 0.3)
+Conflicts: gfxboot-themes-sidux-2010-01-hypnos (<< 0.3)
+Description: graphical boot logos for sidux Ύπνος
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the sidux 2010-01 "Ύπνος" theme.
+
+Package: gfxboot-themes-sidux-2010-01-hypnos
+Architecture: all
+Depends: ${misc:Depends},
+ gfxboot (>= 4.1.41),
+ gfxboot-themes-sidux-2010-01-hypnos-core (= ${source:Version})
+Recommends: gfxboot-dev
+Provides: gfxboot-theme
+Description: tool to test and create graphical boot logos (sidux Ύπνος)
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the sidux 2010-01 "Ύπνος" theme.

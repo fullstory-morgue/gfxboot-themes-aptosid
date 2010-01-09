@@ -1,8 +1,9 @@
-gfxboot-themes-sidux (0.3.17) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.3.17) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * branch off Ύπνος development from Μόρος with dummy artwork.
+  * update copyrights.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 30 Dec 2009 01:27:19 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 09 Jan 2010 19:23:44 +0100
 
 gfxboot-themes-sidux (0.3.16) unstable; urgency=low
 
