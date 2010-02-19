@@ -1,6 +1,6 @@
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
-@@ -100,7 +100,7 @@ background=pback.jpg 
+@@ -100,7 +100,7 @@ background=pback.jpg
  
  [install]
  ; show welcome animation

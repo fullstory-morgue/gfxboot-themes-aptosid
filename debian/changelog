@@ -1,8 +1,8 @@
-gfxboot-themes-sidux (0.3.18) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.3.18) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * disable chameleon animation in syslinux.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 09 Jan 2010 19:24:46 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 19 Feb 2010 14:19:50 +0100
 
 gfxboot-themes-sidux (0.3.17) unstable; urgency=low
 
