@@ -1,3 +1,9 @@
+gfxboot-themes-sidux (0.3.20) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 11 Apr 2010 00:56:55 +0200
+
 gfxboot-themes-sidux (0.3.19) unstable; urgency=low
 
   * fix keytable name for Canadian keyboard, ca not cn.
