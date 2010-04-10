@@ -12,7 +12,7 @@
 -  [ "Czech (qwerty)"          "cz-lat2-us"           keymap.cz-lat2-us           ]
 +%  [ "Arabic"                  "arabic"               .undef                      ]
 +  [ "Belgian"                 "be"                   keymap.be-latin1            ]
-+  [ "Canadian (Multilingual)" "cn"                   keymap.cn-latin1            ]
++  [ "Canadian (Multilingual)" "ca"                   keymap.cn-latin1            ]
 +  [ "Croatian"                "hr"                   keymap.croat                ]
 +  [ "Czech"                   "cs"                   keymap.cz-us-qwertz         ]
    [ "Danish"                  "dk"                   keymap.dk                   ]
