@@ -1,8 +1,8 @@
-gfxboot-themes-sidux (0.3.20) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.3.20) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * bump standards version to 3.8.4, no changes necessary.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 11 Apr 2010 00:56:55 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 11 Apr 2010 02:10:35 +0200
 
 gfxboot-themes-sidux (0.3.19) unstable; urgency=low
 
