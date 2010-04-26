@@ -1,3 +1,9 @@
+gfxboot-themes-sidux (0.3.23) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 26 Apr 2010 22:44:03 +0200
+
 gfxboot-themes-sidux (0.3.22) unstable; urgency=low
 
   * adjust nbdroot handling to only set nbdroot=ip,port,dev
