@@ -1,6 +1,6 @@
 --- a/themes/openSUSE/src/common.inc
 +++ b/themes/openSUSE/src/common.inc
-@@ -1222,12 +1222,6 @@
+@@ -1223,12 +1223,6 @@
      moveto setcolor
    } if
  

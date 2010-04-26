@@ -38,7 +38,7 @@
    /panel [
 --- a/themes/openSUSE/src/common.inc
 +++ b/themes/openSUSE/src/common.inc
-@@ -1680,6 +1680,7 @@ config.livecd {
+@@ -1681,6 +1681,7 @@ config.livecd {
  /dud.url               "dud.url"                     "" gfxconfig.set.str
  /dud.url.name          "dud.url.name"                "" gfxconfig.set.str
  

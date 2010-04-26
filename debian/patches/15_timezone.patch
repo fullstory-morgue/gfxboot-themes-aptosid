@@ -252,7 +252,7 @@
    xmenu.dud {
      xmenu.dud .xm_current get .dud_url eq {
        input.edit.dud_url 0 get dup "" ne {
-@@ -1647,8 +1653,11 @@ config.livecd {
+@@ -1648,8 +1654,11 @@ config.livecd {
  /panel.f-key.fg        "panel.f-key.fg"           black gfxconfig.set.int
  /keymap.submenu        "keymap.submenu"           false gfxconfig.set.bool
  /keymap.default        "keymap"                      "" gfxconfig.set.str
