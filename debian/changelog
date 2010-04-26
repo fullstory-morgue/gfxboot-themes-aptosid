@@ -1,11 +1,7 @@
-gfxboot-themes-sidux (0.3.22) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.3.22) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Niall Walsh ]
   * adjust nbdroot handling to only set nbdroot=ip,port,dev
-  * restore dvorak and laten keyboards
+  * restore dvorak and latem keyboards
 
  -- Niall Walsh <niallwalsh@users.berlios.de>  Mon, 26 Apr 2010 20:16:51 +0100
 
