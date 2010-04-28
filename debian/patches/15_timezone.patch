@@ -209,7 +209,7 @@
 +    %[ "Kabul" "Asia/Kabul" ] % GMT+430
 +    [ "Karachi" "Asia/Karachi" ] % GMT+5
 +    [ "Yekaterinburg" "Asia/Yekaterinburg" ] % GMT+5 DST
-+    % [ "Kolkata" "Asia/Kolkata" ] % GMT+530 % _IN in locales
++    [ "Kolkata" "Asia/Kolkata" ] % GMT+530 % _IN in locales
 +    % [ "Kathmandu" "Asia/Kathmandu" ] % GMT+545
 +    [ "Almaty" "Asia/Almaty" ] % GMT+6 % _BT, _KZ, _KG
 +    [ "Dhaka" "Asia/Dhaka" ] % GMT+6 DST % _BD, _RU
