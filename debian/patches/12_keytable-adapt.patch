@@ -78,7 +78,7 @@
  
 --- a/themes/openSUSE/src/dia_lang.inc
 +++ b/themes/openSUSE/src/dia_lang.inc
-@@ -26,30 +26,30 @@
+@@ -27,30 +27,30 @@
  % [ "bn_BD" "us"                   false "\u09ac\u09be\u0982\u09b2\u09be" ]			% Bengali
  % [ "bs_BA" "us"                   false "Bosanski" ]						% Bosnian
  % [ "ca_ES" "es"                   false "Català" ]						% Catalan
@@ -116,7 +116,7 @@
  % [ "jv_ID" "us"                   false "Basa Jawa" ]						% Javanese
  % [ "km_KH" "khmer"                false "\u1781\u17d2\u1798\u17c2\u179a" ]			% Khmer
  % [ "km_KH" "khmer"                false "Khmer" ]						% Khmer
-@@ -61,13 +61,13 @@
+@@ -62,13 +62,13 @@
  % [ "mr_IN" "us"                   false "\u092e\u0930\u093e\u0920\u0940" ]			% Marathi
  % [ "nb_NO" "no-latin1"            false "Norsk" ]						% Norwegian
    [ "nl_NL" "us"                   false "Nederlands" ]						% Dutch
