@@ -14,7 +14,7 @@
 +  [ "Belgian"                 "be"                   keymap.be-latin1            ]
 +  [ "Canadian (Multilingual)" "ca"                   keymap.cn-latin1            ]
 +  [ "Croatian"                "hr"                   keymap.croat                ]
-+  [ "Czech"                   "cs"                   keymap.cz-us-qwertz         ]
++  [ "Czech"                   "cz"                   keymap.cz-us-qwertz         ]
    [ "Danish"                  "dk"                   keymap.dk                   ]
    [ "Dutch"                   "nl"                   keymap.nl                   ]
    [ "Dvorak"                  "dvorak"               keymap.dvorak               ]
