@@ -1,9 +1,5 @@
-gfxboot-themes-sidux (0.3.25) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.3.25) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Niall Walsh ]
   * fix keyboard layout for cs (keyboard is cz not cs)
 
  -- Niall Walsh <niallwalsh@users.berlios.de>  Thu, 03 Jun 2010 15:53:54 +0100
