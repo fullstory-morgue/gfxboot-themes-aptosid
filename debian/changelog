@@ -1,9 +1,5 @@
-gfxboot-themes-sidux (0.3.27) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.3.27) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Bernard Gray ]
   * gfboot theme update (belated)
 
  -- Bernard Gray <bernard.gray@gmail.com>  Tue, 15 Jun 2010 09:26:38 +1000
