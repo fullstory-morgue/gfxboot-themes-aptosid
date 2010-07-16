@@ -1,8 +1,12 @@
 gfxboot-themes-sidux (0.3.28) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 15 Jun 2010 11:53:34 +0200
+  [ Rick Battle ]
+  * initial commit of 2010-02-keres gfxboot-theme
+
+ -- Rick Battle <detaos@sidux.com>  Fri, 16 Jul 2010 14:30:28 -0400
 
 gfxboot-themes-sidux (0.3.27) unstable; urgency=low
 
