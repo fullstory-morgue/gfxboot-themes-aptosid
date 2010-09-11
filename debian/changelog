@@ -1,8 +1,8 @@
-gfxboot-themes-sidux (0.4.1) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.4.1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * update keres artwork, thanks to detaos.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 19 Aug 2010 20:27:40 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 24 Aug 2010 14:21:08 +0200
 
 gfxboot-themes-sidux (0.4.0) unstable; urgency=low
 
