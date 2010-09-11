@@ -1,6 +1,8 @@
 Package: gfxboot-themes-aptosid-@VERSION@-@CODENAME_SAFE@-core
 Architecture: all
 Depends: ${misc:Depends}
+Replaces: gfxboot-themes-sidux-@VERSION@-@CODENAME_SAFE@ (<< 0.5)
+Breaks: gfxboot-themes-sidux-@VERSION@-@CODENAME_SAFE@ (<< 0.5)
 Recommends: gfxboot-themes-aptosid-@VERSION@-@CODENAME_SAFE@ (= ${source:Version})
 Provides: gfxboot-themes-aptosid-core
 Description: graphical boot logos for aptosid @CODENAME@

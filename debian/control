@@ -20,6 +20,8 @@ Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/gfxboot-themes-aptosid/trunk/
 Package: gfxboot-themes-aptosid-2010-02-keres-core
 Architecture: all
 Depends: ${misc:Depends}
+Replaces: gfxboot-themes-sidux-2010-02-keres (<< 0.5)
+Breaks: gfxboot-themes-sidux-2010-02-keres (<< 0.5)
 Recommends: gfxboot-themes-aptosid-2010-02-keres (= ${source:Version})
 Provides: gfxboot-themes-aptosid-core
 Description: graphical boot logos for aptosid Κῆρες
