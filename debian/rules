@@ -20,28 +20,28 @@ override_dh_auto_build:
 				--export-dpi=72 \
 				--export-png=build/$${THEME}/data-install/welcome.png \
 					build/$${THEME}/data-install/welcome.svg; \
-			convert -compress JPEG build/$${THEME}/data-install/welcome.png build/$${THEME}/data-install/welcome.jpg; \
+			convert -compress JPEG -type TrueColor build/$${THEME}/data-install/welcome.png build/$${THEME}/data-install/welcome.jpg; \
 			inkscape -z \
 				--export-width=146 \
 				--export-height=240 \
 				--export-dpi=72 \
 				--export-png=build/$${THEME}/data-install/text.png \
 					build/$${THEME}/data-install/text.svg; \
-			convert -compress JPEG build/$${THEME}/data-install/text.png build/$${THEME}/data-install/text.jpg; \
+			convert -compress JPEG -type TrueColor build/$${THEME}/data-install/text.png build/$${THEME}/data-install/text.jpg; \
 			inkscape -z \
 				--export-width=800 \
 				--export-height=600 \
 				--export-dpi=72 \
 				--export-png=build/$${THEME}/data-install/back.png \
 					build/$${THEME}/data-install/back.svg; \
-			convert -compress JPEG build/$${THEME}/data-install/back.png build/$${THEME}/data-install/back.jpg; \
+			convert -compress JPEG -type TrueColor build/$${THEME}/data-install/back.png build/$${THEME}/data-install/back.jpg; \
 			inkscape -z \
 				--export-width=800 \
 				--export-height=600 \
 				--export-dpi=72 \
 				--export-png=build/$${THEME}/data-boot/back.png \
 					build/$${THEME}/data-boot/back.svg; \
-			convert -compress JPEG build/$${THEME}/data-boot/back.png build/$${THEME}/data-boot/back.jpg; \
+			convert -compress JPEG -type TrueColor build/$${THEME}/data-boot/back.png build/$${THEME}/data-boot/back.jpg; \
 			rm -f	build/$${THEME}/data-install/welcome.svg \
 				build/$${THEME}/data-install/welcome.png \
 				build/$${THEME}/data-install/text.svg \

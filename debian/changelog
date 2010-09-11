@@ -1,8 +1,9 @@
-gfxboot-themes-sidux (0.3.31) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.3.31) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * enforce truecolor mode, the simple JPEG decoder used for gfxboot capable
+    bootloader is not capable to deal with grayscale images.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 22 Jul 2010 03:19:07 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 22 Jul 2010 15:39:23 +0200
 
 gfxboot-themes-sidux (0.3.30) unstable; urgency=low
 
