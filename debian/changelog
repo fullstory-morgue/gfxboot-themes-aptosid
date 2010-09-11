@@ -162,7 +162,7 @@ gfxboot-themes-sidux (0.3.12) unstable; urgency=low
 gfxboot-themes-sidux (0.3.11) unstable; urgency=low
 
   [ David Creedy ]
-  * Update splash back.svg to fit with moros theme 
+  * Update splash back.svg to fit with moros theme
 
   [ Stefan Lippers-Hollmann ]
   * add bfree to Uploaders.
