@@ -1,8 +1,8 @@
-gfxboot-themes-sidux (0.3.34) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.3.34) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * adapt color theme for sidux.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Aug 2010 04:07:52 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 16 Aug 2010 18:30:49 +0200
 
 gfxboot-themes-sidux (0.3.33) unstable; urgency=low
 

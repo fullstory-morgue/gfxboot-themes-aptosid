@@ -15,3 +15,4 @@
 15_timezone.patch
 16_revert-to-absolute-placement.patch
 17_disable-kroete-animation.patch
+18_fix-color-theme.patch
