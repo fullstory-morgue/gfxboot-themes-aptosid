@@ -252,7 +252,7 @@
    xmenu.dud {
      xmenu.dud .xm_current get .dud_url eq {
        input.edit.dud_url 0 get dup "" ne {
-@@ -1648,8 +1654,11 @@ config.livecd {
+@@ -1650,8 +1656,11 @@ config.livecd {
  /panel.f-key.fg        "panel.f-key.fg"           black gfxconfig.set.int
  /keymap.submenu        "keymap.submenu"           false gfxconfig.set.bool
  /keymap.default        "keymap"                      "" gfxconfig.set.str
@@ -276,7 +276,7 @@
      .undef
 --- a/themes/openSUSE/src/locale.inc
 +++ b/themes/openSUSE/src/locale.inc
-@@ -70,6 +70,36 @@
+@@ -72,6 +72,36 @@
    config.keymap.id .undef eq { /config.keymap.id "us" def } if
  } def
  

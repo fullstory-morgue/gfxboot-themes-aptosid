@@ -94,7 +94,7 @@
    input.edit.ftp  2 get install.ftp.user strcpy pop
 --- a/themes/openSUSE/src/common.inc
 +++ b/themes/openSUSE/src/common.inc
-@@ -1668,6 +1668,9 @@ config.livecd {
+@@ -1670,6 +1670,9 @@ config.livecd {
  /install.nfs.server    "install.nfs.server"          "" gfxconfig.set.str
  /install.nfs.path      "install.nfs.path"            "" gfxconfig.set.str
  
