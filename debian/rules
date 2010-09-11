@@ -68,8 +68,8 @@ override_dh_install:
 			cp -a themes/openSUSE/Makefile debian/$${PACKAGE}/usr/share/gfxboot/themes/$${THEME}/Makefile; \
 			install -D -m 0644 build/$${THEME}/bootlogo debian/$${PACKAGE}-core/etc/bootsplash/themes/$${THEME}/cdrom/bootlogo; \
 			/usr/share/gfxboot/bin/unpack_bootlogo debian/$${PACKAGE}-core/etc/bootsplash/themes/$${THEME}/cdrom; \
-			mkdir -p debian/$${PACKAGE}/etc/bootsplash/themes/$${THEME}/bootloader; \
-			cp -a build/$${THEME}/help-boot/*.hlp build/$${THEME}/po/*.tr debian/$${PACKAGE}/etc/bootsplash/themes/$${THEME}/bootloader; \
+			mkdir -p debian/$${PACKAGE}/etc/bootsplash/themes/$${THEME}-core/bootloader; \
+			cp -a build/$${THEME}/help-boot/*.hlp build/$${THEME}/po/*.tr debian/$${PACKAGE}-core/etc/bootsplash/themes/$${THEME}/bootloader; \
 			mkdir -p debian/$${PACKAGE}-core/etc/bootsplash/themes/$${THEME}/bootloader; \
 			cp -a build/$${THEME}/message debian/$${PACKAGE}-core/etc/bootsplash/themes/$${THEME}/bootloader/; \
 		fi; \
