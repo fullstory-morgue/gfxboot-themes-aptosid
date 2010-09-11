@@ -256,3 +256,27 @@ Description: tool to test and create graphical boot logos (sidux Ύπνος)
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the sidux 2010-01 "Ύπνος" theme.
+
+Package: gfxboot-themes-sidux-2010-02-keres-core
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: gfxboot-themes-sidux-2010-02-keres (= ${source:Version})
+Provides: gfxboot-themes-sidux-core
+Description: graphical boot logos for sidux Κῆρες
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the sidux 2010-02 "Κῆρες" theme.
+
+Package: gfxboot-themes-sidux-2010-02-keres
+Architecture: all
+Depends: ${misc:Depends},
+ gfxboot (>= 4.2.1),
+ gfxboot-themes-sidux-2010-02-keres-core (= ${source:Version})
+Recommends: gfxboot-dev
+Provides: gfxboot-theme
+Description: tool to test and create graphical boot logos (sidux Κῆρες)
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the sidux 2010-02 "Κῆρες" theme.
