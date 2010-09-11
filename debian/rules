@@ -58,7 +58,7 @@ override_dh_install:
 	dh_install
 	for THEME in `cd themes && ls`; do \
 		if [ "$${THEME}" != "openSUSE" ]; then \
-			PACKAGE="gfxboot-themes-sidux-`echo $${THEME} | tr [A-Z] [a-z]`"; \
+			PACKAGE="gfxboot-themes-aptosid-`echo $${THEME} | tr [A-Z] [a-z]`"; \
 			mkdir -p debian/$${PACKAGE}/usr/share/gfxboot/themes; \
 			cp -a themes/openSUSE debian/$${PACKAGE}/usr/share/gfxboot/themes/$${THEME}; \
 			cd themes/$${THEME}; \

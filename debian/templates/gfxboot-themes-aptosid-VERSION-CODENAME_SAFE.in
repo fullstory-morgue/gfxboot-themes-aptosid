@@ -1,0 +1,12 @@
+Package: gfxboot-themes-aptosid-@VERSION@-@CODENAME_SAFE@
+Architecture: all
+Depends: ${misc:Depends},
+ gfxboot (>= @GFXBOOT_VERSION@),
+ gfxboot-themes-aptosid-@VERSION@-@CODENAME_SAFE@-core (= ${source:Version})
+Recommends: gfxboot-dev
+Provides: gfxboot-theme
+Description: tool to test and create graphical boot logos (aptosid @CODENAME@)
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the aptosid @VERSION@ "@CODENAME@" theme.

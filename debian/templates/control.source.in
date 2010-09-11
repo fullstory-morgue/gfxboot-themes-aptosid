@@ -1,0 +1,19 @@
+Source: gfxboot-themes-aptosid
+Section: misc
+Priority: extra
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Uploaders: David Creedy <klaymen@aptosid.com>,
+ Niall Walsh <niallwalsh@users.berlios.de>
+Build-Depends: debhelper (>= 7.9.3),
+ cpio,
+ gfxboot-dev (>= 4.3.0),
+ imagemagick,
+ inkscape,
+ quilt (>= 0.46-7),
+ ttf-dejavu-core,
+ ttf-dustin
+Standards-Version: 3.9.1
+Homepage: http://gfxboot.sourceforge.net/
+Vcs-Svn: svn://svn.berlios.de/fullstory/gfxboot-themes-aptosid/trunk
+Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/gfxboot-themes-aptosid/trunk/
+

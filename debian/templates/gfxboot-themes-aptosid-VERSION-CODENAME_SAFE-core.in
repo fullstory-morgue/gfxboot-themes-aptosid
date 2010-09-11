@@ -1,0 +1,11 @@
+Package: gfxboot-themes-aptosid-@VERSION@-@CODENAME_SAFE@-core
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: gfxboot-themes-aptosid-@VERSION@-@CODENAME_SAFE@ (= ${source:Version})
+Provides: gfxboot-themes-aptosid-core
+Description: graphical boot logos for aptosid @CODENAME@
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the aptosid @VERSION@ "@CODENAME@" theme.
+

@@ -1,8 +1,8 @@
-Source: gfxboot-themes-sidux
+Source: gfxboot-themes-aptosid
 Section: misc
 Priority: extra
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Uploaders: David Creedy <klaymen@sidux.com>,
+Uploaders: David Creedy <klaymen@aptosid.com>,
  Niall Walsh <niallwalsh@users.berlios.de>
 Build-Depends: debhelper (>= 7.9.3),
  cpio,
@@ -14,29 +14,29 @@ Build-Depends: debhelper (>= 7.9.3),
  ttf-dustin
 Standards-Version: 3.9.1
 Homepage: http://gfxboot.sourceforge.net/
-Vcs-Svn: svn://svn.berlios.de/fullstory/gfxboot-themes-sidux/trunk
-Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/gfxboot-themes-sidux/trunk/
+Vcs-Svn: svn://svn.berlios.de/fullstory/gfxboot-themes-aptosid/trunk
+Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/gfxboot-themes-aptosid/trunk/
 
-Package: gfxboot-themes-sidux-2010-02-keres-core
+Package: gfxboot-themes-aptosid-2010-02-keres-core
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: gfxboot-themes-sidux-2010-02-keres (= ${source:Version})
-Provides: gfxboot-themes-sidux-core
-Description: graphical boot logos for sidux Κῆρες
+Recommends: gfxboot-themes-aptosid-2010-02-keres (= ${source:Version})
+Provides: gfxboot-themes-aptosid-core
+Description: graphical boot logos for aptosid Κῆρες
  boot logos for gfxboot compliant boot loaders. Currently, this includes
  grub-gfxboot and syslinux (all payloads).
  .
- This package contains the sidux 2010-02 "Κῆρες" theme.
+ This package contains the aptosid 2010-02 "Κῆρες" theme.
 
-Package: gfxboot-themes-sidux-2010-02-keres
+Package: gfxboot-themes-aptosid-2010-02-keres
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.3.0),
- gfxboot-themes-sidux-2010-02-keres-core (= ${source:Version})
+ gfxboot-themes-aptosid-2010-02-keres-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
-Description: tool to test and create graphical boot logos (sidux Κῆρες)
+Description: tool to test and create graphical boot logos (aptosid Κῆρες)
  gfxboot is tool to test and create graphical boot logos for gfxboot compliant
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
- This package enhances the sidux 2010-02 "Κῆρες" theme.
+ This package enhances the aptosid 2010-02 "Κῆρες" theme.

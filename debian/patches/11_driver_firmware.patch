@@ -41,7 +41,7 @@
      dia .ed.buffer.list input.edit.dud_file put
 -    dia .ed.text.list [ txt_dud_file_msg ] put
 +    % TODO: new content translated or at least translatable!
-+    dia .ed.text.list [ "Provide the path use to search for and load firmware early (default is \"/sidux/firmware/\"):\n" ] put
++    dia .ed.text.list [ "Provide the path use to search for and load firmware early (default is \"/aptosid/firmware/\"):\n" ] put
    } if
  
    dup .dud_url eq {

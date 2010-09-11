@@ -5,7 +5,7 @@
  install.http.path=
  install.hd.device=
 -install.hd.path=
-+install.hd.path=sidux
++install.hd.path=aptosid
  install.nbd.server=
  install.nbd.port=
  ; default driver update (one of: yes, no, file, url; default: no)
