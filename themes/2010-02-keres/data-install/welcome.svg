@@ -14,7 +14,7 @@
    height="600"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.48+devel r"
+   inkscape:version="0.47 r22583"
    sodipodi:docname="welcome.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -24,6 +24,13 @@
    style="display:inline;enable-background:new">
   <defs
      id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 300 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="800 : 300 : 1"
+       inkscape:persp3d-origin="400 : 200 : 1"
+       id="perspective86" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient5088">
@@ -402,10 +409,10 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="1145"
-     inkscape:window-x="-4"
-     inkscape:window-y="-3"
+     inkscape:window-width="1912"
+     inkscape:window-height="1153"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      borderlayer="true"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -457,12 +464,11 @@
          x="95.488327"
          style="font-size:265.02047729px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#af0000;fill-opacity:1;stroke:#4b0000;stroke-width:7.71487331;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;font-family:Dustismo;-inkscape-font-specification:Dustismo"
          xml:space="preserve"><tspan
-           dx="0 -8.5714283 3.3567221 -11.428571 -11.428571"
            y="275.88254"
            x="95.488327"
            id="tspan4187"
            sodipodi:role="line"
-           style="letter-spacing:-1.88605106;fill:#af0000;fill-opacity:1;stroke:#4b0000;stroke-width:7.71487331;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">sidux : Κῆρες</tspan></text>
+           style="letter-spacing:-1.88605106;fill:#af0000;fill-opacity:1;stroke:#4b0000;stroke-width:7.71487331;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none">Κῆρες</tspan></text>
     </g>
     <g
        style="fill:url(#linearGradient5094);fill-opacity:1;stroke:#ffffff;stroke-width:3.85743666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.50196078;stroke-dasharray:none"
@@ -480,8 +486,7 @@
            sodipodi:role="line"
            id="tspan4958"
            x="95.488327"
-           y="275.88254"
-           dx="0 -8.5714283 3.3567221 -11.428571 -11.428571">sidux : Κῆρες</tspan></text>
+           y="275.88254">Κῆρες</tspan></text>
     </g>
     <g
        transform="matrix(-0.63742665,0,0,0.63742665,306.00993,-283.11885)"

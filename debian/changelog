@@ -1,8 +1,8 @@
-gfxboot-themes-sidux (0.4.2) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.4.2) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * drop sidux logos from SVG.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 24 Aug 2010 14:24:58 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 26 Aug 2010 00:01:25 +0200
 
 gfxboot-themes-sidux (0.4.1) unstable; urgency=low
 
