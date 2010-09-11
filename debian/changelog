@@ -1,3 +1,9 @@
+gfxboot-themes-sidux (0.3.32) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 22 Jul 2010 15:41:54 +0200
+
 gfxboot-themes-sidux (0.3.31) unstable; urgency=low
 
   * enforce truecolor mode, the simple JPEG decoder used for gfxboot capable
