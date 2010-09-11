@@ -5,7 +5,7 @@
  bootopt.text.fg=0xffffff
  ; progress bar color
 -progress.bar.color=0x295202
-+progress.bar.color=0x7d1117
++progress.bar.color=0xad1318
  ; menu colors
  menu.normal.bg=0xd8deed
  menu.normal.fg=0x000000
@@ -14,7 +14,7 @@
  window.bg=0xd8deed
  window.fg=0x000000
 -window.title.bg=0x217b05
-+window.title.bg=0xad1318
++window.title.bg=0x7d1117
  window.title.fg=0xffffff
  window.title.error.bg=0xc00000
  ; help system colors
