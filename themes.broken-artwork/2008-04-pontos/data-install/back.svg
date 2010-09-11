@@ -23,13 +23,6 @@
    inkscape:export-ydpi="90">
   <defs
      id="defs4">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 300 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="800 : 300 : 1"
-       inkscape:persp3d-origin="400 : 200 : 1"
-       id="perspective109" />
     <linearGradient
        id="linearGradient92350">
       <stop
@@ -61,18 +54,6 @@
          style="stop-color:#000000;stop-opacity:1;" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
-       id="linearGradient3181">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1"
-         offset="0"
-         id="stop3183" />
-      <stop
-         style="stop-color:#000000;stop-opacity:1"
-         offset="1"
-         id="stop3185" />
-    </linearGradient>
-    <linearGradient
        id="linearGradient2781">
       <stop
          style="stop-color:#ffffff;stop-opacity:1;"
@@ -102,104 +83,6 @@
          offset="1"
          id="stop3941" />
     </linearGradient>
-    <pattern
-       inkscape:collect="always"
-       xlink:href="#pattern4905"
-       id="pattern3024"
-       patternTransform="matrix(14.452368,0,0,14.452368,1248.7525,270.01392)" />
-    <linearGradient
-       id="linearGradient5065">
-      <stop
-         style="stop-color:#000000;stop-opacity:0;"
-         offset="0"
-         id="stop5067" />
-      <stop
-         id="stop5073"
-         offset="0.5"
-         style="stop-color:#000000;stop-opacity:0.40277779;" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0;"
-         offset="1"
-         id="stop5069" />
-    </linearGradient>
-    <pattern
-       inkscape:collect="always"
-       xlink:href="#pattern4901"
-       id="pattern4905"
-       patternTransform="matrix(14.452368,0,0,14.452368,1190.7525,230.01392)" />
-    <pattern
-       inkscape:collect="always"
-       xlink:href="#Checkerboardwhite"
-       id="pattern4901"
-       patternTransform="matrix(14.452368,0,0,14.452368,1306.5146,425.76857)" />
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4785">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1"
-         offset="0"
-         id="stop4787" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0;"
-         offset="1"
-         id="stop4789" />
-    </linearGradient>
-    <pattern
-       inkscape:stockid="Checkerboard white"
-       id="Checkerboardwhite"
-       patternTransform="matrix(18.558678,0,0,18.558678,1250.7478,71.65798)"
-       height="2"
-       width="2"
-       patternUnits="userSpaceOnUse"
-       inkscape:collect="always">
-      <rect
-         id="rect4144"
-         height="1"
-         width="1"
-         y="0"
-         x="0"
-         style="fill:white;stroke:none" />
-      <rect
-         id="rect4146"
-         height="1"
-         width="1"
-         y="1"
-         x="1"
-         style="fill:white;stroke:none" />
-    </pattern>
-    <filter
-       inkscape:collect="always"
-       id="filter5077"
-       x="-0.0033050666"
-       width="1.0066102"
-       y="-2.1526313"
-       height="5.3052626">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.89692969"
-         id="feGaussianBlur5079" />
-    </filter>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3181"
-       id="linearGradient4618"
-       gradientUnits="userSpaceOnUse"
-       x1="1093.5305"
-       y1="995.42413"
-       x2="1093.5305"
-       y2="1132.3877"
-       gradientTransform="translate(-723.76409,-1018.5348)" />
-    <mask
-       maskUnits="userSpaceOnUse"
-       id="mask4614">
-      <rect
-         y="-22.601389"
-         x="17.086191"
-         height="272.82809"
-         width="789.6488"
-         id="rect4616"
-         style="fill:url(#linearGradient4618);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    </mask>
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient92301"
@@ -252,36 +135,6 @@
        y1="948.19049"
        x2="558.9649"
        y2="834.96869" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4785"
-       id="linearGradient12702"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.4452368,0,0,1.4452368,1190.7525,230.01392)"
-       x1="-68.973221"
-       y1="338.61566"
-       x2="-68.973221"
-       y2="451.32553" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5065"
-       id="linearGradient12706"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(58,70)"
-       x1="751.53094"
-       y1="944.49524"
-       x2="1388.8918"
-       y2="944.49524" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4785"
-       id="linearGradient12725"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.4452368,0,0,1.4452368,1248.7525,270.01392)"
-       x1="-68.973221"
-       y1="338.61566"
-       x2="-68.973221"
-       y2="451.32553" />
   </defs>
   <sodipodi:namedview
      id="base"
