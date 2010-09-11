@@ -1,8 +1,8 @@
-gfxboot-themes-sidux (0.3.33) UNRELEASED; urgency=low
+gfxboot-themes-sidux (0.3.33) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * switch to compat level 8.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 03 Aug 2010 18:41:13 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 08 Aug 2010 04:07:23 +0200
 
 gfxboot-themes-sidux (0.3.32) unstable; urgency=low
 
