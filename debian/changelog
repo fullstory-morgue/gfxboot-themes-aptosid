@@ -1,8 +1,8 @@
-gfxboot-themes-aptosid (0.5.4) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.4) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * vacuum SVG.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 23 Sep 2010 23:25:58 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 23 Sep 2010 23:34:25 +0200
 
 gfxboot-themes-aptosid (0.5.3) unstable; urgency=low
 
