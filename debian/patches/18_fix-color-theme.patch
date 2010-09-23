@@ -1,6 +1,6 @@
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
-@@ -46,7 +46,7 @@ mainmenu.selected.fg=0x000000
+@@ -48,7 +48,7 @@ mainmenu.selected.fg=0x000000
  bootopt.label.fg=0xffffff
  bootopt.text.fg=0xffffff
  ; progress bar color
@@ -9,7 +9,7 @@
  ; menu colors
  menu.normal.bg=0xd8deed
  menu.normal.fg=0x000000
-@@ -55,7 +55,7 @@ menu.selected.fg=0xffffff
+@@ -57,7 +57,7 @@ menu.selected.fg=0xffffff
  ; window colors
  window.bg=0xd8deed
  window.fg=0x000000

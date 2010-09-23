@@ -106,7 +106,7 @@
  /install.ftp.user      "install.ftp.user"            "" gfxconfig.set.str
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
-@@ -114,20 +114,10 @@ install=
+@@ -116,20 +116,10 @@ install=
  ; default repo location
  install.http.server=
  install.http.path=

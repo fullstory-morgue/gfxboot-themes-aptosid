@@ -5,7 +5,7 @@ Description:
 
 --- a/themes/openSUSE/Makefile
 +++ b/themes/openSUSE/Makefile
-@@ -8,7 +8,7 @@ else
+@@ -10,7 +10,7 @@ else
  PREPARED     = $(shell [ -f .prepared ] && echo 1)
  endif
  

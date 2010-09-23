@@ -24,9 +24,10 @@ set -e
 
 RELEASES="
 	keres:Κῆρες:2010-02::
+	apate:Ἀπάτη:2010-03::
 "
 
-GFXBOOT_VERSION="4.3.0"
+GFXBOOT_VERSION="4.3.1"
 
 [ -d ./debian ] || exit 1
 cat ./debian/templates/control.source.in > debian/control

@@ -1,6 +1,6 @@
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
-@@ -19,7 +19,7 @@ theme=
+@@ -21,7 +21,7 @@ product=
  ; other sections to read
  layout=800x600
  ; penguin theme likelihood (in percent, -1 = auto)

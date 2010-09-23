@@ -1,6 +1,6 @@
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
-@@ -78,7 +78,7 @@ _2space=1
+@@ -80,7 +80,7 @@ _2space=1
  ; screen size
  screen.size=800,600
  ; upper left corner, if x = -1, center horizontally
@@ -9,7 +9,7 @@
  ; boot option input field position
  bootopt.pos=263,480
  
-@@ -86,7 +86,7 @@ bootopt.pos=263,480
+@@ -88,7 +88,7 @@ bootopt.pos=263,480
  ; screen size
  screen.size=640,480
  ; upper left corner, if x = -1, center horizontally

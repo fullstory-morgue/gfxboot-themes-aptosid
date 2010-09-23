@@ -33,7 +33,7 @@ Description: graphical boot logos for aptosid Κῆρες
 Package: gfxboot-themes-aptosid-2010-02-keres
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.3.0),
+ gfxboot (>= 4.3.1),
  gfxboot-themes-aptosid-2010-02-keres-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -42,3 +42,28 @@ Description: tool to test and create graphical boot logos (aptosid Κῆρες)
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the aptosid 2010-02 "Κῆρες" theme.
+Package: gfxboot-themes-aptosid-2010-03-apate-core
+Architecture: all
+Depends: ${misc:Depends}
+Replaces: gfxboot-themes-sidux-2010-03-apate (<< 0.5)
+Breaks: gfxboot-themes-sidux-2010-03-apate (<< 0.5)
+Recommends: gfxboot-themes-aptosid-2010-03-apate (= ${source:Version})
+Provides: gfxboot-themes-aptosid-core
+Description: graphical boot logos for aptosid Ἀπάτη
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the aptosid 2010-03 "Ἀπάτη" theme.
+
+Package: gfxboot-themes-aptosid-2010-03-apate
+Architecture: all
+Depends: ${misc:Depends},
+ gfxboot (>= 4.3.1),
+ gfxboot-themes-aptosid-2010-03-apate-core (= ${source:Version})
+Recommends: gfxboot-dev
+Provides: gfxboot-theme
+Description: tool to test and create graphical boot logos (aptosid Ἀπάτη)
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the aptosid 2010-03 "Ἀπάτη" theme.
