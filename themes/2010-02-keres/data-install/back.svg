@@ -220,7 +220,6 @@
          targetX="1"
          targetY="1"
          divisor="2"
-         edgeMode="none"
          result="fbSourceGraphic" />
       <feColorMatrix
          result="fbSourceGraphicAlpha"
@@ -371,7 +370,6 @@
          in="result2" />
       <feConvolveMatrix
          result="fbSourceGraphic"
-         edgeMode="none"
          divisor="2"
          targetY="1"
          targetX="1"
