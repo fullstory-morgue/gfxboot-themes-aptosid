@@ -10,3 +10,4 @@ Description: tool to test and create graphical boot logos (aptosid @CODENAME@)
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the aptosid @VERSION@ "@CODENAME@" theme.
+

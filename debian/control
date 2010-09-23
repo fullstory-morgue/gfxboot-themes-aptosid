@@ -42,6 +42,7 @@ Description: tool to test and create graphical boot logos (aptosid Κῆρες)
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the aptosid 2010-02 "Κῆρες" theme.
+
 Package: gfxboot-themes-aptosid-2010-03-apate-core
 Architecture: all
 Depends: ${misc:Depends}
@@ -67,3 +68,4 @@ Description: tool to test and create graphical boot logos (aptosid Ἀπάτη)
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the aptosid 2010-03 "Ἀπάτη" theme.
+
