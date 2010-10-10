@@ -1,8 +1,8 @@
-gfxboot-themes-aptosid (0.5.5) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.5) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * disable hr_HR for the time being.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 23 Sep 2010 23:36:05 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 10 Oct 2010 21:37:29 +0200
 
 gfxboot-themes-aptosid (0.5.4) unstable; urgency=low
 
