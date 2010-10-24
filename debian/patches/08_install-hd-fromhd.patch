@@ -1,11 +1,42 @@
---- a/themes/openSUSE/src/dia_install.inc
-+++ b/themes/openSUSE/src/dia_install.inc
-@@ -353,7 +353,7 @@
+Index: gfxboot-themes-aptosid/themes/openSUSE/src/dia_install.inc
+===================================================================
+--- gfxboot-themes-aptosid.orig/themes/openSUSE/src/dia_install.inc	2010-10-24 22:37:19.510656004 +0100
++++ gfxboot-themes-aptosid/themes/openSUSE/src/dia_install.inc	2010-10-24 22:43:45.353656005 +0100
+@@ -45,7 +45,11 @@
+ 
+   install.read.config
+ 
+-  xmenu .xm_current install.default put
++  mediatype 0 eq {
++    xmenu .xm_current .inst_hd put
++  } {
++    xmenu .xm_current install.default put
++  } ifelse
+ 
+   % see install types (.inst_*)
+   xmenu .xm_list [
+@@ -353,7 +357,23 @@
      input.edit.hd
      dup 1 get dup 0 get '/' eq { 1 add } if
      exch 0 get dup 0 get '/' eq { 1 add } if
 -    "install=hd://%s/%s" install.option sprintf
-+    "fromhd=%s image_dir=%s" install.option sprintf
++    dup length {
++      1 index length 1 ge {
++        "fromhd=%s image_dir=%s" install.option sprintf
++      } {
++        "fromhd=%s" install.option sprintf
++        pop
++      } ifelse
++    } {
++      1 index length 1 ge {
++        exch
++        "fromhd image_dir=%s" install.option sprintf
++      } {
++        "fromhd" install.option sprintf
++        pop
++      } ifelse
++      pop
++    } ifelse
    } if
  
    dup .inst_net_proxy eq {

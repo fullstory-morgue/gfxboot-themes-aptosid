@@ -1,8 +1,14 @@
 gfxboot-themes-aptosid (0.5.6) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 10 Oct 2010 21:38:02 +0200
+  [ Niall Walsh ]
+  * default "install" menu to hd if mediatype is hd
+  * stop setting aptosid as default hd "install" path
+  * only set value for fromhd is one given, likewise image_dir
+
+ -- Niall Walsh <niallwalsh@users.berlios.de>  Sun, 24 Oct 2010 22:33:58 +0100
 
 gfxboot-themes-aptosid (0.5.5) unstable; urgency=low
 
