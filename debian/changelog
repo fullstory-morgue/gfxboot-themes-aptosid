@@ -1,3 +1,9 @@
+gfxboot-themes-aptosid (0.5.8) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 14 Nov 2010 23:19:20 +0100
+
 gfxboot-themes-aptosid (0.5.7) unstable; urgency=low
 
   * simplified the apate wallpaper for use in the gfxboot-theme.
