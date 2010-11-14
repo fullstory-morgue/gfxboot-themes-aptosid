@@ -1,10 +1,6 @@
-gfxboot-themes-aptosid (0.5.7) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.7) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Rick Battle ]
-  * simplified the apate wallpaper for use in the gfxboot-theme
+  * simplified the apate wallpaper for use in the gfxboot-theme.
 
  -- Rick Battle <rick.battle@celtrenicdesigns.com>  Sun, 14 Nov 2010 13:39:51 +0000
 
