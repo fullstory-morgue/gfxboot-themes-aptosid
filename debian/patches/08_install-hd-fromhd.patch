@@ -1,7 +1,5 @@
-Index: gfxboot-themes-aptosid/themes/openSUSE/src/dia_install.inc
-===================================================================
---- gfxboot-themes-aptosid.orig/themes/openSUSE/src/dia_install.inc	2010-10-24 22:37:19.510656004 +0100
-+++ gfxboot-themes-aptosid/themes/openSUSE/src/dia_install.inc	2010-10-24 22:43:45.353656005 +0100
+--- a/themes/openSUSE/src/dia_install.inc
++++ b/themes/openSUSE/src/dia_install.inc
 @@ -45,7 +45,11 @@
  
    install.read.config

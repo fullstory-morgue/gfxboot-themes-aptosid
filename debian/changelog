@@ -1,8 +1,11 @@
-gfxboot-themes-aptosid (0.5.8) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.8) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * sync with gfxboot-themes 4.3.5-2.2-1:
+    [ Daniel Baumann ]
+    - merging upstream version 4.3.5-2.2.
+    - updating versioned gfxboot depends to 4.3.5.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 14 Nov 2010 23:19:20 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 23 Nov 2010 13:53:41 +0100
 
 gfxboot-themes-aptosid (0.5.7) unstable; urgency=low
 
