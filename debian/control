@@ -33,7 +33,7 @@ Description: graphical boot logos for aptosid Κῆρες
 Package: gfxboot-themes-aptosid-2010-02-keres
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.3.1),
+ gfxboot (>= 4.3.5),
  gfxboot-themes-aptosid-2010-02-keres-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -59,7 +59,7 @@ Description: graphical boot logos for aptosid Ἀπάτη
 Package: gfxboot-themes-aptosid-2010-03-apate
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.3.1),
+ gfxboot (>= 4.3.5),
  gfxboot-themes-aptosid-2010-03-apate-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme

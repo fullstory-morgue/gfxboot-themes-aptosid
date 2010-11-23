@@ -27,7 +27,7 @@ RELEASES="
 	apate:Ἀπάτη:2010-03::
 "
 
-GFXBOOT_VERSION="4.3.1"
+GFXBOOT_VERSION="4.3.5"
 
 [ -d ./debian ] || exit 1
 cat ./debian/templates/control.source.in > debian/control
