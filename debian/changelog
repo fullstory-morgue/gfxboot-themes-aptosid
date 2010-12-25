@@ -1,8 +1,8 @@
-gfxboot-themes-aptosid (0.5.9) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.9) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * nl_NL no longer has active manual support, drop it from gfxboot as well.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 23 Nov 2010 13:55:02 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 25 Dec 2010 19:35:49 +0100
 
 gfxboot-themes-aptosid (0.5.8) unstable; urgency=low
 
