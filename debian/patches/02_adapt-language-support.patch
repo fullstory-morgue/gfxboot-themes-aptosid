@@ -1,6 +1,6 @@
 --- a/themes/openSUSE/data-boot/languages
 +++ b/themes/openSUSE/data-boot/languages
-@@ -1 +1,13 @@
+@@ -1 +1,12 @@
 +de_DE
 +el_GR
 +en_GB
@@ -9,7 +9,6 @@
 +fr_FR
 +it_IT
 +ja_JP
-+nl_NL
 +pt_BR
 +pt_PT
 +ro_RO
@@ -84,6 +83,10 @@
 -  [ "mk_MK" "us"                   false "Македонски" ]						% Macedonian
 -  [ "mr_IN" "us"                   false "\u092e\u0930\u093e\u0920\u0940" ]			% Marathi
 -  [ "nb_NO" "no-latin1"            false "Norsk" ]						% Norwegian
+-  [ "nl_NL" "us"                   false "Nederlands" ]						% Dutch
+-  [ "nn_NO" "no-latin1"            false "Nynorsk" ]						% Nynorsk
+-  [ "pa_IN" "us"                   false "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40" ]		% Punjabi
+-  [ "pl_PL" "Pl02"                 false "Polski" ]						% Polish
 +% [ "km_KH" "khmer"                false "Khmer" ]						% Khmer
 +% [ "ko_KR" "korean"               false "한글" ]						% Korean
 +% [ "ky_KG" "us"                   false "Кыргызча" ]						% Kirghiz
@@ -92,10 +95,7 @@
 +% [ "mk_MK" "us"                   false "Македонски" ]						% Macedonian
 +% [ "mr_IN" "us"                   false "\u092e\u0930\u093e\u0920\u0940" ]			% Marathi
 +% [ "nb_NO" "no-latin1"            false "Norsk" ]						% Norwegian
-   [ "nl_NL" "us"                   false "Nederlands" ]						% Dutch
--  [ "nn_NO" "no-latin1"            false "Nynorsk" ]						% Nynorsk
--  [ "pa_IN" "us"                   false "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40" ]		% Punjabi
--  [ "pl_PL" "Pl02"                 false "Polski" ]						% Polish
++% [ "nl_NL" "us"                   false "Nederlands" ]						% Dutch
 +% [ "nn_NO" "no-latin1"            false "Nynorsk" ]						% Nynorsk
 +% [ "pa_IN" "us"                   false "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40" ]		% Punjabi
 +% [ "pl_PL" "Pl02"                 false "Polski" ]						% Polish
@@ -140,7 +140,7 @@
  
 --- a/themes/openSUSE/data-install/languages
 +++ b/themes/openSUSE/data-install/languages
-@@ -1,62 +1,13 @@
+@@ -1,62 +1,12 @@
 -af_ZA
 -ar_EG
 -ast_ES
@@ -178,7 +178,7 @@
 -mr_IN
 -hu_HU
 -mk_MK
- nl_NL
+-nl_NL
 -nb_NO
 -nn_NO
 -pl_PL
