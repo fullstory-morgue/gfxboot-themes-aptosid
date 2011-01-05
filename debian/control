@@ -69,3 +69,29 @@ Description: tool to test and create graphical boot logos (aptosid Ἀπάτη)
  .
  This package enhances the aptosid 2010-03 "Ἀπάτη" theme.
 
+Package: gfxboot-themes-aptosid-2011-01-geras-core
+Architecture: all
+Depends: ${misc:Depends}
+Replaces: gfxboot-themes-sidux-2011-01-geras (<< 0.5)
+Breaks: gfxboot-themes-sidux-2011-01-geras (<< 0.5)
+Recommends: gfxboot-themes-aptosid-2011-01-geras (= ${source:Version})
+Provides: gfxboot-themes-aptosid-core
+Description: graphical boot logos for aptosid Γῆρας
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the aptosid 2011-01 "Γῆρας" theme.
+
+Package: gfxboot-themes-aptosid-2011-01-geras
+Architecture: all
+Depends: ${misc:Depends},
+ gfxboot (>= 4.3.5),
+ gfxboot-themes-aptosid-2011-01-geras-core (= ${source:Version})
+Recommends: gfxboot-dev
+Provides: gfxboot-theme
+Description: tool to test and create graphical boot logos (aptosid Γῆρας)
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the aptosid 2011-01 "Γῆρας" theme.
+

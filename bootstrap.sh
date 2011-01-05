@@ -25,6 +25,7 @@ set -e
 RELEASES="
 	keres:Κῆρες:2010-02::
 	apate:Ἀπάτη:2010-03::
+	geras:Γῆρας:2011-01::
 "
 
 GFXBOOT_VERSION="4.3.5"
