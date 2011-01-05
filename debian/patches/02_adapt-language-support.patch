@@ -1,6 +1,6 @@
 --- a/themes/openSUSE/data-boot/languages
 +++ b/themes/openSUSE/data-boot/languages
-@@ -1 +1,12 @@
+@@ -1 +1,13 @@
 +de_DE
 +el_GR
 +en_GB
@@ -9,6 +9,7 @@
 +fr_FR
 +it_IT
 +ja_JP
++pl_PL
 +pt_BR
 +pt_PT
 +ro_RO
@@ -86,7 +87,6 @@
 -  [ "nl_NL" "us"                   false "Nederlands" ]						% Dutch
 -  [ "nn_NO" "no-latin1"            false "Nynorsk" ]						% Nynorsk
 -  [ "pa_IN" "us"                   false "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40" ]		% Punjabi
--  [ "pl_PL" "Pl02"                 false "Polski" ]						% Polish
 +% [ "km_KH" "khmer"                false "Khmer" ]						% Khmer
 +% [ "ko_KR" "korean"               false "한글" ]						% Korean
 +% [ "ky_KG" "us"                   false "Кыргызча" ]						% Kirghiz
@@ -98,7 +98,7 @@
 +% [ "nl_NL" "us"                   false "Nederlands" ]						% Dutch
 +% [ "nn_NO" "no-latin1"            false "Nynorsk" ]						% Nynorsk
 +% [ "pa_IN" "us"                   false "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40" ]		% Punjabi
-+% [ "pl_PL" "Pl02"                 false "Polski" ]						% Polish
+   [ "pl_PL" "Pl02"                 false "Polski" ]						% Polish
    [ "pt_BR" "br-abnt2"             false "Português (Brasil)" ]					% Portuguese (Brazilian)
    [ "pt_PT" "pt-latin1"            false "Português" ]						% Portuguese
    [ "ro_RO" "us"                   false "Română" ]						% Romanian
@@ -140,7 +140,7 @@
  
 --- a/themes/openSUSE/data-install/languages
 +++ b/themes/openSUSE/data-install/languages
-@@ -1,62 +1,12 @@
+@@ -1,62 +1,13 @@
 -af_ZA
 -ar_EG
 -ast_ES
@@ -181,7 +181,7 @@
 -nl_NL
 -nb_NO
 -nn_NO
--pl_PL
+ pl_PL
 -pt_PT
  pt_BR
 -pa_IN
