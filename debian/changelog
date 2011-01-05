@@ -2,8 +2,9 @@ gfxboot-themes-aptosid (0.5.10) unstable; urgency=low
 
   * fix Ἀπάτη entry.
   * add preliminary Γῆρας dummy artwork.
+  * vacuum SVGs.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 05 Jan 2011 18:06:22 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 05 Jan 2011 18:10:30 +0100
 
 gfxboot-themes-aptosid (0.5.9) unstable; urgency=low
 
