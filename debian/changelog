@@ -1,8 +1,9 @@
-gfxboot-themes-aptosid (0.5.10) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.10) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * fix Ἀπάτη entry.
+  * add preliminary Γῆρας dummy artwork.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 25 Dec 2010 19:48:43 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 05 Jan 2011 18:06:22 +0100
 
 gfxboot-themes-aptosid (0.5.9) unstable; urgency=low
 
