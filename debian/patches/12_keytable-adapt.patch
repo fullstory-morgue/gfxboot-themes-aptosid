@@ -123,10 +123,10 @@
 -% [ "nn_NO" "no-latin1"            false "Nynorsk" ]						% Nynorsk
 +% [ "nn_NO" "no"            false "Nynorsk" ]						% Nynorsk
  % [ "pa_IN" "us"                   false "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40" ]		% Punjabi
--% [ "pl_PL" "Pl02"                 false "Polski" ]						% Polish
+-  [ "pl_PL" "Pl02"                 false "Polski" ]						% Polish
 -  [ "pt_BR" "br-abnt2"             false "Português (Brasil)" ]					% Portuguese (Brazilian)
 -  [ "pt_PT" "pt-latin1"            false "Português" ]						% Portuguese
-+% [ "pl_PL" "pl"                 false "Polski" ]						% Polish
++  [ "pl_PL" "pl"                 false "Polski" ]						% Polish
 +  [ "pt_BR" "br"             false "Português (Brasil)" ]					% Portuguese (Brazilian)
 +  [ "pt_PT" "pt"            false "Português" ]						% Portuguese
    [ "ro_RO" "us"                   false "Română" ]						% Romanian
