@@ -5,8 +5,9 @@ gfxboot-themes-aptosid (0.5.12) UNRELEASED; urgency=low
 
   [ Rick Battle ]
   * initial commit of new theme
+  * updated copyright notice to relfect 2011
 
- -- Rick Battle <rick.battle@solmera.com>  Tue, 18 Jan 2011 23:38:34 -0500
+ -- Rick Battle <rick.battle@solmera.com>  Tue, 18 Jan 2011 23:40:16 -0500
 
 gfxboot-themes-aptosid (0.5.11) unstable; urgency=low
 
