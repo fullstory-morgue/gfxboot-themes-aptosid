@@ -1,8 +1,12 @@
 gfxboot-themes-aptosid (0.5.12) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 05 Jan 2011 18:30:50 +0100
+  [ Rick Battle ]
+  * initial commit of new theme
+
+ -- Rick Battle <rick.battle@solmera.com>  Tue, 18 Jan 2011 23:38:34 -0500
 
 gfxboot-themes-aptosid (0.5.11) unstable; urgency=low
 
