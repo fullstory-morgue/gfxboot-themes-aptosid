@@ -1,11 +1,13 @@
-gfxboot-themes-aptosid (0.5.12) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.13) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
+  * avoid copyrighted Debian swirl.
 
-  [ Rick Battle ]
-  * initial commit of new theme
-  * updated copyright notice to relfect 2011
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 20 Jan 2011 04:28:22 +0100
+
+gfxboot-themes-aptosid (0.5.12) unstable; urgency=low
+
+  * initial commit of new theme.
+  * updated copyright notice to reflect 2011.
 
  -- Rick Battle <rick.battle@solmera.com>  Tue, 18 Jan 2011 23:40:16 -0500
 
