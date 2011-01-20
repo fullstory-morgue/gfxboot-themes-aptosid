@@ -22,243 +22,6 @@
    style="display:inline">
   <defs
      id="defs4">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 300 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="800 : 300 : 1"
-       inkscape:persp3d-origin="400 : 200 : 1"
-       id="perspective153" />
-    <linearGradient
-       id="linearGradient4175">
-      <stop
-         style="stop-color:#1b1b1b;stop-opacity:1;"
-         offset="0"
-         id="stop4177" />
-      <stop
-         style="stop-color:#0d0d0d;stop-opacity:1;"
-         offset="1"
-         id="stop4179" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient5941">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
-         offset="0"
-         id="stop5943" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0.40000001;"
-         offset="1"
-         id="stop5945" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3980">
-      <stop
-         style="stop-color:#4b0000;stop-opacity:1;"
-         offset="0"
-         id="stop3982" />
-      <stop
-         style="stop-color:#190000;stop-opacity:1;"
-         offset="1"
-         id="stop3984" />
-    </linearGradient>
-    <filter
-       id="filter5179"
-       inkscape:label="Text Cubes"
-       inkscape:menu="Scatter"
-       inkscape:menu-tooltip="Scattered cubes; adjust the Morphology primitive to vary size"
-       color-interpolation-filters="sRGB">
-      <feTurbulence
-         id="feTurbulence5181"
-         baseFrequency="0.33300000000000002"
-         numOctaves="10"
-         type="fractalNoise" />
-      <feColorMatrix
-         id="feColorMatrix5183"
-         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -3 "
-         result="result5" />
-      <feComposite
-         id="feComposite5185"
-         in2="result5"
-         operator="in"
-         in="SourceGraphic"
-         result="result6" />
-      <feMorphology
-         id="feMorphology5187"
-         result="result3"
-         radius="1"
-         operator="dilate"
-         in="result6" />
-      <feDisplacementMap
-         id="feDisplacementMap5189"
-         in2="result3"
-         result="result4"
-         scale="0"
-         yChannelSelector="A"
-         xChannelSelector="R"
-         in="result3" />
-      <feComposite
-         id="feComposite5191"
-         in2="result4"
-         operator="arithmetic"
-         result="result2"
-         k1="2.2564103"
-         k3="1"
-         k2="-1.025641"
-         k4="0" />
-      <feBlend
-         id="feBlend5193"
-         in2="result2"
-         mode="screen"
-         in="result2" />
-      <feConvolveMatrix
-         id="feConvolveMatrix5195"
-         order="3 3"
-         kernelMatrix="2 0 0 0 1 0 0 0 -1 "
-         targetX="1"
-         targetY="1"
-         divisor="0"
-         edgeMode="duplicate"
-         bias="0" />
-    </filter>
-    <linearGradient
-       id="linearGradient4066">
-      <stop
-         id="stop4068"
-         offset="0"
-         style="stop-color:#ffffff;stop-opacity:0;" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0.49803922;"
-         offset="0.28367546"
-         id="stop4074" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0.56735092"
-         id="stop4070" />
-      <stop
-         id="stop4072"
-         offset="1"
-         style="stop-color:#ffffff;stop-opacity:0;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3962">
-      <stop
-         style="stop-color:#000000;stop-opacity:0.40112993;"
-         offset="0"
-         id="stop3964" />
-      <stop
-         id="stop3966"
-         offset="0.5"
-         style="stop-color:#000000;stop-opacity:1;" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0.50282484;"
-         offset="1"
-         id="stop3968" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3946">
-      <stop
-         id="stop3948"
-         offset="0"
-         style="stop-color:#ffffff;stop-opacity:0;" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0.5"
-         id="stop3952" />
-      <stop
-         id="stop3950"
-         offset="1"
-         style="stop-color:#ffffff;stop-opacity:0;" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3946"
-       id="linearGradient4128"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,0.1917442,-1.6369367e-6,447.41409)"
-       x1="242"
-       y1="162.50485"
-       x2="778.28485"
-       y2="162.50485" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3962"
-       id="linearGradient4130"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,0.1917442,-0.80038164,132.43396)"
-       x1="242"
-       y1="162.50485"
-       x2="778.28485"
-       y2="162.50485" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4066"
-       id="radialGradient4132"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.68544167,-188.51808,4.0475573,0.01471685,-1219.3652,44092.871)"
-       cx="232.21544"
-       cy="320.78857"
-       fx="232.21544"
-       fy="320.78857"
-       r="0.5" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5941"
-       id="linearGradient4169"
-       gradientUnits="userSpaceOnUse"
-       x1="1109.9078"
-       y1="1477.2035"
-       x2="1109.9078"
-       y2="1557.9581" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5941"
-       id="linearGradient4171"
-       gradientUnits="userSpaceOnUse"
-       x1="1109.9078"
-       y1="1477.2035"
-       x2="1109.9078"
-       y2="1557.9581" />
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath4513">
-      <rect
-         y="168.00972"
-         x="253"
-         height="311.9903"
-         width="544.74213"
-         id="rect4515"
-         style="opacity:0.75;fill:url(#radialGradient4517);fill-opacity:1;stroke:none;display:inline;enable-background:new" />
-    </clipPath>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4175"
-       id="radialGradient4517"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,0.57273025,11,140.15567)"
-       cx="514.37106"
-       cy="321.00487"
-       fx="514.37106"
-       fy="321.00487"
-       r="272.37106" />
-    <inkscape:perspective
-       id="perspective3458"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
-       sodipodi:type="inkscape:persp3d" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6426"
-       id="radialGradient3448"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(2.0585115,0,0,1.2895833,-1016.1711,-130.99655)"
-       cx="716.10352"
-       cy="810.61743"
-       fx="716.10352"
-       fy="810.61743"
-       r="960" />
     <linearGradient
        id="linearGradient6426">
       <stop
@@ -270,77 +33,6 @@
          offset="1"
          id="stop6430" />
     </linearGradient>
-    <linearGradient
-       id="linearGradient3467">
-      <stop
-         style="stop-color:#c80000;stop-opacity:1;"
-         offset="0"
-         id="stop3469" />
-      <stop
-         style="stop-color:#640000;stop-opacity:1;"
-         offset="1"
-         id="stop3471" />
-    </linearGradient>
-    <filter
-       id="filter6914"
-       x="-0.15000001"
-       width="1.3"
-       y="-0.15000001"
-       height="1.3"
-       inkscape:menu-tooltip="Felt like texture with color turbulence and slightly darker at the edges"
-       inkscape:menu="Textures"
-       inkscape:label="Felt"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         id="feGaussianBlur6916"
-         result="result1"
-         in="SourceGraphic"
-         stdDeviation="2" />
-      <feTurbulence
-         id="feTurbulence6918"
-         result="result0"
-         numOctaves="5"
-         baseFrequency="0.05"
-         type="fractalNoise" />
-      <feDisplacementMap
-         id="feDisplacementMap6920"
-         in2="result0"
-         result="result2"
-         scale="20"
-         yChannelSelector="G"
-         xChannelSelector="R"
-         in="result1" />
-      <feGaussianBlur
-         id="feGaussianBlur6922"
-         result="result4"
-         in="result2"
-         stdDeviation="5" />
-      <feComposite
-         id="feComposite6924"
-         in2="result4"
-         result="result6"
-         k1="1"
-         k3="1"
-         k2="0.5"
-         in="result0"
-         operator="arithmetic"
-         k4="0" />
-      <feComposite
-         id="feComposite6926"
-         in2="result0"
-         in="result6"
-         operator="in"
-         result="result91" />
-      <feComposite
-         id="feComposite6928"
-         in2="result91"
-         operator="arithmetic"
-         k1="1.5"
-         in="result2"
-         k2="0"
-         k3="0"
-         k4="0" />
-    </filter>
     <radialGradient
        r="960"
        fy="810.61743"
@@ -352,13 +44,6 @@
        id="radialGradient3483"
        xlink:href="#linearGradient6426"
        inkscape:collect="always" />
-    <inkscape:perspective
-       id="perspective3493"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
-       sodipodi:type="inkscape:persp3d" />
     <linearGradient
        id="linearGradient6362">
       <stop
@@ -369,303 +54,6 @@
          style="stop-color:#646464;stop-opacity:0.19607843;"
          offset="1"
          id="stop6366" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3502">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3504" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3506" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3509">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3511" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3513" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3516">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3518" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3520" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3523">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3525" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3527" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3530">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3532" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3534" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3537">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3539" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3541" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3544">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3546" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3548" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3551">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3553" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3555" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3558">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3560" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3562" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3565">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3567" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3569" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3572">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3574" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3576" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3579">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3581" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3583" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3586">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3588" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3590" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3593">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3595" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3597" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3600">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3602" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3604" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3607">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3609" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3611" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3614">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3616" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3618" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3621">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3623" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3625" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3628">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3630" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3632" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3635">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3637" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3639" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3642">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3644" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3646" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3649">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3651" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3653" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3656">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3658" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3660" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3663">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3665" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3667" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3670">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3672" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3674" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3677">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3679" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3681" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3684">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3686" />
-      <stop
-         style="stop-color:#646464;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3688" />
     </linearGradient>
     <filter
        inkscape:collect="always"
@@ -1227,13 +615,6 @@
        fx="612.47144"
        fy="1344.7352"
        r="131.91527" />
-    <inkscape:perspective
-       id="perspective3810"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
-       sodipodi:type="inkscape:persp3d" />
     <filter
        inkscape:collect="always"
        id="filter4715"
@@ -1256,17 +637,6 @@
          stdDeviation="2.8617812"
          id="feGaussianBlur4661" />
     </filter>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4663"
-       id="radialGradient4669"
-       cx="501.48392"
-       cy="1905.0011"
-       fx="501.48392"
-       fy="1905.0011"
-       r="499.64154"
-       gradientTransform="matrix(6.3034859,0,0,0.284407,-2829.49,1012.7641)"
-       gradientUnits="userSpaceOnUse" />
     <linearGradient
        id="linearGradient4663">
       <stop
@@ -1277,160 +647,6 @@
          style="stop-color:#646464;stop-opacity:1;"
          offset="1"
          id="stop4667" />
-    </linearGradient>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4663"
-       id="radialGradient3450"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(6.3034859,0,0,0.284407,-2829.49,1012.7641)"
-       cx="501.48392"
-       cy="1905.0011"
-       fx="501.48392"
-       fy="1905.0011"
-       r="499.64154" />
-    <linearGradient
-       id="linearGradient3823">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3825" />
-      <stop
-         style="stop-color:#646464;stop-opacity:1;"
-         offset="1"
-         id="stop3827" />
-    </linearGradient>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4663"
-       id="radialGradient3829"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(6.3034859,0,0,0.284407,-2829.49,1012.7641)"
-       cx="501.48392"
-       cy="1905.0011"
-       fx="501.48392"
-       fy="1905.0011"
-       r="499.64154" />
-    <linearGradient
-       id="linearGradient3831">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3833" />
-      <stop
-         style="stop-color:#646464;stop-opacity:1;"
-         offset="1"
-         id="stop3835" />
-    </linearGradient>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4663"
-       id="radialGradient3837"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(6.3034859,0,0,0.284407,-2829.49,1012.7641)"
-       cx="501.48392"
-       cy="1905.0011"
-       fx="501.48392"
-       fy="1905.0011"
-       r="499.64154" />
-    <linearGradient
-       id="linearGradient3839">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3841" />
-      <stop
-         style="stop-color:#646464;stop-opacity:1;"
-         offset="1"
-         id="stop3843" />
-    </linearGradient>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4663"
-       id="radialGradient3845"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(6.3034859,0,0,0.284407,-2829.49,1012.7641)"
-       cx="501.48392"
-       cy="1905.0011"
-       fx="501.48392"
-       fy="1905.0011"
-       r="499.64154" />
-    <linearGradient
-       id="linearGradient3847">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3849" />
-      <stop
-         style="stop-color:#646464;stop-opacity:1;"
-         offset="1"
-         id="stop3851" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3854">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3856" />
-      <stop
-         style="stop-color:#646464;stop-opacity:1;"
-         offset="1"
-         id="stop3858" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3861">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3863" />
-      <stop
-         style="stop-color:#646464;stop-opacity:1;"
-         offset="1"
-         id="stop3865" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3868">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3870" />
-      <stop
-         style="stop-color:#646464;stop-opacity:1;"
-         offset="1"
-         id="stop3872" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3875">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3877" />
-      <stop
-         style="stop-color:#646464;stop-opacity:1;"
-         offset="1"
-         id="stop3879" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3882">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3884" />
-      <stop
-         style="stop-color:#646464;stop-opacity:1;"
-         offset="1"
-         id="stop3886" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3889">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop3891" />
-      <stop
-         style="stop-color:#646464;stop-opacity:1;"
-         offset="1"
-         id="stop3893" />
     </linearGradient>
     <filter
        inkscape:collect="always"
@@ -1450,17 +666,6 @@
          stdDeviation="1.4329705"
          id="feGaussianBlur4733" />
     </filter>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4663"
-       id="radialGradient4913"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(6.3034859,0,0,0.284407,-2829.49,1012.7641)"
-       cx="501.48392"
-       cy="1905.0011"
-       fx="501.48392"
-       fy="1905.0011"
-       r="499.64154" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4663"
@@ -1530,17 +735,6 @@
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4663"
-       id="radialGradient4927"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(6.3034859,0,0,0.284407,-2829.49,1012.7641)"
-       cx="501.48392"
-       cy="1905.0011"
-       fx="501.48392"
-       fy="1905.0011"
-       r="499.64154" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4663"
        id="radialGradient5011"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(6.3034859,0,0,0.284407,-2829.49,1012.7641)"
@@ -1569,15 +763,15 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="435.59559"
+     inkscape:cx="310.09559"
      inkscape:cy="302.63718"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="1157"
-     inkscape:window-x="-4"
-     inkscape:window-y="-3"
+     inkscape:window-width="1912"
+     inkscape:window-height="1153"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -1590,7 +784,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1599,8 +793,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-452.36218)"
-     style="opacity:0.4;display:inline"
-     sodipodi:insensitive="true">
+     style="opacity:0.4;display:inline">
     <rect
        style="fill:url(#radialGradient3483);fill-opacity:1;stroke:none;display:inline"
        id="rect2817"
@@ -1613,9 +806,8 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Tree"
-     style="display:inline;opacity:0.25"
-     transform="translate(0,-600)"
-     sodipodi:insensitive="true">
+     style="opacity:0.25;display:inline"
+     transform="translate(0,-600)">
     <g
        id="g4231"
        transform="matrix(1.1338992,0,0,1.1338992,403.97358,-280.31295)">
@@ -1964,8 +1156,7 @@
      id="layer2"
      inkscape:label="Text"
      style="display:inline"
-     transform="translate(0,-600)"
-     sodipodi:insensitive="true">
+     transform="translate(0,-600)">
     <g
        id="g4942"
        transform="matrix(0.73027126,0,0,0.73027126,94.746615,-15.181359)">
