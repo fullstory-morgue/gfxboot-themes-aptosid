@@ -20,8 +20,6 @@ Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/gfxboot-themes-aptosid/trunk/
 Package: gfxboot-themes-aptosid-2010-02-keres-core
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: gfxboot-themes-sidux-2010-02-keres (<< 0.5)
-Breaks: gfxboot-themes-sidux-2010-02-keres (<< 0.5)
 Recommends: gfxboot-themes-aptosid-2010-02-keres (= ${source:Version})
 Provides: gfxboot-themes-aptosid-core
 Description: graphical boot logos for aptosid Κῆρες
@@ -46,8 +44,6 @@ Description: tool to test and create graphical boot logos (aptosid Κῆρες)
 Package: gfxboot-themes-aptosid-2010-03-apate-core
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: gfxboot-themes-sidux-2010-03-apate (<< 0.5)
-Breaks: gfxboot-themes-sidux-2010-03-apate (<< 0.5)
 Recommends: gfxboot-themes-aptosid-2010-03-apate (= ${source:Version})
 Provides: gfxboot-themes-aptosid-core
 Description: graphical boot logos for aptosid Ἀπάτη
@@ -72,8 +68,6 @@ Description: tool to test and create graphical boot logos (aptosid Ἀπάτη)
 Package: gfxboot-themes-aptosid-2011-01-geras-core
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: gfxboot-themes-sidux-2011-01-geras (<< 0.5)
-Breaks: gfxboot-themes-sidux-2011-01-geras (<< 0.5)
 Recommends: gfxboot-themes-aptosid-2011-01-geras (= ${source:Version})
 Provides: gfxboot-themes-aptosid-core
 Description: graphical boot logos for aptosid Γῆρας

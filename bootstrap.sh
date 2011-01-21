@@ -34,7 +34,6 @@ GFXBOOT_VERSION="4.3.5"
 cat ./debian/templates/control.source.in > debian/control
 for i in $RELEASES; do
 	# write debian/control from templates
-
 	sed	-e s/\@CODENAME_SAFE\@/$(echo ${i} | cut -d\: -f1)/g \
 		-e s/\@CODENAME\@/$(echo ${i} | cut -d\: -f2)/g \
 		-e s/\@VERSION\@/$(echo ${i} | cut -d\: -f3)/g \
@@ -43,4 +42,5 @@ for i in $RELEASES; do
 			./debian/templates/gfxboot-themes-aptosid-VERSION-CODENAME_SAFE.in \
 				>> ./debian/control
 
+	cat debian/templates/text.svg > "./themes/$(echo ${i} | cut -d\: -f3)-$(echo ${i} | cut -d\: -f1)/data-install/text.svg"
 done
