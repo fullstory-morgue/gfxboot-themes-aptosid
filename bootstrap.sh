@@ -42,5 +42,7 @@ for i in $RELEASES; do
 			./debian/templates/gfxboot-themes-aptosid-VERSION-CODENAME_SAFE.in \
 				>> ./debian/control
 
-	cat debian/templates/text.svg > "./themes/$(echo ${i} | cut -d\: -f3)-$(echo ${i} | cut -d\: -f1)/data-install/text.svg"
+	if [ -d "./themes/$(echo ${i} | cut -d\: -f3)-$(echo ${i} | cut -d\: -f1)/data-install" ]; then
+		cat debian/templates/text.svg > "./themes/$(echo ${i} | cut -d\: -f3)-$(echo ${i} | cut -d\: -f1)/data-install/text.svg"
+	fi
 done
