@@ -119,7 +119,7 @@
 @@ -62,13 +62,13 @@
  % [ "mr_IN" "us"                   false "\u092e\u0930\u093e\u0920\u0940" ]			% Marathi
  % [ "nb_NO" "no-latin1"            false "Norsk" ]						% Norwegian
- % [ "nl_NL" "us"                   false "Nederlands" ]						% Dutch
+   [ "nl_NL" "us"                   false "Nederlands" ]						% Dutch
 -% [ "nn_NO" "no-latin1"            false "Nynorsk" ]						% Nynorsk
 +% [ "nn_NO" "no"            false "Nynorsk" ]						% Nynorsk
  % [ "pa_IN" "us"                   false "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40" ]		% Punjabi
