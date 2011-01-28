@@ -1,8 +1,8 @@
-gfxboot-themes-aptosid (0.5.16) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.16) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * import new artwork, thanks detaos.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 26 Jan 2011 01:15:59 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 28 Jan 2011 15:17:42 +0100
 
 gfxboot-themes-aptosid (0.5.15) unstable; urgency=low
 
