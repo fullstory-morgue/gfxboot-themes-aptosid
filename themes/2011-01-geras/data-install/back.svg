@@ -843,7 +843,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="184.59559"
+     inkscape:cx="192.59559"
      inkscape:cy="302.63718"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
@@ -873,7 +873,8 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-452.36218)"
-     style="opacity:0.4;display:inline">
+     style="opacity:0.4;display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="fill:url(#radialGradient3483);fill-opacity:1;stroke:none;display:inline"
        id="rect2817"
@@ -886,8 +887,9 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Tree"
-     style="opacity:0.25;display:inline"
-     transform="translate(0,-600)">
+     style="display:inline;opacity:0.25"
+     transform="translate(0,-600)"
+     sodipodi:insensitive="true">
     <g
        id="g4231"
        transform="matrix(1.1338992,0,0,1.1338992,403.97358,-280.31295)">
@@ -1236,7 +1238,8 @@
      id="layer2"
      inkscape:label="Text"
      style="display:inline"
-     transform="translate(0,-600)">
+     transform="translate(0,-600)"
+     sodipodi:insensitive="true">
     <g
        id="g4942"
        transform="matrix(0.73027126,0,0,0.73027126,94.746615,-15.181359)">
@@ -1700,8 +1703,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Box"
-     style="display:inline">
+     inkscape:label="Box">
     <rect
        style="opacity:0.41447371;fill:url(#linearGradient4128);fill-opacity:1;stroke:none;display:inline;enable-background:new"
        id="rect3936"
