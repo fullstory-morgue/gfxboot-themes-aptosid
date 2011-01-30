@@ -41,7 +41,7 @@
 +% [ "bn_BD" "us"                   false "\u09ac\u09be\u0982\u09b2\u09be" ]			% Bengali
 +% [ "bs_BA" "us"                   false "Bosanski" ]						% Bosnian
 +% [ "ca_ES" "es"                   false "Català" ]						% Catalan
-+  [ "cs_CZ" "cs"                   false Čeština" ]						% Czech
++  [ "cs_CZ" "cz"                   false "Čeština" ]						% Czech
 +% [ "cy_GB" "us"                   false "Cymraeg" ]						% Welsh
 +% [ "da_DK" "dk"                   false "Dansk" ]						% Danish
 +  [ "de_DE" "de" false "Deutsch" ]						% German

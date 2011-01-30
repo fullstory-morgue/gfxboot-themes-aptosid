@@ -1,3 +1,9 @@
+gfxboot-themes-aptosid (0.5.18) unstable; urgency=low
+
+  * fix FTBS, Undefined words: Čeština"
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 30 Jan 2011 14:07:24 +0100
+
 gfxboot-themes-aptosid (0.5.17) unstable; urgency=low
 
   * fold keytable-adapt into adapt-language-support.
