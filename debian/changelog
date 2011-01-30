@@ -1,8 +1,9 @@
-gfxboot-themes-aptosid (0.5.17) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.17) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * fold keytable-adapt into adapt-language-support.
+  * add Czech locales.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 28 Jan 2011 15:18:33 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 30 Jan 2011 13:39:00 +0100
 
 gfxboot-themes-aptosid (0.5.16) unstable; urgency=low
 
