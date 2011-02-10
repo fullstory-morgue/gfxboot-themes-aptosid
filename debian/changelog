@@ -1,8 +1,8 @@
-gfxboot-themes-aptosid (0.5.19) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.19) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * add dummy artwork for Ἡμέρα.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 30 Jan 2011 14:08:20 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 10 Feb 2011 16:19:31 +0100
 
 gfxboot-themes-aptosid (0.5.18) unstable; urgency=low
 
