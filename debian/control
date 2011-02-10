@@ -89,3 +89,27 @@ Description: tool to test and create graphical boot logos (aptosid Γῆρας)
  .
  This package enhances the aptosid 2011-01 "Γῆρας" theme.
 
+Package: gfxboot-themes-aptosid-2011-02-imera-core
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: gfxboot-themes-aptosid-2011-02-imera (= ${source:Version})
+Provides: gfxboot-themes-aptosid-core
+Description: graphical boot logos for aptosid Ἡμέρα
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the aptosid 2011-02 "Ἡμέρα" theme.
+
+Package: gfxboot-themes-aptosid-2011-02-imera
+Architecture: all
+Depends: ${misc:Depends},
+ gfxboot (>= 4.3.5),
+ gfxboot-themes-aptosid-2011-02-imera-core (= ${source:Version})
+Recommends: gfxboot-dev
+Provides: gfxboot-theme
+Description: tool to test and create graphical boot logos (aptosid Ἡμέρα)
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the aptosid 2011-02 "Ἡμέρα" theme.
+

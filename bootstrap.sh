@@ -26,6 +26,7 @@ RELEASES="
 	keres:Κῆρες:2010-02::
 	apate:Ἀπάτη:2010-03::
 	geras:Γῆρας:2011-01::
+	imera:Ἡμέρα:2011-02::
 "
 
 GFXBOOT_VERSION="4.3.5"
