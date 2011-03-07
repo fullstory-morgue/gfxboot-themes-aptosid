@@ -1,7 +1,8 @@
 --- a/themes/openSUSE/data-boot/languages
 +++ b/themes/openSUSE/data-boot/languages
-@@ -1 +1,15 @@
+@@ -1 +1,16 @@
 +cs_CZ
++da_DK
 +de_DE
 +el_GR
 +en_GB
@@ -33,8 +34,6 @@
 -  [ "ca_ES" "es"                   false "Català" ]						% Catalan
 -  [ "cs_CZ" "cz-us-qwertz"         false "Čeština" ]						% Czech
 -  [ "cy_GB" "us"                   false "Cymraeg" ]						% Welsh
--  [ "da_DK" "dk"                   false "Dansk" ]						% Danish
--  [ "de_DE" "de-latin1-nodeadkeys" false "Deutsch" ]						% German
 +% [ "ar_EG" "arabic"               true  "\ufef2\ufe91\ufeae\ufecb" ]				% Arabic
 +% [ "ast_ES" "es"                  false "Asturianu" ]						% Asturian
 +% [ "bg_BG" "us"                   false "Български" ]						% Bulgarian
@@ -43,7 +42,8 @@
 +% [ "ca_ES" "es"                   false "Català" ]						% Catalan
 +  [ "cs_CZ" "cz"                   false "Čeština" ]						% Czech
 +% [ "cy_GB" "us"                   false "Cymraeg" ]						% Welsh
-+% [ "da_DK" "dk"                   false "Dansk" ]						% Danish
+   [ "da_DK" "dk"                   false "Dansk" ]						% Danish
+-  [ "de_DE" "de-latin1-nodeadkeys" false "Deutsch" ]						% German
 +  [ "de_DE" "de" false "Deutsch" ]						% German
    [ "el_GR" "gr"                   false "Ελληνικά" ]						% Greek
 -  [ "en_GB" "uk"                   false "English (UK)" ]					% English
@@ -149,7 +149,7 @@
  
 --- a/themes/openSUSE/data-install/languages
 +++ b/themes/openSUSE/data-install/languages
-@@ -1,62 +1,15 @@
+@@ -1,62 +1,16 @@
 -af_ZA
 -ar_EG
 -ast_ES
@@ -159,7 +159,7 @@
 -ca_ES
  cs_CZ
 -cy_GB
--da_DK
+ da_DK
  de_DE
 -et_EE
 +el_GR

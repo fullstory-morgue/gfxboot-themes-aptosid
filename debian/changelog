@@ -1,8 +1,11 @@
-gfxboot-themes-aptosid (0.5.20) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.20) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * re-enable da_DK.
+  * enforce local build options:
+    - unapply-patches
+    - abort-on-upstream-changes
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 10 Feb 2011 16:20:53 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 07 Mar 2011 14:21:00 +0100
 
 gfxboot-themes-aptosid (0.5.19) unstable; urgency=low
 
