@@ -1,8 +1,12 @@
 gfxboot-themes-aptosid (0.5.21) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 27 Mar 2011 18:10:29 +0200
+  [ Rick Battle ]
+  * initial upload of the imera theme
+
+ -- Rick Battle <rick.battle@solmera.com>  Sat, 23 Apr 2011 14:56:49 -0400
 
 gfxboot-themes-aptosid (0.5.20) unstable; urgency=low
 
