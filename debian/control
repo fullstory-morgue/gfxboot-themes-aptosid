@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Uploaders: David Creedy <klaymen@aptosid.com>,
  Niall Walsh <niallwalsh@users.berlios.de>
-Build-Depends: debhelper (>= 7.9.3),
+Build-Depends: debhelper (>= 8),
  cpio,
  gfxboot-dev (>= 4.3.0),
  imagemagick,
