@@ -235,7 +235,7 @@
    [ "Dutch"                   "nl"                   keymap.nl                   ]
    [ "Dvorak"                  "dvorak"               keymap.dvorak               ]
 -  [ "English (UK)"            "uk"                   keymap.uk                   ]
-+  [ "English (IE)"            "ie,uk"                keymap.uk                   ]
++  [ "English (IE)"            "ie,gb"                keymap.uk                   ]
 +  [ "English (UK)"            "gb"                   keymap.uk                   ]
    [ "English (US)"            "us"                   .undef                      ]
    [ "Estonian"                "et"                   keymap.et                   ]
