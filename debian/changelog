@@ -1,9 +1,5 @@
-gfxboot-themes-aptosid (0.5.22) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.22) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Niall Walsh ]
   * fix secondary keyboard for Ireland (uk is NOT gb)
 
  -- Niall Walsh <niallwalsh@users.berlios.de>  Thu, 07 Jul 2011 00:39:56 +0100
