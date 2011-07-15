@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Uploaders: David Creedy <klaymen@aptosid.com>,
  Niall Walsh <niallwalsh@users.berlios.de>
-Build-Depends: debhelper (>= 8),
+Build-Depends: debhelper (>= 7.9.3),
  cpio,
  gfxboot-dev (>= 4.3.0),
  imagemagick,
@@ -12,7 +12,7 @@ Build-Depends: debhelper (>= 8),
  quilt (>= 0.46-7),
  ttf-dejavu-core,
  ttf-dustin
-Standards-Version: 3.9.2
+Standards-Version: 3.9.1
 Homepage: http://gfxboot.sourceforge.net/
 Vcs-Svn: svn://svn.berlios.de/fullstory/gfxboot-themes-aptosid/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/gfxboot-themes-aptosid/trunk/
@@ -112,4 +112,28 @@ Description: tool to test and create graphical boot logos (aptosid Ἡμέρα)
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the aptosid 2011-02 "Ἡμέρα" theme.
+
+Package: gfxboot-themes-aptosid-2011-03-ponos-core
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: gfxboot-themes-aptosid-2011-03-ponos (= ${source:Version})
+Provides: gfxboot-themes-aptosid-core
+Description: graphical boot logos for aptosid Πόνος
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the aptosid 2011-03 "Πόνος" theme.
+
+Package: gfxboot-themes-aptosid-2011-03-ponos
+Architecture: all
+Depends: ${misc:Depends},
+ gfxboot (>= 4.3.5),
+ gfxboot-themes-aptosid-2011-03-ponos-core (= ${source:Version})
+Recommends: gfxboot-dev
+Provides: gfxboot-theme
+Description: tool to test and create graphical boot logos (aptosid Πόνος)
+ gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the aptosid 2011-03 "Πόνος" theme.
 
