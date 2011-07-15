@@ -3,30 +3,31 @@
 set -e
 
 # releases not using svg, no contents available
-#	chaos:Χάος:2007-01::
-#	tartaros:Τάρταρς:2007-02::
+#	chaos:Χάος:2007-01:
+#	tartaros:Τάρταρς:2007-02:
 
 # releases not currently buildable, as they've not yet been ported from kde3 
 # to kde4
-#	gaia:Γάια:2007-03::
-#	eros:Έρως:2007-04::
-#	nyx:Νυξ:2008-01:edu:
-#	erebos:Έρεβος:2008-02:edu:
-#	ourea:Ουρέα:2008-03::
-#	pontos:Πόντος:2008-04::
-#	ouranos:Οὐρανος:2009-01::
-#	momos:Μώμος:2009-03:edu:
-#	moros:Μόρος:2009-04::
-#	hypnos:Ύπνος:2010-01::
-#	aether:Αιθήρ:2009-02::
+#	gaia:Γάια:2007-03:
+#	eros:Έρως:2007-04:
+#	nyx:Νυξ:2008-01:
+#	erebos:Έρεβος:2008-02:
+#	ourea:Ουρέα:2008-03:
+#	pontos:Πόντος:2008-04:
+#	ouranos:Οὐρανος:2009-01:
+#	momos:Μώμος:2009-03:
+#	moros:Μόρος:2009-04:
+#	hypnos:Ύπνος:2010-01:
+#	aether:Αιθήρ:2009-02:
 
 # old style, currently not yet supported, packaging
 
 RELEASES="
-	keres:Κῆρες:2010-02::
-	apate:Ἀπάτη:2010-03::
-	geras:Γῆρας:2011-01::
-	imera:Ἡμέρα:2011-02::
+	keres:Κῆρες:2010-02:
+	apate:Ἀπάτη:2010-03:
+	geras:Γῆρας:2011-01:
+	imera:Ἡμέρα:2011-02:
+	ponos:Πόνος:2011-03:
 "
 
 GFXBOOT_VERSION="4.3.5"

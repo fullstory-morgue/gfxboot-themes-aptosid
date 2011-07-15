@@ -1,8 +1,9 @@
-gfxboot-themes-aptosid (0.5.23) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.23) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * welcome Πόνος.
+  * drop obsolete edu markers.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 07 Jul 2011 02:36:31 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 15 Jul 2011 22:13:50 +0200
 
 gfxboot-themes-aptosid (0.5.22) unstable; urgency=low
 
