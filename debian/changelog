@@ -1,3 +1,9 @@
+gfxboot-themes-aptosid (0.5.25) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 26 Jul 2011 16:45:53 +0200
+
 gfxboot-themes-aptosid (0.5.24) unstable; urgency=low
 
   * harmonize gfxboot dummy graphics for Πόνος with the X11 artwork.
