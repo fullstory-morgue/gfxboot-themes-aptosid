@@ -1,74 +1,29 @@
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=174
+Upstream-Name: gfxboot
 Upstream-Contact: Steffen Winterfeldt <snwint@suse.de>
-Upstream-Homepage: http://download.opensuse.org/factory/repo/src-oss/suse/src/
-Maintainer-Contact: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Maintainer-Homepage: http://aptosid.com
+Source: http://download.opensuse.org/factory/repo/src-oss/suse/src/
 
 Files: *
-Copyright: © 2004-2011 SUSE LINUX Products GmbH
+Copyright: 2004-2011 SUSE LINUX Products GmbH
 License: GPL-2+
- This program is free software; you can redistribute it and/or
- modify it under the terms of the GNU General Public License
- as published by the Free Software Foundation; either version 2
- of the License, or (at your option) any later version.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
- .
- On Debian systems, the complete text of the GNU General Public License
- can be found in /usr/share/common-licenses/GPL-2 file.
 
 Files: debian/*
-Copyright: © 2009-2011 Daniel Baumann <daniel@debian.org>
-Copyright: © 2006-2011 Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Copyright: 2009-2011 Daniel Baumann <daniel.baumann@progress-technologies.net>
+Copyright: 2006-2011 Stefan Lippers-Hollmann <s.l-h@gmx.de>
 License: GPL-2+
- This program is free software; you can redistribute it and/or
- modify it under the terms of the GNU General Public License
- as published by the Free Software Foundation; either version 2
- of the License, or (at your option) any later version.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
- .
- On Debian systems, the complete text of the GNU General Public License
- can be found in /usr/share/common-licenses/GPL-2 file.
 
 Files: themes/*
-Copyright: © 2006-2011 Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Copyright: © 2007-2010 Bernard Gray <bernard.gray@gmail.com>
-Copyright: © 2008-2011 Niall Walsh <niallwalsh@users.berlios.de>
-Copyright: © 2008-2010 David Creedy <djcreedy@iinet.net.au>
-Copyright: © 2010-2011 Rick Battle <rick.battle@celtrenicdesigns.com>
+Copyright: 2006-2011 Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Copyright: 2007-2010 Bernard Gray <bernard.gray@gmail.com>
+Copyright: 2008-2011 Niall Walsh <niallwalsh@users.berlios.de>
+Copyright: 2008-2010 David Creedy <djcreedy@iinet.net.au>
+Copyright: 2010-2011 Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2
- This program is free software; you can redistribute it and/or
- modify it under the terms of the GNU General Public License
- version 2 of the License.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
- .
- On Debian systems, the complete text of the GNU General Public License
- can be found in /usr/share/common-licenses/GPL-2 file.
 
 Files: themes/openSUSE/*
-Copyright: © 2004-2011 SUSE LINUX Products GmbH
+Copyright: 2004-2011 SUSE LINUX Products GmbH
+License: GPL-2+
+
 License: GPL-2+
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License
@@ -84,5 +39,5 @@ License: GPL-2+
  along with this program; if not, write to the Free Software
  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  .
- On Debian systems, the complete text of the GNU General Public License
+ The complete text of the GNU General Public License
  can be found in /usr/share/common-licenses/GPL-2 file.

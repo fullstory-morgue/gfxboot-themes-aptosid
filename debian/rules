@@ -12,64 +12,64 @@ override_dh_auto_clean:
 override_dh_auto_build:
 	cp -a themes build
 	$(MAKE) -C build/openSUSE/help-install
-	for THEME in `cd build && ls`; do \
-		if [ "$${THEME}" != "openSUSE" ]; then \
+	for _THEME in $$(cd build && ls); do \
+		if [ "$${_THEME}" != "openSUSE" ]; then \
 			inkscape -z \
 				--export-width=800 \
 				--export-height=600 \
 				--export-dpi=72 \
-				--export-png=build/$${THEME}/data-install/welcome.png \
-					build/$${THEME}/data-install/welcome.svg; \
-			convert -compress JPEG -type TrueColor build/$${THEME}/data-install/welcome.png build/$${THEME}/data-install/welcome.jpg; \
+				--export-png=build/$${_THEME}/data-install/welcome.png \
+					build/$${_THEME}/data-install/welcome.svg; \
+			convert -compress JPEG -type TrueColor build/$${_THEME}/data-install/welcome.png build/$${_THEME}/data-install/welcome.jpg; \
 			inkscape -z \
 				--export-width=146 \
 				--export-height=240 \
 				--export-dpi=72 \
-				--export-png=build/$${THEME}/data-install/text.png \
-					build/$${THEME}/data-install/text.svg; \
-			convert -compress JPEG -type TrueColor build/$${THEME}/data-install/text.png build/$${THEME}/data-install/text.jpg; \
+				--export-png=build/$${_THEME}/data-install/text.png \
+					build/$${_THEME}/data-install/text.svg; \
+			convert -compress JPEG -type TrueColor build/$${_THEME}/data-install/text.png build/$${_THEME}/data-install/text.jpg; \
 			inkscape -z \
 				--export-width=800 \
 				--export-height=600 \
 				--export-dpi=72 \
-				--export-png=build/$${THEME}/data-install/back.png \
-					build/$${THEME}/data-install/back.svg; \
-			convert -compress JPEG -type TrueColor build/$${THEME}/data-install/back.png build/$${THEME}/data-install/back.jpg; \
+				--export-png=build/$${_THEME}/data-install/back.png \
+					build/$${_THEME}/data-install/back.svg; \
+			convert -compress JPEG -type TrueColor build/$${_THEME}/data-install/back.png build/$${_THEME}/data-install/back.jpg; \
 			inkscape -z \
 				--export-width=800 \
 				--export-height=600 \
 				--export-dpi=72 \
-				--export-png=build/$${THEME}/data-boot/back.png \
-					build/$${THEME}/data-boot/back.svg; \
-			convert -compress JPEG -type TrueColor build/$${THEME}/data-boot/back.png build/$${THEME}/data-boot/back.jpg; \
-			rm -f	build/$${THEME}/data-install/welcome.svg \
-				build/$${THEME}/data-install/welcome.png \
-				build/$${THEME}/data-install/text.svg \
-				build/$${THEME}/data-install/text.png \
-				build/$${THEME}/data-install/back.svg \
-				build/$${THEME}/data-install/back.png \
-				build/$${THEME}/data-boot/back.svg \
-				build/$${THEME}/data-boot/back.png; \
-			$(MAKE) -C build/$${THEME}; \
+				--export-png=build/$${_THEME}/data-boot/back.png \
+					build/$${_THEME}/data-boot/back.svg; \
+			convert -compress JPEG -type TrueColor build/$${_THEME}/data-boot/back.png build/$${_THEME}/data-boot/back.jpg; \
+			rm -f	build/$${_THEME}/data-install/welcome.svg \
+				build/$${_THEME}/data-install/welcome.png \
+				build/$${_THEME}/data-install/text.svg \
+				build/$${_THEME}/data-install/text.png \
+				build/$${_THEME}/data-install/back.svg \
+				build/$${_THEME}/data-install/back.png \
+				build/$${_THEME}/data-boot/back.svg \
+				build/$${_THEME}/data-boot/back.png; \
+			$(MAKE) -C build/$${_THEME}; \
 		fi; \
 	done
 
 override_dh_install:
 	dh_install
-	for THEME in `cd themes && ls`; do \
-		if [ "$${THEME}" != "openSUSE" ]; then \
-			PACKAGE="gfxboot-themes-aptosid-`echo $${THEME} | tr [A-Z] [a-z]`"; \
+	for _THEME in $$(cd build && ls); do \
+		if [ "$${_THEME}" != "openSUSE" ]; then \
+			PACKAGE="gfxboot-themes-aptosid-`echo $${_THEME} | tr [A-Z] [a-z]`"; \
 			mkdir -p debian/$${PACKAGE}/usr/share/gfxboot/themes; \
-			cp -a themes/openSUSE debian/$${PACKAGE}/usr/share/gfxboot/themes/$${THEME}; \
-			cd themes/$${THEME}; \
-			find . | cpio -dmpu --no-preserve-owner ../../debian/$${PACKAGE}/usr/share/gfxboot/themes/$${THEME}; \
+			cp -a themes/openSUSE debian/$${PACKAGE}/usr/share/gfxboot/themes/$${_THEME}; \
+			cd themes/$${_THEME}; \
+			find . | cpio -dmpu --no-preserve-owner ../../debian/$${PACKAGE}/usr/share/gfxboot/themes/$${_THEME}; \
 			cd -; \
-			rm -f debian/$${PACKAGE}/usr/share/gfxboot/themes/$${THEME}/Makefile; \
-			cp -a themes/openSUSE/Makefile debian/$${PACKAGE}/usr/share/gfxboot/themes/$${THEME}/Makefile; \
-			install -D -m 0644 build/$${THEME}/bootlogo debian/$${PACKAGE}-core/etc/bootsplash/themes/$${THEME}/cdrom/bootlogo; \
-			/usr/share/gfxboot/bin/unpack_bootlogo debian/$${PACKAGE}-core/etc/bootsplash/themes/$${THEME}/cdrom; \
-			mkdir -p debian/$${PACKAGE}-core/etc/bootsplash/themes/$${THEME}/bootloader; \
-			cp -a build/$${THEME}/message build/$${THEME}/help-boot/*.hlp build/$${THEME}/po/*.tr debian/$${PACKAGE}-core/etc/bootsplash/themes/$${THEME}/bootloader; \
+			rm -f debian/$${PACKAGE}/usr/share/gfxboot/themes/$${_THEME}/Makefile; \
+			cp -a themes/openSUSE/Makefile debian/$${PACKAGE}/usr/share/gfxboot/themes/$${_THEME}/Makefile; \
+			install -D -m 0644 build/$${_THEME}/bootlogo debian/$${PACKAGE}-core/etc/bootsplash/themes/$${_THEME}/cdrom/bootlogo; \
+			/usr/share/gfxboot/bin/unpack_bootlogo debian/$${PACKAGE}-core/etc/bootsplash/themes/$${_THEME}/cdrom; \
+			mkdir -p debian/$${PACKAGE}-core/etc/bootsplash/themes/$${_THEME}/bootloader; \
+			cp -a build/$${_THEME}/message build/$${_THEME}/help-boot/*.hlp build/$${_THEME}/po/*.tr debian/$${PACKAGE}-core/etc/bootsplash/themes/$${_THEME}/bootloader; \
 		fi; \
 	done
 

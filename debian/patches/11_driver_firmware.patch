@@ -1,6 +1,6 @@
 --- a/themes/openSUSE/src/common.inc
 +++ b/themes/openSUSE/src/common.inc
-@@ -448,7 +448,7 @@
+@@ -454,7 +454,7 @@
      } {
        xmenu.dud .xm_current get .dud_file eq {
          input.edit.dud_file 0 get dup "" ne {

@@ -1,6 +1,6 @@
 --- a/themes/openSUSE/src/common.inc
 +++ b/themes/openSUSE/src/common.inc
-@@ -415,16 +415,6 @@
+@@ -421,16 +421,6 @@
    /splash_file xfree
  
    syslinux {
