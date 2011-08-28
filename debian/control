@@ -4,15 +4,15 @@ Priority: extra
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Uploaders: David Creedy <klaymen@aptosid.com>,
  Niall Walsh <niallwalsh@users.berlios.de>
-Build-Depends: debhelper (>= 7.9.3),
+Build-Depends: debhelper (>= 8),
  cpio,
- gfxboot-dev (>= 4.3.0),
+ gfxboot-dev (>= 4.4.3),
  imagemagick,
  inkscape,
  quilt (>= 0.46-7),
  ttf-dejavu-core,
  ttf-dustin
-Standards-Version: 3.9.1
+Standards-Version: 3.9.2
 Homepage: http://gfxboot.sourceforge.net/
 Vcs-Svn: svn://svn.berlios.de/fullstory/gfxboot-themes-aptosid/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/gfxboot-themes-aptosid/trunk/
@@ -36,7 +36,7 @@ Depends: ${misc:Depends},
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Κῆρες)
- gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ gfxboot is a tool to test and create graphical boot logos for gfxboot compliant
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the aptosid 2010-02 "Κῆρες" theme.
@@ -60,7 +60,7 @@ Depends: ${misc:Depends},
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Ἀπάτη)
- gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ gfxboot is a tool to test and create graphical boot logos for gfxboot compliant
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the aptosid 2010-03 "Ἀπάτη" theme.
@@ -84,7 +84,7 @@ Depends: ${misc:Depends},
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Γῆρας)
- gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ gfxboot is a tool to test and create graphical boot logos for gfxboot compliant
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the aptosid 2011-01 "Γῆρας" theme.
@@ -108,7 +108,7 @@ Depends: ${misc:Depends},
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Ἡμέρα)
- gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ gfxboot is a tool to test and create graphical boot logos for gfxboot compliant
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the aptosid 2011-02 "Ἡμέρα" theme.
@@ -132,7 +132,7 @@ Depends: ${misc:Depends},
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Πόνος)
- gfxboot is tool to test and create graphical boot logos for gfxboot compliant
+ gfxboot is a tool to test and create graphical boot logos for gfxboot compliant
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the aptosid 2011-03 "Πόνος" theme.

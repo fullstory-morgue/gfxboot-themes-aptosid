@@ -1,8 +1,21 @@
-gfxboot-themes-aptosid (0.5.25) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.25) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * import openSUSE.tar.bz2 from gfxboot-4.4.3-2.5.src.rpm, build-depend on
+    gfxboot >=4.4.3.
+  * sync with gfxboot-themes 4.4.3-2.5-1:
+    [ Daniel Baumann ]
+    - Merging upstream version 4.4.3-2.5.
+    - Updating versioned gfxboot depends to 4.4.3.
+    - Removing references to my old email address.
+    - Updating to debhelper version 8.
+    - Updating to standards version 3.9.2.
+    - Correcting spelling typo in package description, thanks to Simon
+      Kainz <simon@familiekainz.at>.
+    - Makging packaging distribution neutral.
+    - Compacting copyright file.
+    - Using common coding style for shell in rules.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 26 Jul 2011 16:45:53 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 28 Aug 2011 20:05:11 +0200
 
 gfxboot-themes-aptosid (0.5.24) unstable; urgency=low
 
@@ -579,21 +592,21 @@ gfxboot-themes (4.1.39-1.3-1) unstable; urgency=low
   * Merging upstream version 4.1.39-1.3.
   * Updating versioned gfxboot depends to 4.1.39.
 
- -- Daniel Baumann <daniel@debian.org>  Tue, 10 Nov 2009 12:01:58 +0100
+ -- Daniel Baumann <daniel.baumann@progress-technologies.net>  Tue, 10 Nov 2009 12:01:58 +0100
 
 gfxboot-themes (4.1.33-1.1-1) unstable; urgency=low
 
   * Merging upstream version 4.1.33-1.1.
   * Updating versioned gfxboot depends to 4.1.33.
 
- -- Daniel Baumann <daniel@debian.org>  Wed, 21 Oct 2009 08:38:46 +0200
+ -- Daniel Baumann <daniel.baumann@progress-technologies.net>  Wed, 21 Oct 2009 08:38:46 +0200
 
 gfxboot-themes (4.1.31-1.1-1) unstable; urgency=low
 
   * Merging upstream version 4.1.31-1.1.
   * Updating versioned gfxboot depends to 4.1.31.
 
- -- Daniel Baumann <daniel@debian.org>  Sat, 10 Oct 2009 13:06:10 +0200
+ -- Daniel Baumann <daniel.baumann@progress-technologies.net>  Sat, 10 Oct 2009 13:06:10 +0200
 
 gfxboot-themes (4.1.30-1.2-1) unstable; urgency=low
 
@@ -601,24 +614,24 @@ gfxboot-themes (4.1.30-1.2-1) unstable; urgency=low
   * Updating versioned gfxboot depends to 4.1.30.
   * Making quilt build-depends versioned.
 
- -- Daniel Baumann <daniel@debian.org>  Tue, 06 Oct 2009 20:38:19 +0200
+ -- Daniel Baumann <daniel.baumann@progress-technologies.net>  Tue, 06 Oct 2009 20:38:19 +0200
 
 gfxboot-themes (4.1.28-1.1-1) unstable; urgency=low
 
   * Merging upstream version 4.1.28-1.1.
   * Updating version gfxboot depends to 4.1.28.
 
- -- Daniel Baumann <daniel@debian.org>  Fri, 02 Oct 2009 19:56:53 +0200
+ -- Daniel Baumann <daniel.baumann@progress-technologies.net>  Fri, 02 Oct 2009 19:56:53 +0200
 
 gfxboot-themes (4.1.24-1.1-1) unstable; urgency=low
 
   * Merging upstream version 4.1.24-1.1.
   * Updating version gfxboot depends to 4.1.24.
 
- -- Daniel Baumann <daniel@debian.org>  Sun, 20 Sep 2009 21:21:02 +0200
+ -- Daniel Baumann <daniel.baumann@progress-technologies.net>  Sun, 20 Sep 2009 21:21:02 +0200
 
 gfxboot-themes (4.1.19-2.15-1) unstable; urgency=low
 
   * Initial release.
 
- -- Daniel Baumann <daniel@debian.org>  Wed, 02 Sep 2009 16:53:56 +0200
+ -- Daniel Baumann <daniel.baumann@progress-technologies.net>  Wed, 02 Sep 2009 16:53:56 +0200

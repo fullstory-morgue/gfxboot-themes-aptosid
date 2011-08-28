@@ -8,4 +8,4 @@
 +autodown=0
  ; F-key assignments
  ; value can be one of: lang, video, install, kernelopts, dud, bits, keymap,
- ; profile, restore
+ ; profile, restore, otheropts
