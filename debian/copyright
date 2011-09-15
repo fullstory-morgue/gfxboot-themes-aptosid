@@ -1,4 +1,4 @@
-Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=174
+Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?revision=174&view=co
 Upstream-Name: gfxboot
 Upstream-Contact: Steffen Winterfeldt <snwint@suse.de>
 Source: http://download.opensuse.org/factory/repo/src-oss/suse/src/

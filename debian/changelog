@@ -1,8 +1,9 @@
-gfxboot-themes-aptosid (0.5.26) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.26) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * use Format instead of Format-Specification in debian/copyright and fix URL
+    to use alioth's new anonscm location.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 28 Aug 2011 20:26:52 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 16 Sep 2011 00:42:59 +0200
 
 gfxboot-themes-aptosid (0.5.25) unstable; urgency=low
 
