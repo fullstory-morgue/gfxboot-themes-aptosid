@@ -1,3 +1,7 @@
+adapt color theme for aptosid.
+
+Signed-off-by: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
 @@ -48,7 +48,7 @@ mainmenu.selected.fg=0x000000

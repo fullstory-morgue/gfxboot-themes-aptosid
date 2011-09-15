@@ -1,3 +1,7 @@
+define formhd cheatcode, if started from a block device.
+
+© Niall Walsh <niallwalsh@users.berlios.de>
+
 --- a/themes/openSUSE/src/dia_install.inc
 +++ b/themes/openSUSE/src/dia_install.inc
 @@ -50,7 +50,11 @@ sectorsize 0x800 eq bootdrive 0x80 eq an

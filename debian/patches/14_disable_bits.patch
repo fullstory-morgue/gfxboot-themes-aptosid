@@ -1,3 +1,7 @@
+disable 'bits' menu
+
+© Niall Walsh <niallwalsh@users.berlios.de>
+
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
 @@ -161,7 +161,7 @@ key.F2=lang

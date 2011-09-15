@@ -1,3 +1,7 @@
+don't change menu entries, just because an Fn key was pressed.
+
+© Niall Walsh <niallwalsh@users.berlios.de>
+
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
 @@ -147,7 +147,7 @@ memcheck=0

@@ -1,3 +1,7 @@
+disable F1 help menu
+
+© Niall Walsh <niallwalsh@users.berlios.de>
+
 --- a/themes/openSUSE/src/xmenu.inc
 +++ b/themes/openSUSE/src/xmenu.inc
 @@ -130,11 +130,6 @@

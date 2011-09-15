@@ -4,25 +4,43 @@ Upstream-Contact: Steffen Winterfeldt <snwint@suse.de>
 Source: http://download.opensuse.org/factory/repo/src-oss/suse/src/
 
 Files: *
-Copyright: 2004-2011 SUSE LINUX Products GmbH
+Copyright: 2004-2011, SUSE LINUX Products GmbH
 License: GPL-2+
 
 Files: debian/*
-Copyright: 2009-2011 Daniel Baumann <daniel.baumann@progress-technologies.net>
-Copyright: 2006-2011 Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Copyright: 2009-2011, Daniel Baumann <daniel.baumann@progress-technologies.net>
+           2006-2011, Stefan Lippers-Hollmann <s.l-h@gmx.de>
 License: GPL-2+
 
 Files: themes/*
-Copyright: 2006-2011 Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Copyright: 2007-2010 Bernard Gray <bernard.gray@gmail.com>
-Copyright: 2008-2011 Niall Walsh <niallwalsh@users.berlios.de>
-Copyright: 2008-2010 David Creedy <djcreedy@iinet.net.au>
-Copyright: 2010-2011 Rick Battle <rick.battle@celtrenicdesigns.com>
+Copyright: 2006-2011, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+           2007-2010, Bernard Gray <bernard.gray@gmail.com>
+           2008-2011, Niall Walsh <niallwalsh@users.berlios.de>
+           2008-2010, David Creedy <djcreedy@iinet.net.au>
+           2010-2011, Rick Battle <rick.battle@celtrenicdesigns.com>
 License: GPL-2
 
 Files: themes/openSUSE/*
-Copyright: 2004-2011 SUSE LINUX Products GmbH
+Copyright: 2004-2011, SUSE LINUX Products GmbH
 License: GPL-2+
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; version 2 of the
+ License only.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ The complete text of the GNU General Public License
+ can be found in /usr/share/common-licenses/GPL-2 file.
 
 License: GPL-2+
  This program is free software; you can redistribute it and/or

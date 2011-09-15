@@ -1,3 +1,7 @@
+Add new timezone selection under F3
+
+© Niall Walsh <niallwalsh@users.berlios.de>
+
 --- /dev/null
 +++ b/themes/openSUSE/src/dia_timezone.inc
 @@ -0,0 +1,105 @@

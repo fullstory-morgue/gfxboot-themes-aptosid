@@ -1,3 +1,7 @@
+adapt menu positions for our theme.
+
+Signed-off-by: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
 @@ -80,7 +80,7 @@ _2space=1

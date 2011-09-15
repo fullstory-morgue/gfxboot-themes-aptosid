@@ -1,3 +1,7 @@
+disable openSuSE's screen resolution chooser
+
+© Niall Walsh <niallwalsh@users.berlios.de>
+
 --- a/themes/openSUSE/src/common.inc
 +++ b/themes/openSUSE/src/common.inc
 @@ -421,16 +421,6 @@

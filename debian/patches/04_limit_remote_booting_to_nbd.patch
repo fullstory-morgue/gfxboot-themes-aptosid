@@ -1,3 +1,7 @@
+Add NBD boot options for aptosid.
+
+© Niall Walsh <niallwalsh@users.berlios.de>
+
 --- a/themes/openSUSE/src/dia_install.inc
 +++ b/themes/openSUSE/src/dia_install.inc
 @@ -14,13 +14,14 @@

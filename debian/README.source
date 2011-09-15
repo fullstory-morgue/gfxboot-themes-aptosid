@@ -1,0 +1,26 @@
+Despite this being a "dpkg-source 3.0 (native) format" package, it uses quilt
+to patch the gfxboot theme code imported from openSuSE. The aptosid patch
+series is located under debian/patches/, to configure quilt to use this
+location instead of its default (patches/) location, you can supply:
+
+QUILT_PATCHES=debian/patches
+
+in your environment.
+
+Basic patch operations contain:
+
+$ QUILT_PATCHES=debian/patches quilt push [-a]
+  to apply the next [or all pending] patches
+
+$ QUILT_PATCHES=debian/patches quilt pop [-a]
+  to unapply the last [or all applied] patches
+
+$ QUILT_PATCHES=debian/patches quilt new <patch>
+  to start a new patch
+
+$ QUILT_PATCHES=debian/patches quilt refresh
+  to update the last applied patch of the current queue
+
+A good howto for Debian specific quilt usage can be found under
+/usr/share/doc/quilt/README.source (as part of the quilt package)
+or in quilt's manpages.

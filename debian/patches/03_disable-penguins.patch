@@ -1,3 +1,7 @@
+disable random xmas penguin animation.
+
+Signed-off-by: Stefan Lippers-Hollmann <s.l-h@gmx.de> 
+
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
 @@ -21,7 +21,7 @@ product=

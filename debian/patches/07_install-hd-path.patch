@@ -1,3 +1,7 @@
+define source path for harddisk installation
+
+© Niall Walsh <niallwalsh@users.berlios.de>
+
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
 @@ -117,7 +117,7 @@ install=

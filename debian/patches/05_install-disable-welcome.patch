@@ -1,3 +1,7 @@
+disable welcome screen
+
+© Niall Walsh <niallwalsh@users.berlios.de>
+
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
 @@ -102,7 +102,7 @@ background=pback.jpg

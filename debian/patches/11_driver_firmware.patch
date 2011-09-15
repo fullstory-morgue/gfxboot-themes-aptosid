@@ -1,3 +1,7 @@
+replace openSuSE's "driverupdate" feature by a cheatcode to import firmware from elsewhere.
+
+© Niall Walsh <niallwalsh@users.berlios.de>
+
 --- a/themes/openSUSE/src/common.inc
 +++ b/themes/openSUSE/src/common.inc
 @@ -454,7 +454,7 @@

@@ -1,3 +1,8 @@
+define language targets and charsets for the bootloader theme.
+
+© Niall Walsh <niallwalsh@users.berlios.de>
+Signed-off-by: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+
 --- a/themes/openSUSE/data-boot/languages
 +++ b/themes/openSUSE/data-boot/languages
 @@ -1 +1,16 @@
