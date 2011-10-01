@@ -1,11 +1,15 @@
 gfxboot-themes-aptosid (0.5.26) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
   * use Format instead of Format-Specification in debian/copyright and fix URL
     to use alioth's new anonscm location.
   * add basic README.source and patch headers to appease lintian.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 16 Sep 2011 01:28:42 +0200
+  [ Rick Battle ]
+  * initial commit of ponos theme
+
+ -- Rick Battle <rick.battle@solmera.com>  Fri, 30 Sep 2011 22:21:25 -0700
 
 gfxboot-themes-aptosid (0.5.25) unstable; urgency=low
 
