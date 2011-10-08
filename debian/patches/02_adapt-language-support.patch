@@ -5,11 +5,10 @@ Signed-off-by: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 
 --- a/themes/openSUSE/data-boot/languages
 +++ b/themes/openSUSE/data-boot/languages
-@@ -1 +1,16 @@
+@@ -1 +1,15 @@
 +cs_CZ
 +da_DK
 +de_DE
-+el_GR
 +en_GB
  en_US
 +es_ES
@@ -50,7 +49,8 @@ Signed-off-by: Stefan Lippers-Hollmann <s.l-h@gmx.de>
    [ "da_DK" "dk"                   false "Dansk" ]						% Danish
 -  [ "de_DE" "de-latin1-nodeadkeys" false "Deutsch" ]						% German
 +  [ "de_DE" "de" false "Deutsch" ]						% German
-   [ "el_GR" "gr"                   false "Ελληνικά" ]						% Greek
+-  [ "el_GR" "gr"                   false "Ελληνικά" ]						% Greek
++% [ "el_GR" "gr"                   false "Ελληνικά" ]						% Greek
 -  [ "en_GB" "uk"                   false "English (UK)" ]					% English
 +  [ "en_AU" "us"                   false "English (AU)" ]					% English
 +  [ "en_GB" "gb"                   false "English (UK)" ]					% English
@@ -154,7 +154,7 @@ Signed-off-by: Stefan Lippers-Hollmann <s.l-h@gmx.de>
  
 --- a/themes/openSUSE/data-install/languages
 +++ b/themes/openSUSE/data-install/languages
-@@ -1,62 +1,16 @@
+@@ -1,62 +1,15 @@
 -af_ZA
 -ar_EG
 -ast_ES
@@ -167,7 +167,6 @@ Signed-off-by: Stefan Lippers-Hollmann <s.l-h@gmx.de>
  da_DK
  de_DE
 -et_EE
-+el_GR
  en_GB
  en_US
  es_ES
