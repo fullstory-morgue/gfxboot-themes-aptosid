@@ -125,8 +125,8 @@ Add new timezone selection under F3
  autodown=0
  ; F-key assignments
  ; value can be one of: lang, video, install, kernelopts, dud, bits, keymap,
--; profile, restore, otheropts
-+; profile, restore, otheropts, timezone
+-; profile, restore
++; profile, restore, timezone
  ; note1: 'bits' is only shown on x86_64, 'profile' only when a file 'profile'
  ; exists, 'restore' only when there is a boot entry 'restore'
  ; note2: F9 enables speech output, F10 exits gfxboot
@@ -148,12 +148,11 @@ Add new timezone selection under F3
  [boot]
 --- a/themes/openSUSE/src/main.bc
 +++ b/themes/openSUSE/src/main.bc
-@@ -23,9 +23,11 @@
+@@ -23,8 +23,10 @@
  %% include dia_keymap.inc
  %% include dia_restore.inc
  %% include dia_net.inc
 +%% include dia_timezone.inc
- %% include dia_otheropts.inc
  %% include panel.inc
  %% include keytables.inc
 +%% include timezones.inc
@@ -244,7 +243,7 @@ Add new timezone selection under F3
 +
 --- a/themes/openSUSE/src/common.inc
 +++ b/themes/openSUSE/src/common.inc
-@@ -446,6 +446,12 @@
+@@ -440,6 +440,12 @@
      } if
    } if
  
@@ -257,7 +256,7 @@ Add new timezone selection under F3
    xmenu.dud {
      xmenu.dud .xm_current get .dud_url eq {
        input.edit.dud_url 0 get dup "" ne {
-@@ -1656,8 +1662,11 @@ config.livecd {
+@@ -1650,8 +1656,11 @@ config.livecd {
  /panel.f-key.fg        "panel.f-key.fg"           black gfxconfig.set.int
  /keymap.submenu        "keymap.submenu"           false gfxconfig.set.bool
  /keymap.default        "keymap"                      "" gfxconfig.set.str
@@ -271,8 +270,8 @@ Add new timezone selection under F3
  /install.http.server   "install.http.server"         "" gfxconfig.set.str
 --- a/themes/openSUSE/src/panel.inc
 +++ b/themes/openSUSE/src/panel.inc
-@@ -170,6 +170,7 @@
-   dup "otheropts"  eq { pop [ /panel.otheropts /panel.otheropts.width /panel.otheropts.update /otheropts.init ] return } if
+@@ -169,6 +169,7 @@
+   dup "kernelopts" eq { pop [ /panel.kernelopts /panel.kernelopts.width /panel.kernelopts.update /kernelopts.init ] return } if
    dup "dud"        eq { pop [ /panel.dud /panel.dud.width /panel.dud.update /dud.init ] return } if
    dup "keymap"     eq { pop [ /panel.keymap /panel.keymap.width /panel.keymap.update /keymap.init ] return } if
 +  dup "timezone"   eq { pop [ /panel.timezone /panel.timezone.width /panel.timezone.update /timezone.init ] return } if
