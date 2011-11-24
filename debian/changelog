@@ -1,12 +1,11 @@
-gfxboot-themes-aptosid (0.5.27) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.27) unstable; urgency=low
 
-  * NOT RELEASED YET
   * import openSUSE themes 4.4.5-2.1 from factory.
   * disable otheropts and systemd support code, it's not needed and conflicts
     with kernelopts.
   * drop Greek language support.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 08 Oct 2011 16:02:51 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 24 Nov 2011 22:44:03 +0100
 
 gfxboot-themes-aptosid (0.5.26) unstable; urgency=low
 
