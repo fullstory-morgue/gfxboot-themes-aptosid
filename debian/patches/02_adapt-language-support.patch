@@ -48,10 +48,10 @@ Signed-off-by: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 +% [ "cy_GB" "us"                   false "Cymraeg" ]						% Welsh
    [ "da_DK" "dk"                   false "Dansk" ]						% Danish
 -  [ "de_DE" "de-latin1-nodeadkeys" false "Deutsch" ]						% German
-+  [ "de_DE" "de" false "Deutsch" ]						% German
 -  [ "el_GR" "gr"                   false "Ελληνικά" ]						% Greek
-+% [ "el_GR" "gr"                   false "Ελληνικά" ]						% Greek
 -  [ "en_GB" "uk"                   false "English (UK)" ]					% English
++  [ "de_DE" "de" false "Deutsch" ]						% German
++% [ "el_GR" "gr"                   false "Ελληνικά" ]						% Greek
 +  [ "en_AU" "us"                   false "English (AU)" ]					% English
 +  [ "en_GB" "gb"                   false "English (UK)" ]					% English
    [ "en_US" "us"                   false "English (US)" ]					% English

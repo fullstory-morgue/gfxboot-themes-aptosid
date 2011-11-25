@@ -8,7 +8,6 @@
 09_video-screen.patch
 10_kernel-default-quiet.patch
 11_driver_firmware.patch
-12_disable_otheropts.patch
 13_help-strip.patch
 14_disable_bits.patch
 15_timezone.patch

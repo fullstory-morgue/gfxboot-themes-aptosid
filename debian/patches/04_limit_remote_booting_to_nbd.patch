@@ -23,7 +23,7 @@ Add NBD boot options for aptosid.
  
  /install.default .inst_cdrom def
  
-@@ -42,6 +43,7 @@ sectorsize 0x800 eq bootdrive 0x80 eq an
+@@ -42,6 +43,7 @@ sectorsize 0x200 eq bootdrive 0x80 eq or
    /input.edit.ftp [ 63 string 127 string 31 string 31 string ] def
    /input.edit.http [ 63 string 127 string ] def
    /input.edit.nfs [ 63 string 127 string ] def
@@ -31,7 +31,7 @@ Add NBD boot options for aptosid.
    /input.edit.smb [ 63 string 31 string 127 string 31 string 31 string 31 string ] def
    /input.edit.hd [ 63 string 127 string ] def
    /input.edit.proxy [ 63 string 127 string 63 string 63 string ] def
-@@ -54,13 +56,8 @@ sectorsize 0x800 eq bootdrive 0x80 eq an
+@@ -54,13 +56,8 @@ sectorsize 0x200 eq bootdrive 0x80 eq or
    xmenu .xm_list [
      is_dvd { "DVD" } { "CD-ROM" } ifelse
      /txt_harddisk
@@ -46,7 +46,7 @@ Add NBD boot options for aptosid.
    ] put
  
    xmenu .xm_title /txt_install_source put
-@@ -189,6 +186,17 @@ sectorsize 0x800 eq bootdrive 0x80 eq an
+@@ -189,6 +186,17 @@ sectorsize 0x200 eq bootdrive 0x80 eq or
  
    } if
  
@@ -64,7 +64,7 @@ Add NBD boot options for aptosid.
    dup .inst_smb eq {
      dia .title txt_smb_title put
  
-@@ -315,6 +323,13 @@ sectorsize 0x800 eq bootdrive 0x80 eq an
+@@ -315,6 +323,13 @@ sectorsize 0x200 eq bootdrive 0x80 eq or
      "install=nfs://%s/%s" install.option sprintf
    } if
  
@@ -78,7 +78,7 @@ Add NBD boot options for aptosid.
    dup .inst_smb eq {
      input.edit.smb
  
-@@ -382,6 +397,7 @@ sectorsize 0x800 eq bootdrive 0x80 eq an
+@@ -382,6 +397,7 @@ sectorsize 0x200 eq bootdrive 0x80 eq or
    dup "ftp"   eq { /install.default .inst_ftp   def } if
    dup "http"  eq { /install.default .inst_http  def } if
    dup "nfs"   eq { /install.default .inst_nfs   def } if
@@ -86,7 +86,7 @@ Add NBD boot options for aptosid.
    dup "smb"   eq { /install.default .inst_smb   def } if
    dup "hd"    eq { /install.default .inst_hd    def } if
    pop
-@@ -392,6 +408,9 @@ sectorsize 0x800 eq bootdrive 0x80 eq an
+@@ -392,6 +408,9 @@ sectorsize 0x200 eq bootdrive 0x80 eq or
    input.edit.nfs  0 get install.nfs.server strcpy pop
    input.edit.nfs  1 get install.nfs.path strcpy pop
  
