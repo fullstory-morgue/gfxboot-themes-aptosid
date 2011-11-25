@@ -1,8 +1,9 @@
-gfxboot-themes-aptosid (0.5.28) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.28) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * import openSUSE themes 4.4.7-3.3 from factory.
+  * remove 12_disable_otheropts.patch, it's no longer needed.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 24 Nov 2011 22:44:33 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 25 Nov 2011 12:26:17 +0100
 
 gfxboot-themes-aptosid (0.5.27) unstable; urgency=low
 

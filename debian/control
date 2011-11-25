@@ -6,7 +6,7 @@ Uploaders: David Creedy <klaymen@aptosid.com>,
  Niall Walsh <niallwalsh@users.berlios.de>
 Build-Depends: debhelper (>= 8),
  cpio,
- gfxboot-dev,
+ gfxboot-dev (>= 4.4.3),
  imagemagick,
  inkscape,
  quilt (>= 0.46-7),
@@ -31,7 +31,7 @@ Description: graphical boot logos for aptosid Κῆρες
 Package: gfxboot-themes-aptosid-2010-02-keres
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.3.5),
+ gfxboot (>= 4.4.3),
  gfxboot-themes-aptosid-2010-02-keres-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -55,7 +55,7 @@ Description: graphical boot logos for aptosid Ἀπάτη
 Package: gfxboot-themes-aptosid-2010-03-apate
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.3.5),
+ gfxboot (>= 4.4.3),
  gfxboot-themes-aptosid-2010-03-apate-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -79,7 +79,7 @@ Description: graphical boot logos for aptosid Γῆρας
 Package: gfxboot-themes-aptosid-2011-01-geras
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.3.5),
+ gfxboot (>= 4.4.3),
  gfxboot-themes-aptosid-2011-01-geras-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -103,7 +103,7 @@ Description: graphical boot logos for aptosid Ἡμέρα
 Package: gfxboot-themes-aptosid-2011-02-imera
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.3.5),
+ gfxboot (>= 4.4.3),
  gfxboot-themes-aptosid-2011-02-imera-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -127,7 +127,7 @@ Description: graphical boot logos for aptosid Πόνος
 Package: gfxboot-themes-aptosid-2011-03-ponos
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.3.5),
+ gfxboot (>= 4.4.3),
  gfxboot-themes-aptosid-2011-03-ponos-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme

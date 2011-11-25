@@ -19,7 +19,7 @@ disable F1 help menu
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
 @@ -153,7 +153,9 @@ autodown=0
- ; profile, restore
+ ; profile, restore, otheropts
  ; note1: 'bits' is only shown on x86_64, 'profile' only when a file 'profile'
  ; exists, 'restore' only when there is a boot entry 'restore'
 -; note2: F1 is always help, F9 enables speech output, F10 exits gfxboot
@@ -42,7 +42,7 @@ disable F1 help menu
    /panel [
 --- a/themes/openSUSE/src/common.inc
 +++ b/themes/openSUSE/src/common.inc
-@@ -1683,6 +1683,7 @@ config.livecd {
+@@ -1689,6 +1689,7 @@ config.livecd {
  /dud.url               "dud.url"                     "" gfxconfig.set.str
  /dud.url.name          "dud.url.name"                "" gfxconfig.set.str
  
