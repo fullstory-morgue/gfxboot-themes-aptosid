@@ -1,3 +1,9 @@
+gfxboot-themes-aptosid (0.5.29) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 25 Nov 2011 12:27:10 +0100
+
 gfxboot-themes-aptosid (0.5.28) unstable; urgency=low
 
   * import openSUSE themes 4.4.7-3.3 from factory.
