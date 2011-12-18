@@ -1,8 +1,8 @@
-gfxboot-themes-aptosid (0.5.29) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.29) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * add Українська.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 25 Nov 2011 12:27:10 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 18 Dec 2011 19:00:49 +0100
 
 gfxboot-themes-aptosid (0.5.28) unstable; urgency=low
 

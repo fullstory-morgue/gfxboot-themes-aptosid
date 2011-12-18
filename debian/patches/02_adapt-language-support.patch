@@ -5,7 +5,7 @@ Signed-off-by: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 
 --- a/themes/openSUSE/data-boot/languages
 +++ b/themes/openSUSE/data-boot/languages
-@@ -1 +1,15 @@
+@@ -1 +1,16 @@
 +cs_CZ
 +da_DK
 +de_DE
@@ -21,6 +21,7 @@ Signed-off-by: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 +pt_PT
 +ro_RO
 +ru_RU
++uk_UA
 --- a/themes/openSUSE/src/dia_lang.inc
 +++ b/themes/openSUSE/src/dia_lang.inc
 @@ -19,71 +19,72 @@
@@ -125,13 +126,6 @@ Signed-off-by: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 -  [ "tg_TJ" "tj"                   false "тоҷикӣ" ]						% Tadjik
 -  [ "th_TH" "us"                   false "\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22" ] 	% Thai
 -  [ "tr_TR" "trq"                  false "Türkçe" ]						% Turkish
--  [ "uk_UA" "ua"                   false "Українська" ]						% Ukrainian
--  [ "vi_VN" "us"                   false "Tiếng Việt" ]						% Vietnamese
--  [ "wa_BE" "be-latin1"            false "Walon" ]						% Walloon
--  [ "xh_ZA" "us"                   false "isiXhosa" ]						% Xhosa
--  [ "zh_CN" "us"                   false "简体中文" ]						% Simplified Chinese
--  [ "zh_TW" "us"                   false "繁體中文 (台灣)" ]					% Traditional Chinese
--  [ "zu_ZA" "us"                   false "isiZulu" ]						% Zulu
 +  [ "ru_RU" "ru"      false "Русский" ]						% Russian
 +% [ "si_LK" "us"                   false "\u0dc3\u0dd2\u0d82\u0dc4\u0dbd" ]			% Sinhala
 +% [ "sk_SK" "sk-qwertz"            false "Slovenčina" ]						% Slovak
@@ -142,7 +136,13 @@ Signed-off-by: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 +% [ "tg_TJ" "tj"                   false "тоҷикӣ" ]						% Tadjik
 +% [ "th_TH" "us"                   false "\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22" ] 	% Thai
 +% [ "tr_TR" "trq"                  false "Türkçe" ]						% Turkish
-+% [ "uk_UA" "ua"                   false "Українська" ]						% Ukrainian
+   [ "uk_UA" "ua"                   false "Українська" ]						% Ukrainian
+-  [ "vi_VN" "us"                   false "Tiếng Việt" ]						% Vietnamese
+-  [ "wa_BE" "be-latin1"            false "Walon" ]						% Walloon
+-  [ "xh_ZA" "us"                   false "isiXhosa" ]						% Xhosa
+-  [ "zh_CN" "us"                   false "简体中文" ]						% Simplified Chinese
+-  [ "zh_TW" "us"                   false "繁體中文 (台灣)" ]					% Traditional Chinese
+-  [ "zu_ZA" "us"                   false "isiZulu" ]						% Zulu
 +% [ "vi_VN" "us"                   false "Tiếng Việt" ]						% Vietnamese
 +% [ "wa_BE" "be-latin1"            false "Walon" ]						% Walloon
 +% [ "xh_ZA" "us"                   false "isiXhosa" ]						% Xhosa
@@ -154,7 +154,7 @@ Signed-off-by: Stefan Lippers-Hollmann <s.l-h@gmx.de>
  
 --- a/themes/openSUSE/data-install/languages
 +++ b/themes/openSUSE/data-install/languages
-@@ -1,62 +1,15 @@
+@@ -1,62 +1,16 @@
 -af_ZA
 -ar_EG
 -ast_ES
@@ -214,7 +214,7 @@ Signed-off-by: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 -vi_VN
 -zh_TW
 -tr_TR
--uk_UA
+ uk_UA
 -wa_BE
 -xh_ZA
 -zu_ZA
