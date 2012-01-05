@@ -17,6 +17,30 @@ Homepage: http://gfxboot.sourceforge.net/
 Vcs-Svn: svn://svn.berlios.de/fullstory/gfxboot-themes-aptosid/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/gfxboot-themes-aptosid/trunk/
 
+Package: gfxboot-themes-aptosid-0-0-void-core
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: gfxboot-themes-aptosid-0-0-void (= ${source:Version})
+Provides: gfxboot-themes-aptosid-core
+Description: graphical boot logos for aptosid ασάφεια
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the aptosid 0-0 "ασάφεια" theme.
+
+Package: gfxboot-themes-aptosid-0-0-void
+Architecture: all
+Depends: ${misc:Depends},
+ gfxboot (>= 4.3.5),
+ gfxboot-themes-aptosid-0-0-void-core (= ${source:Version})
+Recommends: gfxboot-dev
+Provides: gfxboot-theme
+Description: tool to test and create graphical boot logos (aptosid ασάφεια)
+ gfxboot is a tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the aptosid 0-0 "ασάφεια" theme.
+
 Package: gfxboot-themes-aptosid-2010-02-keres-core
 Architecture: all
 Depends: ${misc:Depends}
@@ -31,7 +55,7 @@ Description: graphical boot logos for aptosid Κῆρες
 Package: gfxboot-themes-aptosid-2010-02-keres
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.4.3),
+ gfxboot (>= 4.3.5),
  gfxboot-themes-aptosid-2010-02-keres-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -55,7 +79,7 @@ Description: graphical boot logos for aptosid Ἀπάτη
 Package: gfxboot-themes-aptosid-2010-03-apate
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.4.3),
+ gfxboot (>= 4.3.5),
  gfxboot-themes-aptosid-2010-03-apate-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -79,7 +103,7 @@ Description: graphical boot logos for aptosid Γῆρας
 Package: gfxboot-themes-aptosid-2011-01-geras
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.4.3),
+ gfxboot (>= 4.3.5),
  gfxboot-themes-aptosid-2011-01-geras-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -103,7 +127,7 @@ Description: graphical boot logos for aptosid Ἡμέρα
 Package: gfxboot-themes-aptosid-2011-02-imera
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.4.3),
+ gfxboot (>= 4.3.5),
  gfxboot-themes-aptosid-2011-02-imera-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -127,7 +151,7 @@ Description: graphical boot logos for aptosid Πόνος
 Package: gfxboot-themes-aptosid-2011-03-ponos
 Architecture: all
 Depends: ${misc:Depends},
- gfxboot (>= 4.4.3),
+ gfxboot (>= 4.3.5),
  gfxboot-themes-aptosid-2011-03-ponos-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
@@ -136,4 +160,28 @@ Description: tool to test and create graphical boot logos (aptosid Πόνος)
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the aptosid 2011-03 "Πόνος" theme.
+
+Package: gfxboot-themes-aptosid-2012-01-thanatos-core
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: gfxboot-themes-aptosid-2012-01-thanatos (= ${source:Version})
+Provides: gfxboot-themes-aptosid-core
+Description: graphical boot logos for aptosid Θάνατος
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the aptosid 2012-01 "Θάνατος" theme.
+
+Package: gfxboot-themes-aptosid-2012-01-thanatos
+Architecture: all
+Depends: ${misc:Depends},
+ gfxboot (>= 4.3.5),
+ gfxboot-themes-aptosid-2012-01-thanatos-core (= ${source:Version})
+Recommends: gfxboot-dev
+Provides: gfxboot-theme
+Description: tool to test and create graphical boot logos (aptosid Θάνατος)
+ gfxboot is a tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the aptosid 2012-01 "Θάνατος" theme.
 

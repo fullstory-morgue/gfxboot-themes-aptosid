@@ -23,11 +23,13 @@ set -e
 # old style, currently not yet supported, packaging
 
 RELEASES="
+	void:ασάφεια:0-0:
 	keres:Κῆρες:2010-02:
 	apate:Ἀπάτη:2010-03:
 	geras:Γῆρας:2011-01:
 	imera:Ἡμέρα:2011-02:
 	ponos:Πόνος:2011-03:
+	thanatos:Θάνατος:2012-01:
 "
 
 GFXBOOT_VERSION="4.3.5"

@@ -1,8 +1,8 @@
-gfxboot-themes-aptosid (0.5.30) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.30) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * add dummy artwork for Θάνατος.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 18 Dec 2011 19:01:21 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Jan 2012 01:44:50 +0100
 
 gfxboot-themes-aptosid (0.5.29) unstable; urgency=low
 
