@@ -1,8 +1,8 @@
-gfxboot-themes-aptosid (0.5.31) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.5.31) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * switch to compat level 9.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 05 Jan 2012 01:45:47 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 16 Jan 2012 01:22:52 +0100
 
 gfxboot-themes-aptosid (0.5.30) unstable; urgency=low
 
