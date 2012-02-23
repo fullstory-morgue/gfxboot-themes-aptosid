@@ -1,8 +1,8 @@
-Package: gfxboot-themes-aptosid-@VERSION@-@CODENAME_SAFE@
+Package: gfxboot-themes-aptosid-@CODENAME_SAFE@
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= @GFXBOOT_VERSION@),
- gfxboot-themes-aptosid-@VERSION@-@CODENAME_SAFE@-core (= ${source:Version})
+ gfxboot-themes-aptosid-@CODENAME_SAFE@-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid @CODENAME@)

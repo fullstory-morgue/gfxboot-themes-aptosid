@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Uploaders: David Creedy <klaymen@aptosid.com>,
  Niall Walsh <niallwalsh@users.berlios.de>
-Build-Depends: debhelper (>= 9.20120115),
+Build-Depends: debhelper (>= 8),
  cpio,
  gfxboot-dev (>= 4.4.3),
  imagemagick,
@@ -12,15 +12,15 @@ Build-Depends: debhelper (>= 9.20120115),
  quilt (>= 0.46-7),
  ttf-dejavu-core,
  ttf-dustin
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: http://gfxboot.sourceforge.net/
 Vcs-Svn: svn://svn.berlios.de/fullstory/gfxboot-themes-aptosid/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/gfxboot-themes-aptosid/trunk/
 
-Package: gfxboot-themes-aptosid-0-0-void-core
+Package: gfxboot-themes-aptosid-void-core
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: gfxboot-themes-aptosid-0-0-void (= ${source:Version})
+Recommends: gfxboot-themes-aptosid-void (= ${source:Version})
 Provides: gfxboot-themes-aptosid-core
 Description: graphical boot logos for aptosid ασάφεια
  boot logos for gfxboot compliant boot loaders. Currently, this includes
@@ -28,11 +28,11 @@ Description: graphical boot logos for aptosid ασάφεια
  .
  This package contains the aptosid 0-0 "ασάφεια" theme.
 
-Package: gfxboot-themes-aptosid-0-0-void
+Package: gfxboot-themes-aptosid-void
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.3.5),
- gfxboot-themes-aptosid-0-0-void-core (= ${source:Version})
+ gfxboot-themes-aptosid-void-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid ασάφεια)
@@ -41,10 +41,10 @@ Description: tool to test and create graphical boot logos (aptosid ασάφει�
  .
  This package enhances the aptosid 0-0 "ασάφεια" theme.
 
-Package: gfxboot-themes-aptosid-2010-02-keres-core
+Package: gfxboot-themes-aptosid-keres-core
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: gfxboot-themes-aptosid-2010-02-keres (= ${source:Version})
+Recommends: gfxboot-themes-aptosid-keres (= ${source:Version})
 Provides: gfxboot-themes-aptosid-core
 Description: graphical boot logos for aptosid Κῆρες
  boot logos for gfxboot compliant boot loaders. Currently, this includes
@@ -52,11 +52,11 @@ Description: graphical boot logos for aptosid Κῆρες
  .
  This package contains the aptosid 2010-02 "Κῆρες" theme.
 
-Package: gfxboot-themes-aptosid-2010-02-keres
+Package: gfxboot-themes-aptosid-keres
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.3.5),
- gfxboot-themes-aptosid-2010-02-keres-core (= ${source:Version})
+ gfxboot-themes-aptosid-keres-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Κῆρες)
@@ -65,10 +65,10 @@ Description: tool to test and create graphical boot logos (aptosid Κῆρες)
  .
  This package enhances the aptosid 2010-02 "Κῆρες" theme.
 
-Package: gfxboot-themes-aptosid-2010-03-apate-core
+Package: gfxboot-themes-aptosid-apate-core
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: gfxboot-themes-aptosid-2010-03-apate (= ${source:Version})
+Recommends: gfxboot-themes-aptosid-apate (= ${source:Version})
 Provides: gfxboot-themes-aptosid-core
 Description: graphical boot logos for aptosid Ἀπάτη
  boot logos for gfxboot compliant boot loaders. Currently, this includes
@@ -76,11 +76,11 @@ Description: graphical boot logos for aptosid Ἀπάτη
  .
  This package contains the aptosid 2010-03 "Ἀπάτη" theme.
 
-Package: gfxboot-themes-aptosid-2010-03-apate
+Package: gfxboot-themes-aptosid-apate
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.3.5),
- gfxboot-themes-aptosid-2010-03-apate-core (= ${source:Version})
+ gfxboot-themes-aptosid-apate-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Ἀπάτη)
@@ -89,10 +89,10 @@ Description: tool to test and create graphical boot logos (aptosid Ἀπάτη)
  .
  This package enhances the aptosid 2010-03 "Ἀπάτη" theme.
 
-Package: gfxboot-themes-aptosid-2011-01-geras-core
+Package: gfxboot-themes-aptosid-geras-core
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: gfxboot-themes-aptosid-2011-01-geras (= ${source:Version})
+Recommends: gfxboot-themes-aptosid-geras (= ${source:Version})
 Provides: gfxboot-themes-aptosid-core
 Description: graphical boot logos for aptosid Γῆρας
  boot logos for gfxboot compliant boot loaders. Currently, this includes
@@ -100,11 +100,11 @@ Description: graphical boot logos for aptosid Γῆρας
  .
  This package contains the aptosid 2011-01 "Γῆρας" theme.
 
-Package: gfxboot-themes-aptosid-2011-01-geras
+Package: gfxboot-themes-aptosid-geras
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.3.5),
- gfxboot-themes-aptosid-2011-01-geras-core (= ${source:Version})
+ gfxboot-themes-aptosid-geras-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Γῆρας)
@@ -113,10 +113,10 @@ Description: tool to test and create graphical boot logos (aptosid Γῆρας)
  .
  This package enhances the aptosid 2011-01 "Γῆρας" theme.
 
-Package: gfxboot-themes-aptosid-2011-02-imera-core
+Package: gfxboot-themes-aptosid-imera-core
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: gfxboot-themes-aptosid-2011-02-imera (= ${source:Version})
+Recommends: gfxboot-themes-aptosid-imera (= ${source:Version})
 Provides: gfxboot-themes-aptosid-core
 Description: graphical boot logos for aptosid Ἡμέρα
  boot logos for gfxboot compliant boot loaders. Currently, this includes
@@ -124,11 +124,11 @@ Description: graphical boot logos for aptosid Ἡμέρα
  .
  This package contains the aptosid 2011-02 "Ἡμέρα" theme.
 
-Package: gfxboot-themes-aptosid-2011-02-imera
+Package: gfxboot-themes-aptosid-imera
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.3.5),
- gfxboot-themes-aptosid-2011-02-imera-core (= ${source:Version})
+ gfxboot-themes-aptosid-imera-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Ἡμέρα)
@@ -137,10 +137,10 @@ Description: tool to test and create graphical boot logos (aptosid Ἡμέρα)
  .
  This package enhances the aptosid 2011-02 "Ἡμέρα" theme.
 
-Package: gfxboot-themes-aptosid-2011-03-ponos-core
+Package: gfxboot-themes-aptosid-ponos-core
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: gfxboot-themes-aptosid-2011-03-ponos (= ${source:Version})
+Recommends: gfxboot-themes-aptosid-ponos (= ${source:Version})
 Provides: gfxboot-themes-aptosid-core
 Description: graphical boot logos for aptosid Πόνος
  boot logos for gfxboot compliant boot loaders. Currently, this includes
@@ -148,11 +148,11 @@ Description: graphical boot logos for aptosid Πόνος
  .
  This package contains the aptosid 2011-03 "Πόνος" theme.
 
-Package: gfxboot-themes-aptosid-2011-03-ponos
+Package: gfxboot-themes-aptosid-ponos
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.3.5),
- gfxboot-themes-aptosid-2011-03-ponos-core (= ${source:Version})
+ gfxboot-themes-aptosid-ponos-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Πόνος)
@@ -161,10 +161,10 @@ Description: tool to test and create graphical boot logos (aptosid Πόνος)
  .
  This package enhances the aptosid 2011-03 "Πόνος" theme.
 
-Package: gfxboot-themes-aptosid-2012-01-thanatos-core
+Package: gfxboot-themes-aptosid-thanatos-core
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: gfxboot-themes-aptosid-2012-01-thanatos (= ${source:Version})
+Recommends: gfxboot-themes-aptosid-thanatos (= ${source:Version})
 Provides: gfxboot-themes-aptosid-core
 Description: graphical boot logos for aptosid Θάνατος
  boot logos for gfxboot compliant boot loaders. Currently, this includes
@@ -172,11 +172,11 @@ Description: graphical boot logos for aptosid Θάνατος
  .
  This package contains the aptosid 2012-01 "Θάνατος" theme.
 
-Package: gfxboot-themes-aptosid-2012-01-thanatos
+Package: gfxboot-themes-aptosid-thanatos
 Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.3.5),
- gfxboot-themes-aptosid-2012-01-thanatos-core (= ${source:Version})
+ gfxboot-themes-aptosid-thanatos-core (= ${source:Version})
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Θάνατος)

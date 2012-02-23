@@ -42,8 +42,8 @@ for i in $RELEASES; do
 		-e s/\@CODENAME\@/$(echo ${i} | cut -d\: -f2)/g \
 		-e s/\@VERSION\@/$(echo ${i} | cut -d\: -f3)/g \
 		-e s/\@GFXBOOT_VERSION\@/${GFXBOOT_VERSION}/g \
-			./debian/templates/gfxboot-themes-aptosid-VERSION-CODENAME_SAFE-core.in \
-			./debian/templates/gfxboot-themes-aptosid-VERSION-CODENAME_SAFE.in \
+			./debian/templates/gfxboot-themes-aptosid-CODENAME_SAFE-core.in \
+			./debian/templates/gfxboot-themes-aptosid-CODENAME_SAFE.in \
 				>> ./debian/control
 
 	if [ -d "./themes/$(echo ${i} | cut -d\: -f3)-$(echo ${i} | cut -d\: -f1)/data-install" ]; then
