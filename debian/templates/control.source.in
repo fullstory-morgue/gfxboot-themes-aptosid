@@ -12,7 +12,7 @@ Build-Depends: debhelper (>= 8),
  quilt (>= 0.46-7),
  ttf-dejavu-core,
  ttf-dustin
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: http://gfxboot.sourceforge.net/
 Vcs-Svn: svn://svn.berlios.de/fullstory/gfxboot-themes-aptosid/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/gfxboot-themes-aptosid/trunk/
