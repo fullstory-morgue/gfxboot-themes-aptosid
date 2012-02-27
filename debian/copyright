@@ -1,4 +1,4 @@
-Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?revision=174&view=co
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: gfxboot
 Upstream-Contact: Steffen Winterfeldt <snwint@suse.de>
 Source: http://download.opensuse.org/factory/repo/src-oss/suse/src/
@@ -59,3 +59,4 @@ License: GPL-2+
  .
  The complete text of the GNU General Public License
  can be found in /usr/share/common-licenses/GPL-2 file.
+
