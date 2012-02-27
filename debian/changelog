@@ -1,8 +1,8 @@
-gfxboot-themes-aptosid (0.6.1) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.6.1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * update dep-5 version to final 1.0, no changes necessary.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 23 Feb 2012 16:34:57 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 27 Feb 2012 23:03:03 +0100
 
 gfxboot-themes-aptosid (0.6.0) unstable; urgency=low
 
