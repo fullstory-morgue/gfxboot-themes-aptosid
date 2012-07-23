@@ -1,6 +1,10 @@
 gfxboot-themes-aptosid (0.6.2) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
+
+  [ Rick Battle ]
+  * added thanatos artwork 
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 27 Feb 2012 23:03:25 +0100
 
