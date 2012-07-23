@@ -10,7 +10,7 @@ else
 PREPARED     = $(shell [ -f .prepared ] && echo 1)
 endif
 
-ADDDIR       = ../../bin/adddir
+ADDDIR       = /usr/share/gfxboot/bin/adddir
 BFLAGS       = -O -v -L ../..
 
 SUBDIRS      = fonts help-boot help-install po src

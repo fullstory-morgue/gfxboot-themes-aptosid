@@ -4,26 +4,19 @@ disable openSuSE's screen resolution chooser
 
 --- a/themes/openSUSE/src/common.inc
 +++ b/themes/openSUSE/src/common.inc
-@@ -421,16 +421,6 @@
+@@ -421,9 +421,6 @@
    /splash_file xfree
  
    syslinux {
--    video.modes.list xmenu.video .xm_current get get .vm_mode get
--
--    dup 0 ge {
--      0x200 add "vga=0x%x " bc.cmd dup length add sprintf
--    } {
--      -1 eq {
--        "textmode=1 " bc.cmd dup length add sprintf
--      } if
--    } ifelse
+-    video.modes.list xmenu.video .xm_current get get .vm_options get
+-    "%s " bc.cmd dup length add sprintf
 -
      v_impaired 1 ge {
        "braille=1 " bc.cmd dup length add sprintf
      } if
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
-@@ -155,7 +155,7 @@ autodown=0
+@@ -156,7 +156,7 @@ autodown=0
  ; exists, 'restore' only when there is a boot entry 'restore'
  ; note2: F1 is always help, F9 enables speech output, F10 exits gfxboot
  key.F2=lang

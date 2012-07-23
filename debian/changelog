@@ -1,12 +1,16 @@
-gfxboot-themes-aptosid (0.6.2) UNRELEASED; urgency=low
-
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
+gfxboot-themes-aptosid (0.6.2) unstable; urgency=low
 
   [ Rick Battle ]
-  * added thanatos artwork 
+  * added thanatos artwork.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 27 Feb 2012 23:03:25 +0100
+  [ Stefan Lippers-Hollmann ]
+  * sync with gfxboot-themes 4.5.0-67.1-2:
+    [ Daniel Baumann ]
+    - Merging upstream version 4.5.0-67.1.
+    - Updating versioned gfxboot depends to 4.5.0.
+    - Updating years in copyright file.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 23 Jul 2012 20:52:44 +0200
 
 gfxboot-themes-aptosid (0.6.1) unstable; urgency=low
 

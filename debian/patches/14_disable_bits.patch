@@ -4,7 +4,7 @@ disable 'bits' menu
 
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
-@@ -161,7 +161,7 @@ key.F2=lang
+@@ -162,7 +162,7 @@ key.F2=lang
  key.F4=install
  key.F5=kernelopts
  key.F6=dud
