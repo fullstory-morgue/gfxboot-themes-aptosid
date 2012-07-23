@@ -6,7 +6,7 @@ Uploaders: David Creedy <klaymen@aptosid.com>,
  Niall Walsh <niallwalsh@users.berlios.de>
 Build-Depends: debhelper (>= 9.20120115),
  cpio,
- gfxboot-dev (>= 4.4.3),
+ gfxboot-dev (>= 4.5.0),
  imagemagick,
  inkscape,
  quilt (>= 0.46-7),

@@ -112,7 +112,7 @@ Add new timezone selection under F3
 +
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
-@@ -71,6 +71,8 @@ panel.title.fg=0xffffff
+@@ -72,6 +72,8 @@ panel.title.fg=0xffffff
  panel.f-key.fg=0xffe050
  ; default keymap (e.g. de-latin1-nodeadkeys or cz-lat2-us)
  keymap=
@@ -121,7 +121,7 @@ Add new timezone selection under F3
  ; replace underscores ('_') with space in menu entries
  _2space=1
  
-@@ -150,14 +152,14 @@ spl=1
+@@ -151,14 +153,14 @@ spl=1
  autodown=0
  ; F-key assignments
  ; value can be one of: lang, video, install, kernelopts, dud, bits, keymap,
@@ -138,7 +138,7 @@ Add new timezone selection under F3
  key.F4=install
  key.F5=kernelopts
  key.F6=dud
-@@ -166,6 +168,7 @@ key.F6=dud
+@@ -167,6 +169,7 @@ key.F6=dud
  addopt.lang=1
  ; add 'keytable' option with current keymap
  addopt.keytable=1
@@ -257,7 +257,7 @@ Add new timezone selection under F3
    xmenu.dud {
      xmenu.dud .xm_current get .dud_url eq {
        input.edit.dud_url 0 get dup "" ne {
-@@ -1656,8 +1662,11 @@ config.livecd {
+@@ -1657,8 +1663,11 @@ config.livecd {
  /panel.f-key.fg        "panel.f-key.fg"           black gfxconfig.set.int
  /keymap.submenu        "keymap.submenu"           false gfxconfig.set.bool
  /keymap.default        "keymap"                      "" gfxconfig.set.str

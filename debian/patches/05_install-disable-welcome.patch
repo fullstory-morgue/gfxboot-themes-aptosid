@@ -4,7 +4,7 @@ disable welcome screen
 
 --- a/themes/openSUSE/src/gfxboot.cfg
 +++ b/themes/openSUSE/src/gfxboot.cfg
-@@ -102,7 +102,7 @@ background=pback.jpg
+@@ -103,7 +103,7 @@ background=pback.jpg
  
  [install]
  ; show welcome animation

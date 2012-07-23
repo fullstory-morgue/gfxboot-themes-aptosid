@@ -1,4 +1,3 @@
-01-adddir.patch
 02_adapt-language-support.patch
 03_disable-penguins.patch
 04_limit_remote_booting_to_nbd.patch

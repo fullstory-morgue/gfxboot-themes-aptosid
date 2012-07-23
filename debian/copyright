@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: gfxboot
 Upstream-Contact: Steffen Winterfeldt <snwint@suse.de>
-Source: http://download.opensuse.org/factory/repo/src-oss/suse/src/
+Source: http://software.opensuse.org/package/gfxboot
 
 Files: *
 Copyright: 2004-2011, SUSE LINUX Products GmbH
@@ -21,7 +21,7 @@ Copyright: 2006-2012, Stefan Lippers-Hollmann <s.l-h@gmx.de>
 License: GPL-2
 
 Files: themes/openSUSE/*
-Copyright: 2004-2011, SUSE LINUX Products GmbH
+Copyright: 2004-2012, SUSE LINUX Products GmbH
 License: GPL-2+
 
 License: GPL-2
