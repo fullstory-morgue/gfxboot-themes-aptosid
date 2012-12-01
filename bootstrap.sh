@@ -30,6 +30,7 @@ RELEASES="
 	imera:Ἡμέρα:2011-02:
 	ponos:Πόνος:2011-03:
 	thanatos:Θάνατος:2012-01:
+	hesperides:Ἑσπερίδες:2013-01:
 "
 
 GFXBOOT_VERSION="4.3.5"

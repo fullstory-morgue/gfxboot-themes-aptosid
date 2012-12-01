@@ -1,8 +1,8 @@
-gfxboot-themes-aptosid (0.6.3) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.6.3) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * import dummy Ἑσπερίδες.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 23 Jul 2012 20:53:48 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 01 Dec 2012 23:06:06 +0100
 
 gfxboot-themes-aptosid (0.6.2) unstable; urgency=low
 
