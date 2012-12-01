@@ -6,7 +6,7 @@ Uploaders: David Creedy <klaymen@aptosid.com>,
  Niall Walsh <niallwalsh@users.berlios.de>
 Build-Depends: debhelper (>= 9.20120115),
  cpio,
- gfxboot-dev (>= 4.4.3),
+ gfxboot-dev (>= 4.5.0),
  imagemagick,
  inkscape,
  quilt (>= 0.46-7),
@@ -184,4 +184,28 @@ Description: tool to test and create graphical boot logos (aptosid Θάνατο�
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the aptosid 2012-01 "Θάνατος" theme.
+
+Package: gfxboot-themes-aptosid-hesperides-core
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: gfxboot-themes-aptosid-hesperides (= ${source:Version})
+Provides: gfxboot-themes-aptosid-core
+Description: graphical boot logos for aptosid Ἑσπερίδες
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the aptosid 2013-01 "Ἑσπερίδες" theme.
+
+Package: gfxboot-themes-aptosid-hesperides
+Architecture: all
+Depends: ${misc:Depends},
+ gfxboot (>= 4.3.5),
+ gfxboot-themes-aptosid-hesperides-core (= ${source:Version})
+Recommends: gfxboot-dev
+Provides: gfxboot-theme
+Description: tool to test and create graphical boot logos (aptosid Ἑσπερίδες)
+ gfxboot is a tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the aptosid 2013-01 "Ἑσπερίδες" theme.
 
