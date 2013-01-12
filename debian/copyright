@@ -4,16 +4,16 @@ Upstream-Contact: Steffen Winterfeldt <snwint@suse.de>
 Source: http://software.opensuse.org/package/gfxboot
 
 Files: *
-Copyright: 2004-2011, SUSE LINUX Products GmbH
+Copyright: 2004-2012, SUSE LINUX Products GmbH
 License: GPL-2+
 
 Files: debian/*
-Copyright: 2009-2011, Daniel Baumann <daniel.baumann@progress-technologies.net>
-           2006-2012, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Copyright: 2009-2012, Daniel Baumann <daniel.baumann@progress-technologies.net>
+           2006-2013, Stefan Lippers-Hollmann <s.l-h@gmx.de>
 License: GPL-2+
 
 Files: themes/*
-Copyright: 2006-2012, Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Copyright: 2006-2013, Stefan Lippers-Hollmann <s.l-h@gmx.de>
            2007-2010, Bernard Gray <bernard.gray@gmail.com>
            2008-2011, Niall Walsh <niallwalsh@users.berlios.de>
            2008-2010, David Creedy <djcreedy@iinet.net.au>
@@ -36,8 +36,7 @@ License: GPL-2
  GNU General Public License for more details.
  .
  You should have received a copy of the GNU General Public License
- along with this program; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ along with this program; if not, see <http://www.gnu.org/licenses>
  .
  The complete text of the GNU General Public License
  can be found in /usr/share/common-licenses/GPL-2 file.
@@ -54,8 +53,7 @@ License: GPL-2+
  GNU General Public License for more details.
  .
  You should have received a copy of the GNU General Public License
- along with this program; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ along with this program; if not, see <http://www.gnu.org/licenses>
  .
  The complete text of the GNU General Public License
  can be found in /usr/share/common-licenses/GPL-2 file.

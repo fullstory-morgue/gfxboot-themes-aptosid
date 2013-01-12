@@ -6,13 +6,14 @@ Uploaders: David Creedy <klaymen@aptosid.com>,
  Niall Walsh <niallwalsh@users.berlios.de>
 Build-Depends: debhelper (>= 9.20120115),
  cpio,
- gfxboot-dev (>= 4.5.0),
+ gfxboot-dev (>= 4.5.1),
  imagemagick,
  inkscape,
+ libfribidi-bin,
  quilt (>= 0.46-7),
  ttf-dejavu-core,
  ttf-dustin
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Homepage: http://gfxboot.sourceforge.net/
 Vcs-Svn: svn://svn.berlios.de/fullstory/gfxboot-themes-aptosid/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/gfxboot-themes-aptosid/trunk/
