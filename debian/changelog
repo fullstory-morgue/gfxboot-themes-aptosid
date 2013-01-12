@@ -1,8 +1,8 @@
-gfxboot-themes-aptosid (0.6.5) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.6.5) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * update FSF postal address to be URLs.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 09 Jan 2013 19:42:45 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 12 Jan 2013 02:53:33 +0100
 
 gfxboot-themes-aptosid (0.6.4) unstable; urgency=low
 
