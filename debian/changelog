@@ -1,10 +1,6 @@
-gfxboot-themes-aptosid (0.6.6) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.6.6) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Rick Battle ]
-  * import of hesperides theme 
+  * import of hesperides theme.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 12 Jan 2013 02:54:22 +0100
 
