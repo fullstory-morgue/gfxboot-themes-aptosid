@@ -1,8 +1,8 @@
-gfxboot-themes-aptosid (0.6.7) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.6.7) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * add dummy graphics for Νέμεσις.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 26 Mar 2013 20:44:58 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 05 May 2013 23:54:49 +0200
 
 gfxboot-themes-aptosid (0.6.6) unstable; urgency=low
 

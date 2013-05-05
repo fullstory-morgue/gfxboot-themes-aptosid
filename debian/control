@@ -9,7 +9,6 @@ Build-Depends: debhelper (>= 9.20120115),
  gfxboot-dev (>= 4.5.1),
  imagemagick,
  inkscape,
- libfribidi-bin,
  quilt (>= 0.46-7),
  ttf-dejavu-core,
  ttf-dustin
@@ -209,4 +208,28 @@ Description: tool to test and create graphical boot logos (aptosid Ἑσπερί
  boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
  .
  This package enhances the aptosid 2013-01 "Ἑσπερίδες" theme.
+
+Package: gfxboot-themes-aptosid-nemesis-core
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: gfxboot-themes-aptosid-nemesis (= ${source:Version})
+Provides: gfxboot-themes-aptosid-core
+Description: graphical boot logos for aptosid Νέμεσις
+ boot logos for gfxboot compliant boot loaders. Currently, this includes
+ grub-gfxboot and syslinux (all payloads).
+ .
+ This package contains the aptosid 2013-02 "Νέμεσις" theme.
+
+Package: gfxboot-themes-aptosid-nemesis
+Architecture: all
+Depends: ${misc:Depends},
+ gfxboot (>= 4.3.5),
+ gfxboot-themes-aptosid-nemesis-core (= ${source:Version})
+Recommends: gfxboot-dev
+Provides: gfxboot-theme
+Description: tool to test and create graphical boot logos (aptosid Νέμεσις)
+ gfxboot is a tool to test and create graphical boot logos for gfxboot compliant
+ boot loaders. Currently, this includes grub, lilo, and syslinux (all payloads).
+ .
+ This package enhances the aptosid 2013-02 "Νέμεσις" theme.
 
