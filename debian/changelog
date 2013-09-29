@@ -1,8 +1,8 @@
-gfxboot-themes-aptosid (0.6.8) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.6.8) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * update for Νέμεσις, thanks to bfree.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 05 May 2013 23:55:43 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 29 Sep 2013 21:40:09 +0200
 
 gfxboot-themes-aptosid (0.6.7) unstable; urgency=low
 
