@@ -1,8 +1,10 @@
-gfxboot-themes-aptosid (0.6.10) UNRELEASED; urgency=low
+gfxboot-themes-aptosid (0.6.10) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * sync with OpenSuSE/ factory gfxboot-4.5.1-5.3.src.rpm:
+    - revert to using absolute paths for addir, we're building outside of
+      /usr/share/.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 29 Sep 2013 21:45:13 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 06 Oct 2013 02:45:28 +0200
 
 gfxboot-themes-aptosid (0.6.9) unstable; urgency=low
 
