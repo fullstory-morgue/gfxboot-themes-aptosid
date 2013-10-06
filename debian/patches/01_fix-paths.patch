@@ -1,3 +1,7 @@
+reference the absolute addir path, in order to build out-of-tree
+
+Signed-off-by: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+
 --- a/themes/openSUSE/Makefile
 +++ b/themes/openSUSE/Makefile
 @@ -10,7 +10,7 @@ else
