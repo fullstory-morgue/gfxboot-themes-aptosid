@@ -10,10 +10,10 @@ Build-Depends: debhelper (>= 9.20120115),
  imagemagick,
  inkscape,
  quilt (>= 0.46-7),
- ttf-dejavu-core,
- ttf-dustin
-Standards-Version: 3.9.4
+ fonts-dejavu-core,
+ fonts-dustin
+Standards-Version: 3.9.5
 Homepage: http://gfxboot.sourceforge.net/
-Vcs-Svn: svn://svn.berlios.de/fullstory/gfxboot-themes-aptosid/trunk
-Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/gfxboot-themes-aptosid/trunk/
+Vcs-git: git://github.com/fullstory/gfxboot-themes-aptosid.git
+Vcs-Browser: https://github.com/fullstory/gfxboot-themes-aptosid
 
