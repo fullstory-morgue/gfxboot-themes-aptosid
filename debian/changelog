@@ -1,3 +1,9 @@
+gfxboot-themes-aptosid (0.6.12) UNRELEASED; urgency=medium
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 13 Apr 2014 22:48:48 +0200
+
 gfxboot-themes-aptosid (0.6.11) unstable; urgency=low
 
   * bump standards version to 3.9.5, no changes necessary.
