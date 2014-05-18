@@ -6,12 +6,13 @@ Uploaders: David Creedy <klaymen@aptosid.com>,
  Niall Walsh <niallwalsh@users.berlios.de>
 Build-Depends: debhelper (>= 9.20120115),
  cpio,
+ fonts-dejavu-core,
+ fonts-dustin,
  gfxboot-dev (>= 4.5.1),
  imagemagick,
  inkscape,
- quilt (>= 0.46-7),
- fonts-dejavu-core,
- fonts-dustin
+ libfribidi-bin,
+ quilt (>= 0.46-7)
 Standards-Version: 3.9.5
 Homepage: http://gfxboot.sourceforge.net/
 Vcs-git: git://github.com/fullstory/gfxboot-themes-aptosid.git
