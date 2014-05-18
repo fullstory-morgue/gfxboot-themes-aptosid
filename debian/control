@@ -34,6 +34,7 @@ Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.3.5),
  gfxboot-themes-aptosid-void-core (= ${source:Version})
+Replaces: gfxboot-themes-aptosid-void-core (<< 0.7~)
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid ασάφεια)
@@ -58,6 +59,7 @@ Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.3.5),
  gfxboot-themes-aptosid-keres-core (= ${source:Version})
+Replaces: gfxboot-themes-aptosid-keres-core (<< 0.7~)
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Κῆρες)
@@ -82,6 +84,7 @@ Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.3.5),
  gfxboot-themes-aptosid-apate-core (= ${source:Version})
+Replaces: gfxboot-themes-aptosid-apate-core (<< 0.7~)
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Ἀπάτη)
@@ -106,6 +109,7 @@ Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.3.5),
  gfxboot-themes-aptosid-geras-core (= ${source:Version})
+Replaces: gfxboot-themes-aptosid-geras-core (<< 0.7~)
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Γῆρας)
@@ -130,6 +134,7 @@ Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.3.5),
  gfxboot-themes-aptosid-imera-core (= ${source:Version})
+Replaces: gfxboot-themes-aptosid-imera-core (<< 0.7~)
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Ἡμέρα)
@@ -154,6 +159,7 @@ Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.3.5),
  gfxboot-themes-aptosid-ponos-core (= ${source:Version})
+Replaces: gfxboot-themes-aptosid-ponos-core (<< 0.7~)
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Πόνος)
@@ -178,6 +184,7 @@ Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.3.5),
  gfxboot-themes-aptosid-thanatos-core (= ${source:Version})
+Replaces: gfxboot-themes-aptosid-thanatos-core (<< 0.7~)
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Θάνατος)
@@ -202,6 +209,7 @@ Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.3.5),
  gfxboot-themes-aptosid-hesperides-core (= ${source:Version})
+Replaces: gfxboot-themes-aptosid-hesperides-core (<< 0.7~)
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Ἑσπερίδες)
@@ -226,6 +234,7 @@ Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= 4.3.5),
  gfxboot-themes-aptosid-nemesis-core (= ${source:Version})
+Replaces: gfxboot-themes-aptosid-nemesis-core (<< 0.7~)
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid Νέμεσις)

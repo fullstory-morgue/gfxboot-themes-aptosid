@@ -3,7 +3,7 @@
 SHELL := sh -e
 
 %:
-	dh ${@} --with quilt
+	dh ${@} --with quilt --parallel
 
 override_dh_auto_clean:
 	dh_auto_clean
@@ -67,9 +67,11 @@ override_dh_install:
 			rm -f debian/$${PACKAGE}/usr/share/gfxboot/themes/$${_THEME}/Makefile; \
 			cp -a themes/openSUSE/Makefile debian/$${PACKAGE}/usr/share/gfxboot/themes/$${_THEME}/Makefile; \
 			install -D -m 0644 build/$${_THEME}/bootlogo debian/$${PACKAGE}-core/etc/bootsplash/themes/$${_THEME}/cdrom/bootlogo; \
-			/usr/share/gfxboot/bin/unpack_bootlogo debian/$${PACKAGE}-core/etc/bootsplash/themes/$${_THEME}/cdrom; \
-			mkdir -p debian/$${PACKAGE}-core/etc/bootsplash/themes/$${_THEME}/bootloader; \
-			cp -a build/$${_THEME}/message build/$${_THEME}/help-boot/*.hlp build/$${_THEME}/po/*.tr debian/$${PACKAGE}-core/etc/bootsplash/themes/$${_THEME}/bootloader; \
+			install -D -m 0644 build/$${_THEME}/bootlogo debian/$${PACKAGE}/etc/bootsplash/themes/$${_THEME}/cdrom/bootlogo; \
+			/usr/share/gfxboot/bin/unpack_bootlogo debian/$${PACKAGE}/etc/bootsplash/themes/$${_THEME}/cdrom; \
+			rm -f debian/$${PACKAGE}/etc/bootsplash/themes/$${_THEME}/cdrom/bootlogo; \
+			mkdir -p debian/$${PACKAGE}/etc/bootsplash/themes/$${_THEME}/bootloader; \
+			cp -a build/$${_THEME}/message build/$${_THEME}/help-boot/*.hlp build/$${_THEME}/po/*.tr debian/$${PACKAGE}/etc/bootsplash/themes/$${_THEME}/bootloader; \
 		fi; \
 	done
 

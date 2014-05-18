@@ -3,6 +3,7 @@ Architecture: all
 Depends: ${misc:Depends},
  gfxboot (>= @GFXBOOT_VERSION@),
  gfxboot-themes-aptosid-@CODENAME_SAFE@-core (= ${source:Version})
+Replaces: gfxboot-themes-aptosid-@CODENAME_SAFE@-core (<< 0.7~)
 Recommends: gfxboot-dev
 Provides: gfxboot-theme
 Description: tool to test and create graphical boot logos (aptosid @CODENAME@)

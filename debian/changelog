@@ -1,10 +1,10 @@
-gfxboot-themes-aptosid (0.6.12) UNRELEASED; urgency=medium
+gfxboot-themes-aptosid (0.7.0) unstable; urgency=medium
 
-  * NOT RELEASED YET
   * sync with OpenSuSE/ factory gfxboot-4.5.2-2.2.src.rpm.
-  * add libfribidi-bin to build-depends.
+  * really add libfribidi-bin to build-depends via control templates.
+  * fix compatibility with syslinux/ isolinux >= 5~.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 18 May 2014 03:03:40 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 18 May 2014 04:43:59 +0200
 
 gfxboot-themes-aptosid (0.6.11) unstable; urgency=low
 
