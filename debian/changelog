@@ -1,8 +1,9 @@
 gfxboot-themes-aptosid (0.6.12) UNRELEASED; urgency=medium
 
   * NOT RELEASED YET
+  * sync with OpenSuSE/ factory gfxboot-4.5.2-2.2.src.rpm.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 13 Apr 2014 22:48:48 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 18 May 2014 03:03:40 +0200
 
 gfxboot-themes-aptosid (0.6.11) unstable; urgency=low
 
