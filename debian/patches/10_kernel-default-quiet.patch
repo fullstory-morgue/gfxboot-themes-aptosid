@@ -1,15 +1,16 @@
 Adapt kernel option menu to offer these options:
 
-* default (quiet)
-* "MD5SUM" (quiet md5sum)
+* default (quiet systemd.show_status=1)
+* "MD5SUM" (quiet systemd.show_status=1 md5sum)
 * "No Quiet" ()
-* "To Ram" (quiet toram)
-* "From ISO" (quiet fromiso)
-* "Persist" (quiet persist)
+* "To Ram" (quiet systemd.show_status=1 toram)
+* "From ISO" (quiet systemd.show_status=1 fromiso)
+* "Persist" (quiet systemd.show_status=1 persist)
 * txt_kernel_safe (apm=off mce=off barrier=off ide=nodma idewait=50 i8042.nomux psmouse.proto=bare irqpoll pci=nommconf)
 * txt_kernel_nolapic (nolapic)
 
-© Niall Walsh <niallwalsh@users.berlios.de>
+© 2009, Niall Walsh <niallwalsh@users.berlios.de>
+© 2014, Stefan Lippers-Hollmann <s.l-h@gmx.de>
 
 --- a/themes/openSUSE/src/dia_kernelopts.inc
 +++ b/themes/openSUSE/src/dia_kernelopts.inc
@@ -17,14 +18,14 @@ Adapt kernel option menu to offer these options:
  /kernelopts.default 0 def
  
  /kernelopts.options [
-+  "quiet"
-+  "quiet md5sum"
++  "quiet systemd.show_status=1"
++  "quiet systemd.show_status=1 md5sum"
    ""
 -  "apm=off acpi=off mce=off barrier=off ide=nodma idewait=50 i8042.nomux psmouse.proto=bare irqpoll pci=nommconf"
 -  "acpi=off"
-+  "quiet toram"
-+  "quiet fromiso"
-+  "quiet persist"
++  "quiet systemd.show_status=1 toram"
++  "quiet systemd.show_status=1 fromiso"
++  "quiet systemd.show_status=1 persist"
 +  "apm=off mce=off barrier=off ide=nodma idewait=50 i8042.nomux psmouse.proto=bare irqpoll pci=nommconf"
    "nolapic"
  ] def

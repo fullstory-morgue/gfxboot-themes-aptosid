@@ -1,8 +1,8 @@
-gfxboot-themes-aptosid (0.7.2) UNRELEASED; urgency=medium
+gfxboot-themes-aptosid (0.7.2) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * supply systemd.show_status=1 by default.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 18 May 2014 06:22:46 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 30 Jun 2014 04:17:25 +0200
 
 gfxboot-themes-aptosid (0.7.1) unstable; urgency=medium
 
