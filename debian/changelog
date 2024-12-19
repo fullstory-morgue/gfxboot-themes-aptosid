@@ -2,6 +2,7 @@ gfxboot-themes-aptosid (0.7.3) UNRELEASED; urgency=medium
 
   * NOT RELEASED YET
   * ORPHAN PACKAGE
+  * refresh SVG graphics, shut up inkscape's migration from old versions.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 30 Jun 2014 04:18:22 +0200
 
